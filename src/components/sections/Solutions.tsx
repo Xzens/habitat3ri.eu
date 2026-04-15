@@ -110,9 +110,9 @@ export default function Solutions({ locale, dict }: SolutionsProps) {
             return (
               <motion.a
                 key={site.url}
-                href={site.url}
+                href={`${site.url}?utm_source=habitat3ri.eu&utm_medium=solutions&utm_campaign=constellation`}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener"
                 initial={{ opacity: 0, y: 30 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ delay: i * 0.05, duration: 0.4 }}

@@ -40,6 +40,30 @@ export default function RootLayout({
     <html suppressHydrationWarning>
       <head>
         <ThemeScript />
+        <script type="application/ld+json" suppressHydrationWarning>
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Habitat 3RI",
+            "alternateName": "Satyvo SA",
+            "url": "https://habitat3ri.eu",
+            "description": "Le hub central de la rénovation durable et de la Troisième Révolution Industrielle au Benelux et en France.",
+            "foundingDate": "2025",
+            "areaServed": [
+              { "@type": "Country", "name": "Belgium" },
+              { "@type": "Country", "name": "Netherlands" },
+              { "@type": "Country", "name": "Luxembourg" },
+              { "@type": "Country", "name": "France" }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "info@satyvo.be",
+              "contactType": "customer service",
+              "availableLanguage": ["French", "Dutch", "English", "German", "Luxembourgish"]
+            },
+            "sameAs": ["https://github.com/Xzens/habitat3ri.eu"]
+          })}
+        </script>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}

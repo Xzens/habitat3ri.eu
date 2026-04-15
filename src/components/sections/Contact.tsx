@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import LeadForm from "@/components/LeadForm";
+import MultiStepLeadForm from "@/components/MultiStepLeadForm";
 import type { Locale } from "@/i18n/config";
 
 type ContactProps = {
@@ -122,7 +122,7 @@ export default function Contact({ locale, dict }: ContactProps) {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="lg:col-span-3"
           >
-            <LeadForm locale={locale} />
+            <MultiStepLeadForm locale={locale} />
           </motion.div>
         </div>
       </div>

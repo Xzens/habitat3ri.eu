@@ -57,9 +57,9 @@ export default function Footer({ locale, dict }: FooterProps) {
               {sites.map((site) => (
                 <li key={site.url}>
                   <a
-                    href={site.url}
+                    href={`${site.url}?utm_source=habitat3ri.eu&utm_medium=footer&utm_campaign=constellation`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener"
                     className="group flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
                     <ExternalLink className="h-3 w-3 opacity-0 transition-opacity group-hover:opacity-100" />
