@@ -1,0 +1,243 @@
+import { writeFileSync } from "fs";
+
+const titlesFr = [
+  ["solar", "Panneaux Solaires Bifaciaux : La Technologie Revolutionnaire de 2026"],
+  ["insulation", "Isolation par l'Exterieur : ROI et Primes en Wallonie 2026"],
+  ["heatpump", "Pompe a Chaleur Geothermique : Guide Complet pour la Belgique"],
+  ["renovation", "Renovation Energetique Globale : Par Ou Commencer en 2026 ?"],
+  ["battery", "Batterie Domestique : Comparatif des Meilleurs Modeles 2026"],
+  ["smartgrid", "Smart Grid Residentiel : Votre Maison Connectee au Reseau Intelligent"],
+  ["subsidy", "Primes Energie Bruxelles 2026 : Tout Ce Qui Change"],
+  ["prosumer", "Communaute d'Energie Locale : Creer et Rejoindre en Belgique"],
+  ["security", "Alarme Connectee et Domotique : Securiser Sa Maison 3RI"],
+  ["digital", "Jumeau Numerique Residentiel : Simuler Avant de Renover"],
+  ["solar", "Autoconsommation Solaire : Maximiser Votre Production en 2026"],
+  ["insulation", "Isolation du Toit : Materiaux, Prix et Aides en Belgique"],
+  ["heatpump", "PAC Air-Air vs Air-Eau : Quelle Pompe a Chaleur Choisir ?"],
+  ["renovation", "Extension de Maison Passive : Guide et Reglementation 2026"],
+  ["battery", "Vehicle-to-Home (V2H) : Votre Voiture Electrique comme Batterie"],
+  ["smartgrid", "Compteur Intelligent : Comprendre le Tarif Capacitaire en Wallonie"],
+  ["subsidy", "MaPrimeRenov 2026 France : Montants et Conditions"],
+  ["prosumer", "Batiment a Energie Positive (BEPOS) : Le Standard de Demain"],
+  ["security", "Assurance Habitation Verte : Reductions pour Maisons Renovees"],
+  ["digital", "Domotique et IA : L'Habitat Intelligent en 2026"],
+  ["solar", "Solaire et Copropriete : Installation Collective en Belgique"],
+  ["insulation", "Fenetres Triple Vitrage : Investissement Rentable en 2026 ?"],
+  ["heatpump", "Chauffe-Eau Thermodynamique : L'Alternative Economique 2026"],
+  ["renovation", "Cuisine Ecoresponsable : Renover Durable et Design"],
+  ["battery", "Stockage Thermique : L'Alternative aux Batteries Lithium"],
+  ["smartgrid", "Tarif Dynamique d'Electricite : Optimiser Sa Consommation"],
+  ["subsidy", "Eco-PTZ 2026 : Financer Sa Renovation a Taux Zero"],
+  ["prosumer", "Autoconsommation Collective : Le Modele Belge Explique"],
+  ["security", "Cameras de Surveillance Solaires : Securite Autonome"],
+  ["digital", "BIM et Renovation : La Modelisation 3D au Service de l'Habitat"],
+  ["solar", "Panneaux Solaires en Hiver : Production et Optimisation"],
+  ["insulation", "Isolation des Murs Creux : Techniques et Prix en Belgique"],
+  ["heatpump", "Geothermie Residentielle : Couts et Avantages au Benelux"],
+  ["renovation", "Salle de Bain Eco-Design : Renovation Durable et Tendances"],
+  ["battery", "Hydrogene Vert Domestique : La Revolution du Stockage"],
+  ["smartgrid", "Gestion Energetique par IA : Les Meilleurs Systemes 2026"],
+  ["subsidy", "Primes Isolation Flandre 2026 : Mijn VerbouwPremie Expliquee"],
+  ["prosumer", "Microgrids Residentiels : L'Energie Partagee entre Voisins"],
+  ["security", "Detection Incendie Intelligente : Proteger Sa Maison 3RI"],
+  ["digital", "Applications de Suivi Energetique : Top 10 en 2026"],
+  ["solar", "Carport Solaire : Double Fonction pour Votre Maison"],
+  ["insulation", "Toiture Verte et Isolation : Combiner Ecologie et Performance"],
+  ["heatpump", "PAC Hybride : Combiner Gaz et Pompe a Chaleur"],
+  ["renovation", "Facade Ventilee : Renovation Thermique et Esthetique"],
+  ["battery", "Batterie Virtuelle : Le Concept Cloud de Stockage d'Energie"],
+  ["smartgrid", "Vehicule Electrique et Smart Grid : Le Role du V2G"],
+  ["subsidy", "Certificats Verts Bruxelles 2026 : Combien Pouvez-Vous Gagner ?"],
+  ["prosumer", "Cooperative d'Energie Citoyenne : Devenir Actionnaire Vert"],
+  ["security", "Serrures Connectees et Controle d'Acces Intelligent"],
+  ["digital", "Realite Augmentee et Renovation : Visualiser Avant les Travaux"],
+  ["solar", "BIPV : Panneaux Solaires Integres a la Toiture et Facade"],
+  ["insulation", "Pont Thermique : Identifier et Traiter les Points Faibles"],
+  ["heatpump", "Plancher Chauffant et PAC : Le Duo Optimal"],
+  ["renovation", "Maison Passive Retrofit : Transformer l'Ancien en Performant"],
+  ["battery", "Second Life : Batteries de Vehicules Recyclees pour la Maison"],
+  ["smartgrid", "Peer-to-Peer Energy Trading : Vendre Son Energie au Voisin"],
+  ["subsidy", "Aides Luxembourg 2026 : Primes pour Renovation Energetique"],
+  ["prosumer", "Net Zero Home : Comment Atteindre le Zero Energie Net"],
+  ["security", "Cyber-Securite Domotique : Proteger Sa Maison Connectee"],
+  ["digital", "Audit Energetique par Drone et Thermographie"],
+  ["solar", "Agrivoltaisme Residentiel : Combiner Potager et Solaire"],
+  ["insulation", "Isolation Phonique : Confort Acoustique et Energetique"],
+  ["heatpump", "Rafraichissement Passif par PAC : Climatisation Ecologique"],
+  ["renovation", "Renovation Patrimoniale et Performance Energetique"],
+  ["battery", "Supercondensateurs Domestiques : La Prochaine Generation"],
+  ["smartgrid", "Flexibilite Energetique : Comment Valoriser Sa Consommation"],
+  ["subsidy", "TVA Reduite Renovation 2026 : Conditions en Belgique et France"],
+  ["prosumer", "Quartier Prosumer : Le Projet Pilote Belge Decrypte"],
+  ["security", "Videosurveillance IA : Detection Intelligente a Domicile"],
+  ["digital", "Monitoring Energetique Temps Reel : Les Capteurs Essentiels"],
+  ["solar", "Recyclage Panneaux Solaires : Economie Circulaire en 2026"],
+  ["insulation", "Materiaux Biosources : Chanvre, Liege et Ouate de Cellulose"],
+  ["heatpump", "PAC et Radiateurs : Compatibilite Haute Temperature"],
+  ["renovation", "Smart Bathroom : La Salle de Bain Connectee et Econome"],
+  ["battery", "Gestion Multi-Sources : Solaire + Batterie + Reseau"],
+  ["smartgrid", "Effacement Diffus : Participer a l'Equilibre du Reseau"],
+  ["subsidy", "Bonus Renovation Performante : Les Nouvelles Aides 2026-2027"],
+  ["prosumer", "Contrat d'Achat Direct (PPA) Residentiel en Europe"],
+  ["security", "Station Meteo Connectee et Optimisation Energetique"],
+  ["digital", "Impression 3D et Construction : L'Habitat du Futur"],
+  ["solar", "Onduleur Solaire : Micro-Onduleur vs Onduleur Central"],
+  ["insulation", "Etancheite a l'Air : Le Test Blower Door Explique"],
+  ["heatpump", "Fluide R290 (Propane) : La Revolution Ecologique des PAC"],
+  ["renovation", "Agencement Interieur Durable : Materiaux et Tendances"],
+  ["battery", "Batterie Sodium-Ion : L'Alternative Abordable au Lithium"],
+  ["smartgrid", "Blockchain et Energie : Tracabilite Verte pour Particuliers"],
+  ["subsidy", "Audit Logement Obligatoire 2026 : Ce Que Vous Devez Savoir"],
+  ["prosumer", "Label 3RI : Certifier Sa Maison Troisieme Revolution"],
+  ["security", "Protection Anti-Inondation Intelligente pour Habitations"],
+  ["digital", "Simulation Energetique : Predire Sa Consommation Avant Travaux"],
+  ["solar", "Solaire en Autoconsommation avec Revente de Surplus"],
+  ["insulation", "Mur Trombe : L'Isolation Active Solaire Passive"],
+  ["heatpump", "Entretien PAC : Maintenance Annuelle et Couts Previsionnels"],
+  ["renovation", "Renovation Garage en Espace de Vie Performant"],
+  ["battery", "Tesla Powerwall 4 vs BYD HVS : Le Comparatif 2026"],
+  ["smartgrid", "Tarif Bi-Horaire Intelligent : Optimiser Chaque kWh"],
+  ["subsidy", "Primes Energie Renouvelable Wallonie : Guide Complet 2026"],
+  ["prosumer", "Building as a Service : Le Batiment comme Plateforme"],
+  ["security", "Assurance Degats des Eaux : Capteurs IoT Preventifs"],
+  ["digital", "Digital Twin et Maintenance Predictive du Batiment"],
+  ["solar", "Tracker Solaire Residentiel : Suivre le Soleil Automatiquement"],
+  ["insulation", "Renovation Energetique Copropriete : Le Guide Collectif"],
+  ["heatpump", "PAC Solaire Assistee : Combiner Thermique et Photovoltaique"],
+  ["renovation", "Terrasse et Pergola Bioclimatique : Extension Eco-Confort"],
+  ["battery", "Power Wall DIY : Construire Sa Batterie Domestique"],
+  ["smartgrid", "Reseau Electrique Local : Autoconsommation a l'Echelle du Quartier"],
+  ["subsidy", "Credit d'Impot Transition Energetique 2026 : Etat des Lieux"],
+  ["prosumer", "Maison Autonome Off-Grid : Realite ou Utopie en 2026 ?"],
+  ["security", "Portail et Cloture Intelligente : Perimetre Securise"],
+  ["digital", "Intelligence Artificielle et Optimisation Chauffage Domestique"],
+];
+
+const titlesNl = [
+  ["solar", "Bifaciale Zonnepanelen: De Revolutionaire Technologie van 2026"],
+  ["insulation", "Buitengevelisolatie: ROI en Premies in Vlaanderen 2026"],
+  ["heatpump", "Bodemwarmtepomp: Complete Gids voor de Benelux"],
+  ["renovation", "Energierenovatie Stap voor Stap: Waar Beginnen in 2026?"],
+  ["battery", "Thuisbatterij: Vergelijking van de Beste Modellen 2026"],
+  ["smartgrid", "Slim Energiebeheer: Uw Woning Verbonden met het Netwerk"],
+  ["subsidy", "ISDE Subsidie 2026 Nederland: Alle Wijzigingen Uitgelegd"],
+  ["prosumer", "Energiegemeenschap: Oprichten en Toetreden in de Benelux"],
+  ["security", "Slim Alarmsysteem: Uw 3IR-Woning Beveiligen"],
+  ["digital", "Digitale Tweeling voor Woningen: Simuleren Voor de Renovatie"],
+  ["solar", "Zelfconsumptie Maximaliseren: Tips voor Zonnepanelen 2026"],
+  ["insulation", "Dakisolatie: Materialen, Prijzen en Subsidies in Nederland"],
+  ["heatpump", "Lucht-Lucht vs Lucht-Water Warmtepomp: Welke Kiezen?"],
+  ["renovation", "Passiefhuis Uitbreiding: Regels en Mogelijkheden 2026"],
+  ["battery", "Vehicle-to-Home (V2H): Uw Elektrische Auto als Thuisbatterij"],
+  ["smartgrid", "Slimme Meter: Het Capaciteitstarief in Vlaanderen Uitgelegd"],
+  ["subsidy", "Mijn VerbouwPremie 2026: Bedragen en Voorwaarden"],
+  ["prosumer", "Energiepositief Gebouw (BENG+): De Standaard van Morgen"],
+  ["security", "Groene Woningverzekering: Kortingen voor Gerenoveerde Huizen"],
+  ["digital", "Domotica en AI: Het Slimme Huis in 2026"],
+  ["solar", "Zonnepanelen op Plat Dak: Optimale Opstelling 2026"],
+  ["insulation", "HR++ Glas vs Triple Glas: De Juiste Keuze in 2026"],
+  ["heatpump", "Warmtepompboiler: Het Economische Alternatief voor Warm Water"],
+  ["renovation", "Duurzame Keukenrenovatie: Eco-Design Trends 2026"],
+  ["battery", "Thermische Opslag: Alternatief voor Lithium Batterijen"],
+  ["smartgrid", "Dynamisch Energietarief: Slim Verbruiken en Besparen"],
+  ["subsidy", "Energielabel Verbeteren: Subsidies en Voordelen in Nederland"],
+  ["prosumer", "Collectieve Zelfconsumptie: Het Belgische Model Uitgelegd"],
+  ["security", "Zonne-Energie Bewakingscameras: Autonome Beveiliging"],
+  ["digital", "BIM voor Renovatie: 3D-Modellering voor Uw Woning"],
+  ["solar", "Zonnepanelen in Winter: Productie en Optimalisatie"],
+  ["insulation", "Spouwmuurisolatie: Technieken en Kosten in de Benelux"],
+  ["heatpump", "Vloerverwarming en Warmtepomp: De Optimale Combinatie"],
+  ["renovation", "Ecologische Badkamerrenovatie: Duurzaam en Stijlvol"],
+  ["battery", "Groene Waterstof Thuis: De Toekomst van Energieopslag"],
+  ["smartgrid", "AI Energiemanagement: De Beste Systemen 2026"],
+  ["subsidy", "Vlaamse Renovatiepremie 2026: Complete Handleiding"],
+  ["prosumer", "Buurtbatterij: Gedeelde Energie tussen Buren"],
+  ["security", "Slimme Rookmelders: Brandpreventie in het 3IR-Huis"],
+  ["digital", "Energie-Apps: Top 10 voor Monitoring in 2026"],
+  ["solar", "Zonnepanelen Carport: Dubbel Functie voor Uw Woning"],
+  ["insulation", "Groen Dak en Isolatie: Ecologie Meets Prestatie"],
+  ["heatpump", "Hybride Warmtepomp: Gas en Warmtepomp Combineren"],
+  ["renovation", "Ventilated Gevel: Thermische en Esthetische Renovatie"],
+  ["battery", "Virtuele Batterij: Cloud-Opslag van Energie Uitgelegd"],
+  ["smartgrid", "Vehicle-to-Grid (V2G): De Rol van Uw EV in het Netwerk"],
+  ["subsidy", "Groene Certificaten Brussel 2026: Hoeveel Kunt U Verdienen?"],
+  ["prosumer", "Burgerenergiecooperatie: Word Groene Aandeelhouder"],
+  ["security", "Slim Toegangsbeheer: Sloten en Deurbellen 2026"],
+  ["digital", "AR en Renovatie: Visualiseer Voor de Verbouwing"],
+  ["solar", "Geintegreerde Zonnepanelen (BIPV): Dak en Gevel"],
+  ["insulation", "Koudebruggen Opsporen en Verhelpen in Uw Woning"],
+  ["heatpump", "Passieve Koeling met Warmtepomp: Ecologische Airco"],
+  ["renovation", "Erfgoedrenovatie met Energieprestatie-Eisen"],
+  ["battery", "Second Life Batterijen: Hergebruik uit Elektrische Autos"],
+  ["smartgrid", "Peer-to-Peer Energiehandel: Verkoop Uw Stroom aan Buren"],
+  ["subsidy", "Luxemburg Energiepremies 2026: Overzicht en Aanvraag"],
+  ["prosumer", "Nul-Energie Woning: Hoe Bereikt U Net Zero?"],
+  ["security", "Cyberveiligheid Slim Huis: Bescherm Uw Domotica"],
+  ["digital", "Drone-Audit en Thermografie voor Woningen"],
+  ["solar", "Agrivoltaics: Moestuin en Zonnepanelen Combineren"],
+  ["insulation", "Geluidsisolatie: Akoestisch en Thermisch Comfort"],
+  ["heatpump", "Warmtepomp Onderhoud: Jaarlijkse Service en Kosten"],
+  ["renovation", "Garage Ombouwen tot Leefruimte: Energiezuinig Renoveren"],
+  ["battery", "Tesla Powerwall 4 vs BYD: Vergelijking 2026"],
+  ["smartgrid", "Slim Bi-Uurtarief: Elk kWh Optimaliseren"],
+  ["subsidy", "Nederlandse Subsidies Hernieuwbare Energie 2026"],
+  ["prosumer", "Building as a Service: Het Gebouw als Platform"],
+  ["security", "Waterschade Preventie: IoT-Sensoren voor Vroegtijdige Detectie"],
+  ["digital", "Digitale Tweeling en Predictief Onderhoud van Gebouwen"],
+  ["solar", "Zonne-Tracker: Automatisch de Zon Volgen"],
+  ["insulation", "VvE Energierenovatie: Collectieve Isolatie Aanpak"],
+];
+
+const articles = [];
+let id = 1;
+const startDate = new Date("2026-04-16");
+
+for (let i = 0; i < 182; i++) {
+  const date = new Date(startDate);
+  date.setDate(date.getDate() + i * 2);
+  const dateStr = date.toISOString().split("T")[0];
+
+  let locale, title, category, keywords;
+
+  if (i < 110) {
+    const idx = i % titlesFr.length;
+    locale = "fr";
+    category = titlesFr[idx][0];
+    title = titlesFr[idx][1];
+    keywords = [
+      category + " belgique 2026",
+      title.split(":")[0].toLowerCase().trim(),
+      "renovation energetique " + category,
+    ];
+  } else {
+    const idx = (i - 110) % titlesNl.length;
+    locale = "nl";
+    category = titlesNl[idx][0];
+    title = titlesNl[idx][1];
+    keywords = [
+      category + " nederland 2026",
+      title.split(":")[0].toLowerCase().trim(),
+      "energierenovatie " + category,
+    ];
+  }
+
+  articles.push({
+    id: id++,
+    scheduled_date: dateStr,
+    locale,
+    title,
+    category,
+    seo_keywords: keywords,
+    status: "scheduled",
+  });
+}
+
+writeFileSync(
+  "src/data/editorial-calendar.json",
+  JSON.stringify(articles, null, 2)
+);
+console.log("Generated " + articles.length + " articles");
+console.log("First: " + articles[0].scheduled_date + " - " + articles[0].title);
+console.log("Last: " + articles[181].scheduled_date + " - " + articles[181].title);
+console.log("FR: " + articles.filter((a) => a.locale === "fr").length);
+console.log("NL: " + articles.filter((a) => a.locale === "nl").length);
