@@ -138,12 +138,12 @@ export default function Footer({ locale, dict }: FooterProps) {
             &copy; {new Date().getFullYear()} Habitat3RI. {dict.footer.rights}
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-xs text-muted-foreground hover:text-foreground">
+            <Link href={`/${locale}/confidentialite`} className="text-xs text-muted-foreground hover:text-foreground">
               {dict.footer.privacy}
-            </a>
-            <a href="#" className="text-xs text-muted-foreground hover:text-foreground">
+            </Link>
+            <Link href={`/${locale}/mentions-legales`} className="text-xs text-muted-foreground hover:text-foreground">
               {dict.footer.terms}
-            </a>
+            </Link>
             <a href="#" className="text-xs text-muted-foreground hover:text-foreground">
               {dict.footer.cookies}
             </a>
