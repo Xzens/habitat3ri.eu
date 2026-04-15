@@ -1,12 +1,10 @@
 "use client";
 
 import { motion, useInView } from "framer-motion";
-import { useRef, useState } from "react";
-import { Send, CheckCircle2, AlertCircle, Phone, Mail, MapPin } from "lucide-react";
+import { useRef } from "react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import LeadForm from "@/components/LeadForm";
 import type { Locale } from "@/i18n/config";
 
 type ContactProps = {
@@ -44,29 +42,6 @@ type ContactProps = {
 export default function Contact({ locale, dict }: ContactProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
-  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
-
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setStatus("loading");
-
-    const formData = new FormData(e.currentTarget);
-    const data = Object.fromEntries(formData.entries());
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, locale }),
-      });
-      if (!res.ok) throw new Error();
-      setStatus("success");
-    } catch {
-      setStatus("error");
-    }
-  }
-
-  const f = dict.contact.form;
 
   return (
     <section id="contact" className="relative py-24 sm:py-32" ref={ref}>
@@ -111,7 +86,7 @@ export default function Contact({ locale, dict }: ContactProps) {
                     <Phone className="h-5 w-5 text-energy-blue" />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold">{f.phone}</p>
+                    <p className="text-sm font-semibold">{dict.contact.form.phone}</p>
                     <p className="text-sm text-muted-foreground">+32 (0) 4XX XX XX XX</p>
                   </div>
                 </div>
@@ -140,94 +115,14 @@ export default function Contact({ locale, dict }: ContactProps) {
             </div>
           </motion.div>
 
-          {/* Form */}
+          {/* Bobex Lead Form */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.1 }}
             className="lg:col-span-3"
           >
-            <form onSubmit={handleSubmit} className="rounded-xl border border-border/50 bg-card p-6 shadow-sm">
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div>
-                  <label className="mb-1.5 block text-sm font-medium">{f.name}</label>
-                  <Input name="name" required placeholder={f.name} />
-                </div>
-                <div>
-                  <label className="mb-1.5 block text-sm font-medium">{f.email}</label>
-                  <Input name="email" type="email" required placeholder={f.email} />
-                </div>
-                <div>
-                  <label className="mb-1.5 block text-sm font-medium">{f.phone}</label>
-                  <Input name="phone" type="tel" placeholder="+32 ..." />
-                </div>
-                <div>
-                  <label className="mb-1.5 block text-sm font-medium">{f.country}</label>
-                  <select
-                    name="country"
-                    required
-                    className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-xs transition-colors focus-visible:ring-1 focus-visible:ring-ring"
-                  >
-                    {(Object.entries(f.countries) as [string, string][]).map(([code, name]) => (
-                      <option key={code} value={code}>{name}</option>
-                    ))}
-                  </select>
-                </div>
-                <div className="sm:col-span-2">
-                  <label className="mb-1.5 block text-sm font-medium">{f.projectType}</label>
-                  <select
-                    name="projectType"
-                    required
-                    className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-xs transition-colors focus-visible:ring-1 focus-visible:ring-ring"
-                  >
-                    {(Object.entries(f.projectTypes) as [string, string][]).map(([code, name]) => (
-                      <option key={code} value={code}>{name}</option>
-                    ))}
-                  </select>
-                </div>
-                <div className="sm:col-span-2">
-                  <label className="mb-1.5 block text-sm font-medium">{f.message}</label>
-                  <Textarea name="message" rows={4} placeholder={f.message} />
-                </div>
-              </div>
-
-              <div className="mt-4 flex items-start gap-2">
-                <input type="checkbox" id="consent" name="consent" required className="mt-1" />
-                <label htmlFor="consent" className="text-xs text-muted-foreground">{f.consent}</label>
-              </div>
-
-              <div className="mt-6">
-                {status === "success" ? (
-                  <div className="flex items-center gap-2 rounded-lg bg-eco-green/10 p-3 text-sm text-eco-green">
-                    <CheckCircle2 className="h-4 w-4" /> {f.success}
-                  </div>
-                ) : status === "error" ? (
-                  <div className="mb-3 flex items-center gap-2 rounded-lg bg-destructive/10 p-3 text-sm text-destructive">
-                    <AlertCircle className="h-4 w-4" /> {f.error}
-                  </div>
-                ) : null}
-
-                {status !== "success" && (
-                  <Button
-                    type="submit"
-                    disabled={status === "loading"}
-                    className="w-full bg-gradient-to-r from-eco-green to-energy-blue text-white hover:opacity-90"
-                    size="lg"
-                  >
-                    {status === "loading" ? (
-                      <span className="flex items-center gap-2">
-                        <span className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
-                        {locale === "fr" ? "Envoi..." : "Verzenden..."}
-                      </span>
-                    ) : (
-                      <span className="flex items-center gap-2">
-                        <Send className="h-4 w-4" /> {f.submit}
-                      </span>
-                    )}
-                  </Button>
-                )}
-              </div>
-            </form>
+            <LeadForm locale={locale} />
           </motion.div>
         </div>
       </div>
