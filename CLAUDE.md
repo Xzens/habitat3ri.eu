@@ -30,9 +30,9 @@ src/
 │   └── sitemap.ts, robots.ts
 ├── components/
 │   ├── sections/              # Hero, Pillars, Solutions, SolteoCalculator,
-│   │                          # BlogPreview, SecondBrainPreview, Partners, Contact
-│   ├── brain/                 # SemanticSearch, ChatRAG, SaveArticleButton,
-│   │                          # UserNotes, SecondBrainPage
+│   │                          # BlogPreview, Partners, Contact
+│   ├── brain/                 # INTERNAL ONLY (not public-facing)
+│   │                          # SemanticSearch, ChatRAG, SaveArticleButton, UserNotes
 │   └── layout/                # Header (5-lang dropdown), Footer
 ├── i18n/messages/             # fr.json, nl.json, en.json, de.json, lb.json
 ├── data/
@@ -65,9 +65,14 @@ Single companyId `55ac3311-28fe-47dd-8d28-91238edb89b0` for the entire constella
 Webhook: `/api/solteo-webhook` — routes leads to Bobex by postal code country detection.
 Widget: SolteoCalculator component opens `app.solteo.fr/lead-magnet?companyId=...`
 
-## Deuxieme Cerveau (Second Brain)
+## Deuxieme Cerveau (Second Brain) — INTERNAL ONLY
 
-Development tool for Claude + user-facing feature. Uses:
+**Not public-facing.** This is an internal dev tool for Claude to reference the
+knowledge base. The page /deuxieme-cerveau has been removed from navigation and
+routing. The API routes (/api/search, /api/chat-rag, /api/embeddings) remain
+available for internal use and future activation.
+
+Uses:
 - Supabase pgvector (3072-dim embeddings via XAI grok-2-embedding-large)
 - Hybrid search: vector cosine similarity + PostgreSQL full-text
 - RAG chat: retrieves top 8 article chunks, streams response via XAI grok-3-mini

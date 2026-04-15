@@ -31,7 +31,6 @@ const navItems = [
   { key: "pillars", href: "#piliers" },
   { key: "solutions", href: "#solutions" },
   { key: "blog", href: "#blog" },
-  { key: "brain", href: "#cerveau" },
   { key: "partners", href: "#partenaires" },
   { key: "contact", href: "#contact" },
 ] as const;
