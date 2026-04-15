@@ -32,6 +32,12 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+        <link rel="preload" as="image" href="/images/hero/hero-3ri-home-xai.webp" type="image/webp" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://api.x.ai" />
+      </head>
       <body>
         <ThemeProvider>
           <Header locale={locale as Locale} dict={dict} />
