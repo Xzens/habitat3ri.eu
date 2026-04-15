@@ -233,17 +233,6 @@ export const constellation: ConstellationSite[] = [
     lang: "fr",
     country: ["be"],
   },
-  {
-    name: "Traitement Naturel",
-    url: "https://traitementnaturel.fr",
-    description: {
-      fr: "Solutions de traitement naturel pour l'habitat — anti-humidité, bois, surfaces.",
-      nl: "Natuurlijke behandelingsoplossingen voor de woning — anti-vocht, hout, oppervlakken.",
-    },
-    category: "services",
-    lang: "fr",
-    country: ["fr"],
-  },
 ];
 
 export function getConstellationByCategory(category: ConstellationSite["category"]) {
