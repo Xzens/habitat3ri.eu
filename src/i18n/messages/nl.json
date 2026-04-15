@@ -11,6 +11,7 @@
     "blog": "Blog 3IR",
     "partners": "Partners",
     "contact": "Offerte & Contact",
+    "brain": "Tweede Brein",
     "language": "Taal",
     "darkMode": "Donkere modus",
     "lightMode": "Lichte modus"
@@ -155,5 +156,47 @@
       "resources": "Bronnen",
       "legal": "Juridisch"
     }
+  },
+  "brain": {
+    "sectionTag": "Kunstmatige Intelligentie",
+    "title": "Tweede Brein 3IR",
+    "subtitle": "Uw persoonlijke AI-assistent voor duurzame renovatie. Semantisch zoeken, slim chatten en gepersonaliseerde kennisruimte.",
+    "features": {
+      "search": {
+        "title": "Semantisch Zoeken",
+        "desc": "Vind precieze antwoorden dankzij vectorzoekopdrachten in onze 180+ artikelen."
+      },
+      "chat": {
+        "title": "AI Expert Chat",
+        "desc": "Stel uw vragen aan onze assistent getraind op de volledige 3IR-kennisbank. Met bronvermelding."
+      },
+      "save": {
+        "title": "Persoonlijke Opslag",
+        "desc": "Bouw uw eigen kennisbank op door artikelen en notities op te slaan."
+      },
+      "recommend": {
+        "title": "AI-Aanbevelingen",
+        "desc": "Ontvang relevante artikelsuggesties op basis van uw interesses en geschiedenis."
+      }
+    },
+    "cta": "Ontdek het Tweede Brein",
+    "pageTitle": "Tweede Brein 3IR",
+    "pageDescription": "Zoek, chat en verken 3IR-kennis met kunstmatige intelligentie. Onze vectordatabase verbindt meer dan 180 artikelen om uw vragen over duurzame renovatie te beantwoorden.",
+    "tabs": {
+      "search": "AI Zoeken",
+      "chat": "Expert Chat",
+      "space": "Mijn Ruimte"
+    },
+    "searchPlaceholder": "Stel uw vraag over energierenovatie, premies, zonne-energie...",
+    "searching": "Semantisch zoeken bezig...",
+    "noResults": "Geen resultaten gevonden. Probeer uw vraag anders te formuleren.",
+    "relevance": "Relevantie",
+    "chatPlaceholder": "Stel uw vraag over de 3de Industriële Revolutie...",
+    "chatWelcome": "Hallo! Ik ben de 3IR AI-assistent. Stel mij uw vragen over energierenovatie, zonnepanelen, warmtepompen, premies 2026 of elk ander onderwerp gerelateerd aan de Derde Industriële Revolutie.",
+    "chatThinking": "Even nadenken...",
+    "chatSources": "Geraadpleegde bronnen:",
+    "chatSend": "Versturen",
+    "spaceLogin": "Uw Persoonlijke Ruimte",
+    "spaceLoginDesc": "Log in om toegang te krijgen tot uw opgeslagen artikelen, persoonlijke notities en gepersonaliseerde AI-aanbevelingen."
   }
 }

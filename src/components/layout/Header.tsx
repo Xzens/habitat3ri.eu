@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Sun, Moon, Globe, Zap } from "lucide-react";
+import { Menu, X, Sun, Moon, Globe, Zap, Brain } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -29,6 +29,7 @@ const navItems = [
   { key: "pillars", href: "#piliers" },
   { key: "solutions", href: "#solutions" },
   { key: "blog", href: "#blog" },
+  { key: "brain", href: "#cerveau" },
   { key: "partners", href: "#partenaires" },
   { key: "contact", href: "#contact" },
 ] as const;

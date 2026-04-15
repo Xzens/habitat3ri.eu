@@ -11,6 +11,7 @@
     "blog": "Blog 3RI",
     "partners": "Partenaires",
     "contact": "Devis & Contact",
+    "brain": "Deuxième Cerveau",
     "language": "Langue",
     "darkMode": "Mode sombre",
     "lightMode": "Mode clair"
@@ -155,5 +156,47 @@
       "resources": "Ressources",
       "legal": "Légal"
     }
+  },
+  "brain": {
+    "sectionTag": "Intelligence Artificielle",
+    "title": "Deuxième Cerveau 3RI",
+    "subtitle": "Votre assistant IA personnel pour la rénovation durable. Recherche sémantique, chat intelligent et espace de connaissances personnalisé.",
+    "features": {
+      "search": {
+        "title": "Recherche Sémantique",
+        "desc": "Trouvez des réponses précises grâce à la recherche vectorielle dans nos 180+ articles."
+      },
+      "chat": {
+        "title": "Chat IA Expert",
+        "desc": "Posez vos questions à notre assistant formé sur toute la base 3RI. Réponses sourcées."
+      },
+      "save": {
+        "title": "Sauvegarde Personnelle",
+        "desc": "Constituez votre propre base de connaissances en sauvegardant articles et notes."
+      },
+      "recommend": {
+        "title": "Recommandations IA",
+        "desc": "Recevez des suggestions d'articles pertinents basées sur vos intérêts et votre historique."
+      }
+    },
+    "cta": "Explorer le Deuxième Cerveau",
+    "pageTitle": "Deuxième Cerveau 3RI",
+    "pageDescription": "Recherchez, discutez et explorez la connaissance 3RI avec l'intelligence artificielle. Notre base vectorielle connecte plus de 180 articles pour répondre à vos questions sur la rénovation durable.",
+    "tabs": {
+      "search": "Recherche IA",
+      "chat": "Chat Expert",
+      "space": "Mon Espace"
+    },
+    "searchPlaceholder": "Posez votre question sur la rénovation énergétique, les primes, le solaire...",
+    "searching": "Recherche sémantique en cours...",
+    "noResults": "Aucun résultat trouvé. Essayez de reformuler votre question.",
+    "relevance": "Pertinence",
+    "chatPlaceholder": "Posez votre question sur la 3ème Révolution Industrielle...",
+    "chatWelcome": "Bonjour ! Je suis l'assistant IA 3RI. Posez-moi vos questions sur la rénovation énergétique, les panneaux solaires, les pompes à chaleur, les primes 2026 ou tout autre sujet lié à la Troisième Révolution Industrielle.",
+    "chatThinking": "Réflexion en cours...",
+    "chatSources": "Sources consultées :",
+    "chatSend": "Envoyer",
+    "spaceLogin": "Votre Espace Personnel",
+    "spaceLoginDesc": "Connectez-vous pour accéder à vos articles sauvegardés, vos notes personnelles et vos recommandations IA personnalisées."
   }
 }

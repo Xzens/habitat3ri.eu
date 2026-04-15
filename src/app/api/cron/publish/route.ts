@@ -1,16 +1,16 @@
 import { NextResponse } from "next/server";
 
 /**
- * CRON Job: Auto-publish scheduled articles
+ * CRON Job: Auto-publish scheduled articles + generate embeddings
  * Runs every 2 days at 06:00 UTC (configured in vercel.json)
  *
- * In production with Supabase:
- * 1. Fetches articles where status='scheduled' AND scheduled_at <= now
- * 2. Updates their status to 'published' and sets published_at
- * 3. Optionally triggers revalidation of blog pages
+ * Flow:
+ * 1. Fetch articles where status='scheduled' AND scheduled_at <= now
+ * 2. Update status to 'published', set published_at
+ * 3. For each published article, trigger embedding generation
+ * 4. Revalidate blog pages
  */
 export async function GET(request: Request) {
-  // Verify CRON secret to prevent unauthorized access
   const authHeader = request.headers.get("authorization");
   const cronSecret = process.env.CRON_SECRET;
 
@@ -22,11 +22,8 @@ export async function GET(request: Request) {
     const now = new Date().toISOString();
 
     // In production with Supabase:
-    // import { createClient } from "@supabase/supabase-js";
-    // const supabase = createClient(
-    //   process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    //   process.env.SUPABASE_SERVICE_ROLE_KEY!
-    // );
+    // import { createServiceClient } from "@/lib/supabase-server";
+    // const supabase = createServiceClient();
     //
     // const { data: articles, error: fetchError } = await supabase
     //   .from("articles")
@@ -47,18 +44,39 @@ export async function GET(request: Request) {
     //
     // if (updateError) throw updateError;
     //
+    // // Generate embeddings for each newly published article
+    // const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://habitat3ri.eu";
+    // let embeddingsGenerated = 0;
+    //
+    // for (const article of articles) {
+    //   try {
+    //     const embRes = await fetch(`${siteUrl}/api/embeddings`, {
+    //       method: "POST",
+    //       headers: {
+    //         "Content-Type": "application/json",
+    //         Authorization: `Bearer ${cronSecret}`,
+    //       },
+    //       body: JSON.stringify({ article_id: article.id }),
+    //     });
+    //     if (embRes.ok) embeddingsGenerated++;
+    //   } catch (e) {
+    //     console.error(`[CRON] Embedding failed for ${article.slug}:`, e);
+    //   }
+    // }
+    //
     // // Trigger revalidation for each published article
     // for (const article of articles) {
-    //   await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/revalidate?path=/${article.locale}/blog/${article.slug}`);
+    //   await fetch(`${siteUrl}/api/revalidate?path=/${article.locale}/blog/${article.slug}`);
     // }
 
-    console.log(`[CRON] Auto-publish check at ${now}`);
+    console.log(`[CRON] Auto-publish + embeddings check at ${now}`);
 
     return NextResponse.json({
       success: true,
-      message: "CRON publish job executed",
+      message: "CRON publish + embeddings job executed",
       timestamp: now,
-      // published: articles.length, // uncomment with Supabase
+      // published: articles.length,
+      // embeddings_generated: embeddingsGenerated,
     });
   } catch (error) {
     console.error("[CRON] Error:", error);

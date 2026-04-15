@@ -3,25 +3,25 @@
     "id": 1,
     "scheduled_date": "2026-04-16",
     "locale": "fr",
-    "title": "Panneaux Solaires Bifaciaux : La Technologie Revolutionnaire de 2026",
+    "title": "Panneaux solaires en 2026 : quel rendement esperer en Belgique ?",
     "category": "solar",
     "seo_keywords": [
-      "solar belgique 2026",
-      "panneaux solaires bifaciaux",
-      "renovation energetique solar"
+      "panneaux solaires belgique 2026",
+      "rendement panneau solaire",
+      "photovoltaique belgique"
     ],
     "status": "scheduled"
   },
   {
     "id": 2,
     "scheduled_date": "2026-04-18",
-    "locale": "fr",
-    "title": "Isolation par l'Exterieur : ROI et Primes en Wallonie 2026",
-    "category": "insulation",
+    "locale": "nl",
+    "title": "Zonnepanelen in 2026: welk rendement mag je verwachten in Belgie?",
+    "category": "solar",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "isolation par l'exterieur",
-      "renovation energetique insulation"
+      "zonnepanelen belgie 2026",
+      "rendement zonnepanelen",
+      "fotovoltaisch rendement"
     ],
     "status": "scheduled"
   },
@@ -29,25 +29,25 @@
     "id": 3,
     "scheduled_date": "2026-04-20",
     "locale": "fr",
-    "title": "Pompe a Chaleur Geothermique : Guide Complet pour la Belgique",
-    "category": "heatpump",
+    "title": "Primes renovation 2026 en Wallonie : guide complet des aides disponibles",
+    "category": "subsidy",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "pompe a chaleur geothermique",
-      "renovation energetique heatpump"
+      "primes renovation wallonie 2026",
+      "aides renovation energetique",
+      "prime habitation wallonie"
     ],
     "status": "scheduled"
   },
   {
     "id": 4,
     "scheduled_date": "2026-04-22",
-    "locale": "fr",
-    "title": "Renovation Energetique Globale : Par Ou Commencer en 2026 ?",
-    "category": "renovation",
+    "locale": "nl",
+    "title": "Renovatiepremies 2026 in Vlaanderen: overzicht van alle beschikbare subsidies",
+    "category": "subsidy",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "renovation energetique globale",
-      "renovation energetique renovation"
+      "renovatiepremie vlaanderen 2026",
+      "subsidies renovatie",
+      "mijn verbouwpremie"
     ],
     "status": "scheduled"
   },
@@ -55,25 +55,25 @@
     "id": 5,
     "scheduled_date": "2026-04-24",
     "locale": "fr",
-    "title": "Batterie Domestique : Comparatif des Meilleurs Modeles 2026",
-    "category": "battery",
+    "title": "Pompe a chaleur air-eau : le guide d'installation pour maisons mitoyennes",
+    "category": "heatpump",
     "seo_keywords": [
-      "battery belgique 2026",
-      "batterie domestique",
-      "renovation energetique battery"
+      "pompe a chaleur air eau",
+      "installation pac maison mitoyenne",
+      "chauffage pompe a chaleur"
     ],
     "status": "scheduled"
   },
   {
     "id": 6,
     "scheduled_date": "2026-04-26",
-    "locale": "fr",
-    "title": "Smart Grid Residentiel : Votre Maison Connectee au Reseau Intelligent",
-    "category": "smartgrid",
+    "locale": "nl",
+    "title": "Warmtepomp lucht-water: installatiegids voor rijwoningen",
+    "category": "heatpump",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "smart grid residentiel",
-      "renovation energetique smartgrid"
+      "warmtepomp lucht-water",
+      "installatie warmtepomp rijwoning",
+      "verwarming warmtepomp"
     ],
     "status": "scheduled"
   },
@@ -81,12 +81,12 @@
     "id": 7,
     "scheduled_date": "2026-04-28",
     "locale": "fr",
-    "title": "Primes Energie Bruxelles 2026 : Tout Ce Qui Change",
-    "category": "subsidy",
+    "title": "Isolation toiture par l'exterieur : sarking vs caissons chevronnes",
+    "category": "insulation",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "primes energie bruxelles 2026",
-      "renovation energetique subsidy"
+      "isolation toiture exterieur",
+      "sarking toiture prix",
+      "caissons chevronnes isolation"
     ],
     "status": "scheduled"
   },
@@ -94,25 +94,25 @@
     "id": 8,
     "scheduled_date": "2026-04-30",
     "locale": "fr",
-    "title": "Communaute d'Energie Locale : Creer et Rejoindre en Belgique",
-    "category": "prosumer",
+    "title": "Smart grid residentiel : comment connecter votre maison au reseau intelligent",
+    "category": "smartgrid",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "communaute d'energie locale",
-      "renovation energetique prosumer"
+      "smart grid residentiel",
+      "reseau intelligent maison",
+      "gestion energie intelligente"
     ],
     "status": "scheduled"
   },
   {
     "id": 9,
     "scheduled_date": "2026-05-02",
-    "locale": "fr",
-    "title": "Alarme Connectee et Domotique : Securiser Sa Maison 3RI",
-    "category": "security",
+    "locale": "nl",
+    "title": "Thuisbatterij kiezen in 2026: vergelijking van de 5 beste modellen",
+    "category": "battery",
     "seo_keywords": [
-      "security belgique 2026",
-      "alarme connectee et domotique",
-      "renovation energetique security"
+      "thuisbatterij vergelijking 2026",
+      "beste thuisbatterij",
+      "batterij zonnepanelen"
     ],
     "status": "scheduled"
   },
@@ -120,12 +120,12 @@
     "id": 10,
     "scheduled_date": "2026-05-04",
     "locale": "fr",
-    "title": "Jumeau Numerique Residentiel : Simuler Avant de Renover",
-    "category": "digital",
+    "title": "Batterie domestique : Tesla Powerwall 3 vs BYD HVS en conditions reelles",
+    "category": "battery",
     "seo_keywords": [
-      "digital belgique 2026",
-      "jumeau numerique residentiel",
-      "renovation energetique digital"
+      "batterie domestique comparatif",
+      "tesla powerwall 3",
+      "byd hvs avis"
     ],
     "status": "scheduled"
   },
@@ -133,25 +133,25 @@
     "id": 11,
     "scheduled_date": "2026-05-06",
     "locale": "fr",
-    "title": "Autoconsommation Solaire : Maximiser Votre Production en 2026",
-    "category": "solar",
+    "title": "Prosommateur en Wallonie : comprendre le tarif prosumer et l'optimiser",
+    "category": "prosumer",
     "seo_keywords": [
-      "solar belgique 2026",
-      "autoconsommation solaire",
-      "renovation energetique solar"
+      "tarif prosumer wallonie 2026",
+      "prosommateur belgique",
+      "compteur double flux"
     ],
     "status": "scheduled"
   },
   {
     "id": 12,
     "scheduled_date": "2026-05-08",
-    "locale": "fr",
-    "title": "Isolation du Toit : Materiaux, Prix et Aides en Belgique",
-    "category": "insulation",
+    "locale": "nl",
+    "title": "Prosumententarief Vlaanderen 2026: hoe je factuur verlagen met slim verbruik",
+    "category": "prosumer",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "isolation du toit",
-      "renovation energetique insulation"
+      "prosumententarief vlaanderen 2026",
+      "slim verbruik",
+      "digitale meter prosument"
     ],
     "status": "scheduled"
   },
@@ -159,25 +159,25 @@
     "id": 13,
     "scheduled_date": "2026-05-10",
     "locale": "fr",
-    "title": "PAC Air-Air vs Air-Eau : Quelle Pompe a Chaleur Choisir ?",
-    "category": "heatpump",
+    "title": "Communautes d'energie en Belgique : creer un partage solaire entre voisins",
+    "category": "smartgrid",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "pac air-air vs air-eau",
-      "renovation energetique heatpump"
+      "communaute energie belgique",
+      "partage energie solaire",
+      "energie citoyenne"
     ],
     "status": "scheduled"
   },
   {
     "id": 14,
     "scheduled_date": "2026-05-12",
-    "locale": "fr",
-    "title": "Extension de Maison Passive : Guide et Reglementation 2026",
-    "category": "renovation",
+    "locale": "nl",
+    "title": "Energiegemeenschappen in Belgie: zo deel je zonne-energie met je buren",
+    "category": "smartgrid",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "extension de maison passive",
-      "renovation energetique renovation"
+      "energiegemeenschap belgie",
+      "energie delen buren",
+      "zonne-energie gemeenschap"
     ],
     "status": "scheduled"
   },
@@ -185,12 +185,12 @@
     "id": 15,
     "scheduled_date": "2026-05-14",
     "locale": "fr",
-    "title": "Vehicle-to-Home (V2H) : Votre Voiture Electrique comme Batterie",
-    "category": "battery",
+    "title": "Jumeau numerique batiment : simuler votre renovation avant de commencer",
+    "category": "digital",
     "seo_keywords": [
-      "battery belgique 2026",
-      "vehicle-to-home (v2h)",
-      "renovation energetique battery"
+      "jumeau numerique batiment",
+      "simulation renovation",
+      "digital twin maison"
     ],
     "status": "scheduled"
   },
@@ -198,25 +198,25 @@
     "id": 16,
     "scheduled_date": "2026-05-16",
     "locale": "fr",
-    "title": "Compteur Intelligent : Comprendre le Tarif Capacitaire en Wallonie",
-    "category": "smartgrid",
+    "title": "Renovation energetique globale : par ou commencer dans une maison des annees 70",
+    "category": "renovation",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "compteur intelligent",
-      "renovation energetique smartgrid"
+      "renovation energetique globale",
+      "renovation maison annees 70",
+      "ordre travaux renovation"
     ],
     "status": "scheduled"
   },
   {
     "id": 17,
     "scheduled_date": "2026-05-18",
-    "locale": "fr",
-    "title": "MaPrimeRenov 2026 France : Montants et Conditions",
-    "category": "subsidy",
+    "locale": "nl",
+    "title": "Energetische renovatie: waar begin je bij een woning uit de jaren 70?",
+    "category": "renovation",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "maprimerenov 2026 france",
-      "renovation energetique subsidy"
+      "energetische renovatie",
+      "renovatie jaren 70 woning",
+      "volgorde renovatiewerken"
     ],
     "status": "scheduled"
   },
@@ -224,25 +224,25 @@
     "id": 18,
     "scheduled_date": "2026-05-20",
     "locale": "fr",
-    "title": "Batiment a Energie Positive (BEPOS) : Le Standard de Demain",
-    "category": "prosumer",
+    "title": "MaPrimeRenov 2026 en France : montants, conditions et nouveautes",
+    "category": "subsidy",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "batiment a energie positive (bepos)",
-      "renovation energetique prosumer"
+      "maprimerenov 2026",
+      "aide renovation france",
+      "prime renovation energetique france"
     ],
     "status": "scheduled"
   },
   {
     "id": 19,
     "scheduled_date": "2026-05-22",
-    "locale": "fr",
-    "title": "Assurance Habitation Verte : Reductions pour Maisons Renovees",
-    "category": "security",
+    "locale": "nl",
+    "title": "Domotica en energiebeheer: je woning slim aansturen met Home Assistant",
+    "category": "digital",
     "seo_keywords": [
-      "security belgique 2026",
-      "assurance habitation verte",
-      "renovation energetique security"
+      "domotica energiebeheer",
+      "home assistant energie",
+      "slim huis automatisering"
     ],
     "status": "scheduled"
   },
@@ -250,25 +250,25 @@
     "id": 20,
     "scheduled_date": "2026-05-24",
     "locale": "fr",
-    "title": "Domotique et IA : L'Habitat Intelligent en 2026",
-    "category": "digital",
+    "title": "Securite de la maison connectee : proteger votre systeme domotique des cyberattaques",
+    "category": "security",
     "seo_keywords": [
-      "digital belgique 2026",
-      "domotique et ia",
-      "renovation energetique digital"
+      "securite maison connectee",
+      "cybersecurite domotique",
+      "protection smart home"
     ],
     "status": "scheduled"
   },
   {
     "id": 21,
     "scheduled_date": "2026-05-26",
-    "locale": "fr",
-    "title": "Solaire et Copropriete : Installation Collective en Belgique",
-    "category": "solar",
+    "locale": "nl",
+    "title": "Beveiliging van je smart home: bescherm je domotica tegen hackers",
+    "category": "security",
     "seo_keywords": [
-      "solar belgique 2026",
-      "solaire et copropriete",
-      "renovation energetique solar"
+      "beveiliging smart home",
+      "domotica hackers",
+      "cyberveiligheid slimme woning"
     ],
     "status": "scheduled"
   },
@@ -276,12 +276,12 @@
     "id": 22,
     "scheduled_date": "2026-05-28",
     "locale": "fr",
-    "title": "Fenetres Triple Vitrage : Investissement Rentable en 2026 ?",
-    "category": "insulation",
+    "title": "Les 5 piliers de Rifkin appliques a l'habitat : vers une maison du futur",
+    "category": "digital",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "fenetres triple vitrage",
-      "renovation energetique insulation"
+      "5 piliers rifkin habitat",
+      "troisieme revolution industrielle maison",
+      "habitat durable rifkin"
     ],
     "status": "scheduled"
   },
@@ -289,25 +289,25 @@
     "id": 23,
     "scheduled_date": "2026-05-30",
     "locale": "fr",
-    "title": "Chauffe-Eau Thermodynamique : L'Alternative Economique 2026",
-    "category": "heatpump",
+    "title": "Isolation exterieure des facades : choisir entre EPS, laine de roche et fibre de bois",
+    "category": "insulation",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "chauffe-eau thermodynamique",
-      "renovation energetique heatpump"
+      "isolation facade exterieur",
+      "eps laine de roche",
+      "fibre bois isolation facade"
     ],
     "status": "scheduled"
   },
   {
     "id": 24,
     "scheduled_date": "2026-06-01",
-    "locale": "fr",
-    "title": "Cuisine Ecoresponsable : Renover Durable et Design",
-    "category": "renovation",
+    "locale": "nl",
+    "title": "Zonnepanelen en hittegolf: prestaties optimaliseren bij extreme warmte",
+    "category": "solar",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "cuisine ecoresponsable",
-      "renovation energetique renovation"
+      "zonnepanelen hitte",
+      "rendement zonnepanelen zomer",
+      "warmte zonnepanelen prestaties"
     ],
     "status": "scheduled"
   },
@@ -315,12 +315,12 @@
     "id": 25,
     "scheduled_date": "2026-06-03",
     "locale": "fr",
-    "title": "Stockage Thermique : L'Alternative aux Batteries Lithium",
-    "category": "battery",
+    "title": "Optimiser vos panneaux solaires en ete : inclinaison, ombrage et nettoyage",
+    "category": "solar",
     "seo_keywords": [
-      "battery belgique 2026",
-      "stockage thermique",
-      "renovation energetique battery"
+      "optimiser panneaux solaires ete",
+      "inclinaison panneaux solaires",
+      "nettoyage panneaux solaires"
     ],
     "status": "scheduled"
   },
@@ -328,12 +328,12 @@
     "id": 26,
     "scheduled_date": "2026-06-05",
     "locale": "fr",
-    "title": "Tarif Dynamique d'Electricite : Optimiser Sa Consommation",
-    "category": "smartgrid",
+    "title": "Refroidissement passif : alternatives ecologiques a la climatisation traditionnelle",
+    "category": "renovation",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "tarif dynamique d'electricite",
-      "renovation energetique smartgrid"
+      "refroidissement passif maison",
+      "alternative climatisation",
+      "confort ete sans clim"
     ],
     "status": "scheduled"
   },
@@ -341,12 +341,12 @@
     "id": 27,
     "scheduled_date": "2026-06-07",
     "locale": "fr",
-    "title": "Eco-PTZ 2026 : Financer Sa Renovation a Taux Zero",
-    "category": "subsidy",
+    "title": "Confort thermique estival sans climatisation : solutions passives pour le Benelux",
+    "category": "renovation",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "eco-ptz 2026",
-      "renovation energetique subsidy"
+      "confort thermique ete",
+      "solutions passives benelux",
+      "rafraichissement naturel maison"
     ],
     "status": "scheduled"
   },
@@ -354,12 +354,12 @@
     "id": 28,
     "scheduled_date": "2026-06-09",
     "locale": "fr",
-    "title": "Autoconsommation Collective : Le Modele Belge Explique",
-    "category": "prosumer",
+    "title": "Batterie virtuelle : stocker votre surplus solaire sur le cloud energetique",
+    "category": "battery",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "autoconsommation collective",
-      "renovation energetique prosumer"
+      "batterie virtuelle solaire",
+      "cloud energetique",
+      "stockage surplus solaire"
     ],
     "status": "scheduled"
   },
@@ -367,12 +367,12 @@
     "id": 29,
     "scheduled_date": "2026-06-11",
     "locale": "fr",
-    "title": "Cameras de Surveillance Solaires : Securite Autonome",
-    "category": "security",
+    "title": "Compteur bidirectionnel en Wallonie : fonctionnement et impact sur votre facture",
+    "category": "prosumer",
     "seo_keywords": [
-      "security belgique 2026",
-      "cameras de surveillance solaires",
-      "renovation energetique security"
+      "compteur bidirectionnel wallonie",
+      "compteur double sens",
+      "impact facture compteur"
     ],
     "status": "scheduled"
   },
@@ -380,25 +380,25 @@
     "id": 30,
     "scheduled_date": "2026-06-13",
     "locale": "fr",
-    "title": "BIM et Renovation : La Modelisation 3D au Service de l'Habitat",
-    "category": "digital",
+    "title": "Primes photovoltaiques au Luxembourg 2026 : tout ce qui change",
+    "category": "subsidy",
     "seo_keywords": [
-      "digital belgique 2026",
-      "bim et renovation",
-      "renovation energetique digital"
+      "prime photovoltaique luxembourg 2026",
+      "aide solaire luxembourg",
+      "subside panneau solaire lux"
     ],
     "status": "scheduled"
   },
   {
     "id": 31,
     "scheduled_date": "2026-06-15",
-    "locale": "fr",
-    "title": "Panneaux Solaires en Hiver : Production et Optimisation",
-    "category": "solar",
+    "locale": "nl",
+    "title": "Subsidies zonnepanelen Nederland 2026: ISDE, salderingsregeling en meer",
+    "category": "subsidy",
     "seo_keywords": [
-      "solar belgique 2026",
-      "panneaux solaires en hiver",
-      "renovation energetique solar"
+      "subsidie zonnepanelen nederland 2026",
+      "isde regeling",
+      "salderingsregeling 2026"
     ],
     "status": "scheduled"
   },
@@ -406,12 +406,12 @@
     "id": 32,
     "scheduled_date": "2026-06-17",
     "locale": "fr",
-    "title": "Isolation des Murs Creux : Techniques et Prix en Belgique",
-    "category": "insulation",
+    "title": "Pompe a chaleur geothermique : rentabilite et retour sur investissement au Benelux",
+    "category": "heatpump",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "isolation des murs creux",
-      "renovation energetique insulation"
+      "pompe chaleur geothermique rentabilite",
+      "geothermie benelux",
+      "pac geothermique prix"
     ],
     "status": "scheduled"
   },
@@ -419,12 +419,12 @@
     "id": 33,
     "scheduled_date": "2026-06-19",
     "locale": "fr",
-    "title": "Geothermie Residentielle : Couts et Avantages au Benelux",
-    "category": "heatpump",
+    "title": "Tuiles solaires vs panneaux classiques : esthetique, rendement et prix compares",
+    "category": "solar",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "geothermie residentielle",
-      "renovation energetique heatpump"
+      "tuiles solaires vs panneaux",
+      "tuile photovoltaique prix",
+      "esthetique solaire toiture"
     ],
     "status": "scheduled"
   },
@@ -432,25 +432,25 @@
     "id": 34,
     "scheduled_date": "2026-06-21",
     "locale": "fr",
-    "title": "Salle de Bain Eco-Design : Renovation Durable et Tendances",
-    "category": "renovation",
+    "title": "Isolation des murs creux : injection vs isolation par l'exterieur en 2026",
+    "category": "insulation",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "salle de bain eco-design",
-      "renovation energetique renovation"
+      "isolation murs creux",
+      "injection mousse isolante",
+      "isolation exterieure murs"
     ],
     "status": "scheduled"
   },
   {
     "id": 35,
     "scheduled_date": "2026-06-23",
-    "locale": "fr",
-    "title": "Hydrogene Vert Domestique : La Revolution du Stockage",
-    "category": "battery",
+    "locale": "nl",
+    "title": "Spouwmuurisolatie vs buitengevelisolatie: welke keuze in 2026?",
+    "category": "insulation",
     "seo_keywords": [
-      "battery belgique 2026",
-      "hydrogene vert domestique",
-      "renovation energetique battery"
+      "spouwmuurisolatie",
+      "buitengevelisolatie",
+      "muurisolatie vergelijking 2026"
     ],
     "status": "scheduled"
   },
@@ -458,12 +458,12 @@
     "id": 36,
     "scheduled_date": "2026-06-25",
     "locale": "fr",
-    "title": "Gestion Energetique par IA : Les Meilleurs Systemes 2026",
-    "category": "smartgrid",
+    "title": "Vehicle-to-Home : utiliser votre voiture electrique comme batterie domestique",
+    "category": "battery",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "gestion energetique par ia",
-      "renovation energetique smartgrid"
+      "vehicle to home",
+      "voiture electrique batterie maison",
+      "v2h belgique"
     ],
     "status": "scheduled"
   },
@@ -471,12 +471,12 @@
     "id": 37,
     "scheduled_date": "2026-06-27",
     "locale": "fr",
-    "title": "Primes Isolation Flandre 2026 : Mijn VerbouwPremie Expliquee",
-    "category": "subsidy",
+    "title": "Alarme connectee et panneaux solaires : securiser votre installation photovoltaique",
+    "category": "security",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "primes isolation flandre 2026",
-      "renovation energetique subsidy"
+      "alarme panneaux solaires",
+      "securite installation photovoltaique",
+      "antivol panneau solaire"
     ],
     "status": "scheduled"
   },
@@ -484,12 +484,12 @@
     "id": 38,
     "scheduled_date": "2026-06-29",
     "locale": "fr",
-    "title": "Microgrids Residentiels : L'Energie Partagee entre Voisins",
+    "title": "Mobilite electrique et maison solaire : synergie entre VE et autoconsommation",
     "category": "prosumer",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "microgrids residentiels",
-      "renovation energetique prosumer"
+      "mobilite electrique maison solaire",
+      "synergie ve autoconsommation",
+      "voiture electrique maison"
     ],
     "status": "scheduled"
   },
@@ -497,25 +497,25 @@
     "id": 39,
     "scheduled_date": "2026-07-01",
     "locale": "fr",
-    "title": "Detection Incendie Intelligente : Proteger Sa Maison 3RI",
-    "category": "security",
+    "title": "Production solaire en ete : maximiser l'autoconsommation pendant les vacances",
+    "category": "solar",
     "seo_keywords": [
-      "security belgique 2026",
-      "detection incendie intelligente",
-      "renovation energetique security"
+      "autoconsommation solaire ete",
+      "maximiser production solaire",
+      "gestion energie vacances"
     ],
     "status": "scheduled"
   },
   {
     "id": 40,
     "scheduled_date": "2026-07-03",
-    "locale": "fr",
-    "title": "Applications de Suivi Energetique : Top 10 en 2026",
-    "category": "digital",
+    "locale": "nl",
+    "title": "Zonne-energie in de zomer: zo maximaliseer je eigenverbruik tijdens vakantie",
+    "category": "solar",
     "seo_keywords": [
-      "digital belgique 2026",
-      "applications de suivi energetique",
-      "renovation energetique digital"
+      "eigenverbruik zonnepanelen zomer",
+      "zonne-energie vakantie",
+      "zelfconsumptie maximaliseren"
     ],
     "status": "scheduled"
   },
@@ -523,25 +523,25 @@
     "id": 41,
     "scheduled_date": "2026-07-05",
     "locale": "fr",
-    "title": "Carport Solaire : Double Fonction pour Votre Maison",
+    "title": "Borne de recharge solaire a domicile : alimenter votre VE avec vos panneaux",
     "category": "solar",
     "seo_keywords": [
-      "solar belgique 2026",
-      "carport solaire",
-      "renovation energetique solar"
+      "borne recharge solaire domicile",
+      "recharge voiture electrique panneaux solaires",
+      "wallbox solaire"
     ],
     "status": "scheduled"
   },
   {
     "id": 42,
     "scheduled_date": "2026-07-07",
-    "locale": "fr",
-    "title": "Toiture Verte et Isolation : Combiner Ecologie et Performance",
-    "category": "insulation",
+    "locale": "nl",
+    "title": "Thuislader op zonne-energie: laad je EV op met je eigen zonnepanelen",
+    "category": "solar",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "toiture verte et isolation",
-      "renovation energetique insulation"
+      "thuislader zonne-energie",
+      "elektrische auto zonnepanelen laden",
+      "wallbox zonne-energie"
     ],
     "status": "scheduled"
   },
@@ -549,25 +549,25 @@
     "id": 43,
     "scheduled_date": "2026-07-09",
     "locale": "fr",
-    "title": "PAC Hybride : Combiner Gaz et Pompe a Chaleur",
-    "category": "heatpump",
+    "title": "Pergola solaire : produire de l'electricite tout en protegeant votre terrasse",
+    "category": "solar",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "pac hybride",
-      "renovation energetique heatpump"
+      "pergola solaire prix",
+      "pergola photovoltaique",
+      "carport solaire belgique"
     ],
     "status": "scheduled"
   },
   {
     "id": 44,
     "scheduled_date": "2026-07-11",
-    "locale": "fr",
-    "title": "Facade Ventilee : Renovation Thermique et Esthetique",
-    "category": "renovation",
+    "locale": "nl",
+    "title": "Zonne-carport en pergola: elektriciteit opwekken en je terras beschermen",
+    "category": "solar",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "facade ventilee",
-      "renovation energetique renovation"
+      "zonne-carport",
+      "zonnepanelen pergola",
+      "carport zonnepanelen prijs"
     ],
     "status": "scheduled"
   },
@@ -575,25 +575,25 @@
     "id": 45,
     "scheduled_date": "2026-07-13",
     "locale": "fr",
-    "title": "Batterie Virtuelle : Le Concept Cloud de Stockage d'Energie",
-    "category": "battery",
+    "title": "Smart home ete : automatiser stores, arrosage et ventilation avec la domotique",
+    "category": "digital",
     "seo_keywords": [
-      "battery belgique 2026",
-      "batterie virtuelle",
-      "renovation energetique battery"
+      "smart home ete",
+      "domotique stores automatiques",
+      "automatisation maison ete"
     ],
     "status": "scheduled"
   },
   {
     "id": 46,
     "scheduled_date": "2026-07-15",
-    "locale": "fr",
-    "title": "Vehicule Electrique et Smart Grid : Le Role du V2G",
-    "category": "smartgrid",
+    "locale": "nl",
+    "title": "Slim wonen in de zomer: zonwering, bewatering en ventilatie automatiseren",
+    "category": "digital",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "vehicule electrique et smart grid",
-      "renovation energetique smartgrid"
+      "slim wonen zomer",
+      "automatische zonwering",
+      "domotica ventilatie"
     ],
     "status": "scheduled"
   },
@@ -601,12 +601,12 @@
     "id": 47,
     "scheduled_date": "2026-07-17",
     "locale": "fr",
-    "title": "Certificats Verts Bruxelles 2026 : Combien Pouvez-Vous Gagner ?",
-    "category": "subsidy",
+    "title": "Toiture vegetalisee et panneaux solaires : une combinaison gagnante en ville",
+    "category": "renovation",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "certificats verts bruxelles 2026",
-      "renovation energetique subsidy"
+      "toiture vegetalisee panneaux solaires",
+      "toit vert photovoltaique",
+      "toiture verte ville"
     ],
     "status": "scheduled"
   },
@@ -614,12 +614,12 @@
     "id": 48,
     "scheduled_date": "2026-07-19",
     "locale": "fr",
-    "title": "Cooperative d'Energie Citoyenne : Devenir Actionnaire Vert",
-    "category": "prosumer",
+    "title": "Toiture verte et biodiversite urbaine : coupler ecologie et performance energetique",
+    "category": "renovation",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "cooperative d'energie citoyenne",
-      "renovation energetique prosumer"
+      "toiture verte biodiversite",
+      "ecologie performance energetique",
+      "toit vegetal urbain"
     ],
     "status": "scheduled"
   },
@@ -627,25 +627,25 @@
     "id": 49,
     "scheduled_date": "2026-07-21",
     "locale": "fr",
-    "title": "Serrures Connectees et Controle d'Acces Intelligent",
-    "category": "security",
+    "title": "EPC score ameliorer : les travaux les plus rentables pour monter d'un label",
+    "category": "renovation",
     "seo_keywords": [
-      "security belgique 2026",
-      "serrures connectees et controle d'acces intelligent",
-      "renovation energetique security"
+      "ameliorer epc score",
+      "travaux rentables label energetique",
+      "audit energetique maison"
     ],
     "status": "scheduled"
   },
   {
     "id": 50,
     "scheduled_date": "2026-07-23",
-    "locale": "fr",
-    "title": "Realite Augmentee et Renovation : Visualiser Avant les Travaux",
-    "category": "digital",
+    "locale": "nl",
+    "title": "EPC-label verbeteren: de meest rendabele werken om een label op te klimmen",
+    "category": "renovation",
     "seo_keywords": [
-      "digital belgique 2026",
-      "realite augmentee et renovation",
-      "renovation energetique digital"
+      "epc label verbeteren",
+      "rendabele renovatiewerken",
+      "energielabel woning"
     ],
     "status": "scheduled"
   },
@@ -653,12 +653,12 @@
     "id": 51,
     "scheduled_date": "2026-07-25",
     "locale": "fr",
-    "title": "BIPV : Panneaux Solaires Integres a la Toiture et Facade",
-    "category": "solar",
+    "title": "Assurance habitation verte : les garanties specifiques pour maisons renovees",
+    "category": "security",
     "seo_keywords": [
-      "solar belgique 2026",
-      "bipv",
-      "renovation energetique solar"
+      "assurance habitation verte",
+      "assurance maison renovee",
+      "garantie renovation energetique"
     ],
     "status": "scheduled"
   },
@@ -666,12 +666,12 @@
     "id": 52,
     "scheduled_date": "2026-07-27",
     "locale": "fr",
-    "title": "Pont Thermique : Identifier et Traiter les Points Faibles",
-    "category": "insulation",
+    "title": "Protection incendie maison renovee : normes et systemes pour habitations isolees",
+    "category": "security",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "pont thermique",
-      "renovation energetique insulation"
+      "protection incendie maison renovee",
+      "normes incendie isolation",
+      "systeme securite incendie"
     ],
     "status": "scheduled"
   },
@@ -679,25 +679,25 @@
     "id": 53,
     "scheduled_date": "2026-07-29",
     "locale": "fr",
-    "title": "Plancher Chauffant et PAC : Le Duo Optimal",
-    "category": "heatpump",
+    "title": "Micro-onduleurs vs onduleur central : quel choix pour votre installation 2026",
+    "category": "solar",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "plancher chauffant et pac",
-      "renovation energetique heatpump"
+      "micro onduleur vs onduleur central",
+      "micro inverseur solaire",
+      "choix onduleur panneaux solaires"
     ],
     "status": "scheduled"
   },
   {
     "id": 54,
     "scheduled_date": "2026-07-31",
-    "locale": "fr",
-    "title": "Maison Passive Retrofit : Transformer l'Ancien en Performant",
-    "category": "renovation",
+    "locale": "nl",
+    "title": "Micro-omvormers vs centrale omvormer: de beste keuze voor jouw installatie",
+    "category": "solar",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "maison passive retrofit",
-      "renovation energetique renovation"
+      "micro-omvormer",
+      "centrale omvormer vergelijking",
+      "omvormer zonnepanelen"
     ],
     "status": "scheduled"
   },
@@ -705,12 +705,12 @@
     "id": 55,
     "scheduled_date": "2026-08-02",
     "locale": "fr",
-    "title": "Second Life : Batteries de Vehicules Recyclees pour la Maison",
-    "category": "battery",
+    "title": "Planifier sa renovation de rentree : calendrier ideal des travaux d'automne",
+    "category": "renovation",
     "seo_keywords": [
-      "battery belgique 2026",
-      "second life",
-      "renovation energetique battery"
+      "planifier renovation automne",
+      "calendrier travaux renovation",
+      "renovation rentree"
     ],
     "status": "scheduled"
   },
@@ -718,12 +718,12 @@
     "id": 56,
     "scheduled_date": "2026-08-04",
     "locale": "fr",
-    "title": "Peer-to-Peer Energy Trading : Vendre Son Energie au Voisin",
-    "category": "smartgrid",
+    "title": "Renovation cuisine et salle de bain : integrer l'efficacite energetique au confort",
+    "category": "renovation",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "peer-to-peer energy trading",
-      "renovation energetique smartgrid"
+      "renovation cuisine energetique",
+      "salle de bain efficacite energie",
+      "renovation interieure durable"
     ],
     "status": "scheduled"
   },
@@ -731,12 +731,12 @@
     "id": 57,
     "scheduled_date": "2026-08-06",
     "locale": "fr",
-    "title": "Aides Luxembourg 2026 : Primes pour Renovation Energetique",
-    "category": "subsidy",
+    "title": "Stockage intersaisonnier : les nouvelles solutions pour conserver l'energie solaire",
+    "category": "battery",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "aides luxembourg 2026",
-      "renovation energetique subsidy"
+      "stockage intersaisonnier",
+      "conserver energie solaire",
+      "batterie long terme"
     ],
     "status": "scheduled"
   },
@@ -744,25 +744,25 @@
     "id": 58,
     "scheduled_date": "2026-08-08",
     "locale": "fr",
-    "title": "Net Zero Home : Comment Atteindre le Zero Energie Net",
-    "category": "prosumer",
+    "title": "Pompe a chaleur hybride : combiner PAC et chaudiere a condensation",
+    "category": "heatpump",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "net zero home",
-      "renovation energetique prosumer"
+      "pompe chaleur hybride",
+      "pac chaudiere condensation",
+      "chauffage hybride"
     ],
     "status": "scheduled"
   },
   {
     "id": 59,
     "scheduled_date": "2026-08-10",
-    "locale": "fr",
-    "title": "Cyber-Securite Domotique : Proteger Sa Maison Connectee",
-    "category": "security",
+    "locale": "nl",
+    "title": "Hybride warmtepomp: combinatie van warmtepomp en condensatieketel",
+    "category": "heatpump",
     "seo_keywords": [
-      "security belgique 2026",
-      "cyber-securite domotique",
-      "renovation energetique security"
+      "hybride warmtepomp",
+      "warmtepomp condensatieketel",
+      "hybride verwarming"
     ],
     "status": "scheduled"
   },
@@ -770,12 +770,12 @@
     "id": 60,
     "scheduled_date": "2026-08-12",
     "locale": "fr",
-    "title": "Audit Energetique par Drone et Thermographie",
-    "category": "digital",
+    "title": "Isolation phonique et thermique : combiner confort acoustique et energetique",
+    "category": "insulation",
     "seo_keywords": [
-      "digital belgique 2026",
-      "audit energetique par drone et thermographie",
-      "renovation energetique digital"
+      "isolation phonique thermique",
+      "confort acoustique energetique",
+      "isolation combinee"
     ],
     "status": "scheduled"
   },
@@ -783,12 +783,12 @@
     "id": 61,
     "scheduled_date": "2026-08-14",
     "locale": "fr",
-    "title": "Agrivoltaisme Residentiel : Combiner Potager et Solaire",
-    "category": "solar",
+    "title": "Ventilation naturelle assistee : alternative a la VMC pour maisons anciennes",
+    "category": "insulation",
     "seo_keywords": [
-      "solar belgique 2026",
-      "agrivoltaisme residentiel",
-      "renovation energetique solar"
+      "ventilation naturelle assistee",
+      "alternative vmc",
+      "ventilation maison ancienne"
     ],
     "status": "scheduled"
   },
@@ -796,25 +796,25 @@
     "id": 62,
     "scheduled_date": "2026-08-16",
     "locale": "fr",
-    "title": "Isolation Phonique : Confort Acoustique et Energetique",
-    "category": "insulation",
+    "title": "Compteur intelligent Fluvius : comprendre vos donnees de consommation en temps reel",
+    "category": "smartgrid",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "isolation phonique",
-      "renovation energetique insulation"
+      "compteur intelligent fluvius",
+      "donnees consommation temps reel",
+      "compteur digital belgique"
     ],
     "status": "scheduled"
   },
   {
     "id": 63,
     "scheduled_date": "2026-08-18",
-    "locale": "fr",
-    "title": "Rafraichissement Passif par PAC : Climatisation Ecologique",
-    "category": "heatpump",
+    "locale": "nl",
+    "title": "Slimme meter Fluvius: je verbruiksgegevens in realtime begrijpen",
+    "category": "smartgrid",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "rafraichissement passif par pac",
-      "renovation energetique heatpump"
+      "slimme meter fluvius",
+      "verbruiksgegevens realtime",
+      "digitale meter belgie"
     ],
     "status": "scheduled"
   },
@@ -822,12 +822,12 @@
     "id": 64,
     "scheduled_date": "2026-08-20",
     "locale": "fr",
-    "title": "Renovation Patrimoniale et Performance Energetique",
+    "title": "Renovation par etapes : echelonner les travaux sans perdre en efficacite",
     "category": "renovation",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "renovation patrimoniale et performance energetique",
-      "renovation energetique renovation"
+      "renovation par etapes",
+      "echelonner travaux renovation",
+      "renovation progressive"
     ],
     "status": "scheduled"
   },
@@ -835,12 +835,12 @@
     "id": 65,
     "scheduled_date": "2026-08-22",
     "locale": "fr",
-    "title": "Supercondensateurs Domestiques : La Prochaine Generation",
-    "category": "battery",
+    "title": "Cout reel d'une renovation energetique complete : budget type pour une maison 4 facades",
+    "category": "renovation",
     "seo_keywords": [
-      "battery belgique 2026",
-      "supercondensateurs domestiques",
-      "renovation energetique battery"
+      "cout renovation energetique complete",
+      "budget renovation 4 facades",
+      "prix renovation maison"
     ],
     "status": "scheduled"
   },
@@ -848,25 +848,25 @@
     "id": 66,
     "scheduled_date": "2026-08-24",
     "locale": "fr",
-    "title": "Flexibilite Energetique : Comment Valoriser Sa Consommation",
-    "category": "smartgrid",
+    "title": "Pret vert en Belgique 2026 : taux, conditions et banques partenaires",
+    "category": "subsidy",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "flexibilite energetique",
-      "renovation energetique smartgrid"
+      "pret vert belgique 2026",
+      "taux pret renovation",
+      "credit renovation energetique"
     ],
     "status": "scheduled"
   },
   {
     "id": 67,
     "scheduled_date": "2026-08-26",
-    "locale": "fr",
-    "title": "TVA Reduite Renovation 2026 : Conditions en Belgique et France",
+    "locale": "nl",
+    "title": "Groene lening Belgie 2026: tarieven, voorwaarden en partnerbanken",
     "category": "subsidy",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "tva reduite renovation 2026",
-      "renovation energetique subsidy"
+      "groene lening belgie 2026",
+      "renovatielening tarief",
+      "krediet energetische renovatie"
     ],
     "status": "scheduled"
   },
@@ -874,12 +874,12 @@
     "id": 68,
     "scheduled_date": "2026-08-28",
     "locale": "fr",
-    "title": "Quartier Prosumer : Le Projet Pilote Belge Decrypte",
-    "category": "prosumer",
+    "title": "Camera de surveillance solaire : securite autonome pour votre jardin et garage",
+    "category": "security",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "quartier prosumer",
-      "renovation energetique prosumer"
+      "camera surveillance solaire",
+      "securite autonome jardin",
+      "camera solaire exterieur"
     ],
     "status": "scheduled"
   },
@@ -887,12 +887,12 @@
     "id": 69,
     "scheduled_date": "2026-08-30",
     "locale": "fr",
-    "title": "Videosurveillance IA : Detection Intelligente a Domicile",
-    "category": "security",
+    "title": "Chauffage infrarouge electrique : complement ideal a la pompe a chaleur",
+    "category": "heatpump",
     "seo_keywords": [
-      "security belgique 2026",
-      "videosurveillance ia",
-      "renovation energetique security"
+      "chauffage infrarouge electrique",
+      "complement pompe chaleur",
+      "panneau infrarouge chauffage"
     ],
     "status": "scheduled"
   },
@@ -900,25 +900,25 @@
     "id": 70,
     "scheduled_date": "2026-09-01",
     "locale": "fr",
-    "title": "Monitoring Energetique Temps Reel : Les Capteurs Essentiels",
-    "category": "digital",
+    "title": "Preparer son chauffage pour l'hiver : checklist de maintenance pompe a chaleur",
+    "category": "heatpump",
     "seo_keywords": [
-      "digital belgique 2026",
-      "monitoring energetique temps reel",
-      "renovation energetique digital"
+      "maintenance pompe chaleur hiver",
+      "checklist chauffage",
+      "entretien pac automne"
     ],
     "status": "scheduled"
   },
   {
     "id": 71,
     "scheduled_date": "2026-09-03",
-    "locale": "fr",
-    "title": "Recyclage Panneaux Solaires : Economie Circulaire en 2026",
-    "category": "solar",
+    "locale": "nl",
+    "title": "Verwarmingsinstallatie winterklaar maken: onderhoudschecklist warmtepomp",
+    "category": "heatpump",
     "seo_keywords": [
-      "solar belgique 2026",
-      "recyclage panneaux solaires",
-      "renovation energetique solar"
+      "onderhoud warmtepomp winter",
+      "checklist verwarming",
+      "warmtepomp winterklaar"
     ],
     "status": "scheduled"
   },
@@ -926,25 +926,25 @@
     "id": 72,
     "scheduled_date": "2026-09-05",
     "locale": "fr",
-    "title": "Materiaux Biosources : Chanvre, Liege et Ouate de Cellulose",
+    "title": "Isolation sol et cave : les techniques efficaces pour stopper les deperditions",
     "category": "insulation",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "materiaux biosources",
-      "renovation energetique insulation"
+      "isolation sol cave",
+      "deperdition thermique sol",
+      "isoler cave maison"
     ],
     "status": "scheduled"
   },
   {
     "id": 73,
     "scheduled_date": "2026-09-07",
-    "locale": "fr",
-    "title": "PAC et Radiateurs : Compatibilite Haute Temperature",
-    "category": "heatpump",
+    "locale": "nl",
+    "title": "Vloer- en kelderisolatie: effectieve technieken tegen warmteverlies",
+    "category": "insulation",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "pac et radiateurs",
-      "renovation energetique heatpump"
+      "vloerisolatie",
+      "kelderisolatie",
+      "warmteverlies vloer"
     ],
     "status": "scheduled"
   },
@@ -952,25 +952,25 @@
     "id": 74,
     "scheduled_date": "2026-09-09",
     "locale": "fr",
-    "title": "Smart Bathroom : La Salle de Bain Connectee et Econome",
-    "category": "renovation",
+    "title": "Energie communautaire au Luxembourg : le cadre legal 2026 et les projets pilotes",
+    "category": "smartgrid",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "smart bathroom",
-      "renovation energetique renovation"
+      "energie communautaire luxembourg",
+      "cadre legal energie citoyenne",
+      "projet pilote energie lux"
     ],
     "status": "scheduled"
   },
   {
     "id": 75,
     "scheduled_date": "2026-09-11",
-    "locale": "fr",
-    "title": "Gestion Multi-Sources : Solaire + Batterie + Reseau",
-    "category": "battery",
+    "locale": "nl",
+    "title": "Energiecooperaties in Nederland: juridisch kader en succesvolle projecten",
+    "category": "smartgrid",
     "seo_keywords": [
-      "battery belgique 2026",
-      "gestion multi-sources",
-      "renovation energetique battery"
+      "energiecooperatie nederland",
+      "juridisch kader energie",
+      "buurtenergie project"
     ],
     "status": "scheduled"
   },
@@ -978,25 +978,25 @@
     "id": 76,
     "scheduled_date": "2026-09-13",
     "locale": "fr",
-    "title": "Effacement Diffus : Participer a l'Equilibre du Reseau",
-    "category": "smartgrid",
+    "title": "Audit energetique obligatoire : ce que les proprietaires doivent savoir en 2026",
+    "category": "renovation",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "effacement diffus",
-      "renovation energetique smartgrid"
+      "audit energetique obligatoire 2026",
+      "audit energetique proprietaire",
+      "diagnostic energetique maison"
     ],
     "status": "scheduled"
   },
   {
     "id": 77,
     "scheduled_date": "2026-09-15",
-    "locale": "fr",
-    "title": "Bonus Renovation Performante : Les Nouvelles Aides 2026-2027",
-    "category": "subsidy",
+    "locale": "nl",
+    "title": "Verplicht energieaudit 2026: wat eigenaars moeten weten",
+    "category": "renovation",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "bonus renovation performante",
-      "renovation energetique subsidy"
+      "verplicht energieaudit 2026",
+      "energieaudit eigenaar",
+      "energieprestatie woning"
     ],
     "status": "scheduled"
   },
@@ -1004,12 +1004,12 @@
     "id": 78,
     "scheduled_date": "2026-09-17",
     "locale": "fr",
-    "title": "Contrat d'Achat Direct (PPA) Residentiel en Europe",
-    "category": "prosumer",
+    "title": "Batterie sodium-ion : la prochaine revolution du stockage residentiel",
+    "category": "battery",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "contrat d'achat direct (ppa) residentiel en europe",
-      "renovation energetique prosumer"
+      "batterie sodium ion residentiel",
+      "stockage sodium ion",
+      "alternative lithium batterie"
     ],
     "status": "scheduled"
   },
@@ -1017,12 +1017,12 @@
     "id": 79,
     "scheduled_date": "2026-09-19",
     "locale": "fr",
-    "title": "Station Meteo Connectee et Optimisation Energetique",
-    "category": "security",
+    "title": "Stockage hydrogene domestique : la prochaine frontiere du stockage residentiel",
+    "category": "battery",
     "seo_keywords": [
-      "security belgique 2026",
-      "station meteo connectee et optimisation energetique",
-      "renovation energetique security"
+      "stockage hydrogene domestique",
+      "hydrogene residentiel",
+      "pile combustible maison"
     ],
     "status": "scheduled"
   },
@@ -1030,25 +1030,25 @@
     "id": 80,
     "scheduled_date": "2026-09-21",
     "locale": "fr",
-    "title": "Impression 3D et Construction : L'Habitat du Futur",
-    "category": "digital",
+    "title": "Chauffage au sol et pompe a chaleur : le duo ideal pour la basse temperature",
+    "category": "heatpump",
     "seo_keywords": [
-      "digital belgique 2026",
-      "impression 3d et construction",
-      "renovation energetique digital"
+      "chauffage sol pompe chaleur",
+      "plancher chauffant pac",
+      "basse temperature chauffage"
     ],
     "status": "scheduled"
   },
   {
     "id": 81,
     "scheduled_date": "2026-09-23",
-    "locale": "fr",
-    "title": "Onduleur Solaire : Micro-Onduleur vs Onduleur Central",
-    "category": "solar",
+    "locale": "nl",
+    "title": "Vloerverwarming en warmtepomp: het ideale duo voor lage temperatuur",
+    "category": "heatpump",
     "seo_keywords": [
-      "solar belgique 2026",
-      "onduleur solaire",
-      "renovation energetique solar"
+      "vloerverwarming warmtepomp",
+      "lage temperatuur verwarming",
+      "vloerverwarming combinatie"
     ],
     "status": "scheduled"
   },
@@ -1056,12 +1056,12 @@
     "id": 82,
     "scheduled_date": "2026-09-25",
     "locale": "fr",
-    "title": "Etancheite a l'Air : Le Test Blower Door Explique",
+    "title": "Fenetres triple vitrage : quand le surinvestissement devient rentable",
     "category": "insulation",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "etancheite a l'air",
-      "renovation energetique insulation"
+      "fenetre triple vitrage rentable",
+      "triple vitrage prix",
+      "menuiserie energetique"
     ],
     "status": "scheduled"
   },
@@ -1069,25 +1069,25 @@
     "id": 83,
     "scheduled_date": "2026-09-27",
     "locale": "fr",
-    "title": "Fluide R290 (Propane) : La Revolution Ecologique des PAC",
-    "category": "heatpump",
+    "title": "Prime Renolution a Bruxelles 2026 : conditions et montants actualises",
+    "category": "subsidy",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "fluide r290 (propane)",
-      "renovation energetique heatpump"
+      "prime renolution bruxelles 2026",
+      "aide renovation bruxelles",
+      "subside energetique bruxelles"
     ],
     "status": "scheduled"
   },
   {
     "id": 84,
     "scheduled_date": "2026-09-29",
-    "locale": "fr",
-    "title": "Agencement Interieur Durable : Materiaux et Tendances",
-    "category": "renovation",
+    "locale": "nl",
+    "title": "Renovatiepremie Brussel 2026: voorwaarden en geactualiseerde bedragen",
+    "category": "subsidy",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "agencement interieur durable",
-      "renovation energetique renovation"
+      "renovatiepremie brussel 2026",
+      "subsidie renovatie brussel",
+      "energiepremie brussel"
     ],
     "status": "scheduled"
   },
@@ -1095,25 +1095,25 @@
     "id": 85,
     "scheduled_date": "2026-10-01",
     "locale": "fr",
-    "title": "Batterie Sodium-Ion : L'Alternative Abordable au Lithium",
-    "category": "battery",
+    "title": "Troisieme Revolution Industrielle et logement : la vision de Rifkin pour le Benelux",
+    "category": "digital",
     "seo_keywords": [
-      "battery belgique 2026",
-      "batterie sodium-ion",
-      "renovation energetique battery"
+      "troisieme revolution industrielle logement",
+      "rifkin benelux",
+      "habitat rifkin piliers"
     ],
     "status": "scheduled"
   },
   {
     "id": 86,
     "scheduled_date": "2026-10-03",
-    "locale": "fr",
-    "title": "Blockchain et Energie : Tracabilite Verte pour Particuliers",
-    "category": "smartgrid",
+    "locale": "nl",
+    "title": "Derde Industriele Revolutie en wonen: Rifkins visie voor de Benelux",
+    "category": "digital",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "blockchain et energie",
-      "renovation energetique smartgrid"
+      "derde industriele revolutie wonen",
+      "rifkin benelux",
+      "wonen rifkin pijlers"
     ],
     "status": "scheduled"
   },
@@ -1121,25 +1121,25 @@
     "id": 87,
     "scheduled_date": "2026-10-05",
     "locale": "fr",
-    "title": "Audit Logement Obligatoire 2026 : Ce Que Vous Devez Savoir",
-    "category": "subsidy",
+    "title": "Pompe a chaleur air-air : chauffer et climatiser avec un seul appareil",
+    "category": "heatpump",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "audit logement obligatoire 2026",
-      "renovation energetique subsidy"
+      "pompe chaleur air air",
+      "pac reversible",
+      "chauffage climatisation pac"
     ],
     "status": "scheduled"
   },
   {
     "id": 88,
     "scheduled_date": "2026-10-07",
-    "locale": "fr",
-    "title": "Label 3RI : Certifier Sa Maison Troisieme Revolution",
-    "category": "prosumer",
+    "locale": "nl",
+    "title": "Lucht-lucht warmtepomp: verwarmen en koelen met een toestel",
+    "category": "heatpump",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "label 3ri",
-      "renovation energetique prosumer"
+      "lucht-lucht warmtepomp",
+      "reversibele warmtepomp",
+      "verwarming koeling warmtepomp"
     ],
     "status": "scheduled"
   },
@@ -1147,12 +1147,12 @@
     "id": 89,
     "scheduled_date": "2026-10-09",
     "locale": "fr",
-    "title": "Protection Anti-Inondation Intelligente pour Habitations",
-    "category": "security",
+    "title": "Isolation par insufflation de cellulose : avantages pour les combles perdus",
+    "category": "insulation",
     "seo_keywords": [
-      "security belgique 2026",
-      "protection anti-inondation intelligente pour habitations",
-      "renovation energetique security"
+      "insufflation cellulose combles",
+      "isolation combles perdus",
+      "cellulose soufflee prix"
     ],
     "status": "scheduled"
   },
@@ -1160,12 +1160,12 @@
     "id": 90,
     "scheduled_date": "2026-10-11",
     "locale": "fr",
-    "title": "Simulation Energetique : Predire Sa Consommation Avant Travaux",
-    "category": "digital",
+    "title": "Enduit isolant exterieur : une solution legere pour les facades fragiles",
+    "category": "insulation",
     "seo_keywords": [
-      "digital belgique 2026",
-      "simulation energetique",
-      "renovation energetique digital"
+      "enduit isolant exterieur",
+      "isolation facade legere",
+      "crepi isolant prix"
     ],
     "status": "scheduled"
   },
@@ -1173,25 +1173,25 @@
     "id": 91,
     "scheduled_date": "2026-10-13",
     "locale": "fr",
-    "title": "Solaire en Autoconsommation avec Revente de Surplus",
-    "category": "solar",
+    "title": "Smart grid et blockchain : la gestion decentralisee de l'energie en pratique",
+    "category": "smartgrid",
     "seo_keywords": [
-      "solar belgique 2026",
-      "solaire en autoconsommation avec revente de surplus",
-      "renovation energetique solar"
+      "smart grid blockchain",
+      "energie decentralisee",
+      "blockchain energie residentiel"
     ],
     "status": "scheduled"
   },
   {
     "id": 92,
     "scheduled_date": "2026-10-15",
-    "locale": "fr",
-    "title": "Mur Trombe : L'Isolation Active Solaire Passive",
-    "category": "insulation",
+    "locale": "nl",
+    "title": "Smart grid en blockchain: gedecentraliseerd energiebeheer in de praktijk",
+    "category": "smartgrid",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "mur trombe",
-      "renovation energetique insulation"
+      "smart grid blockchain",
+      "gedecentraliseerde energie",
+      "blockchain energie residentieel"
     ],
     "status": "scheduled"
   },
@@ -1199,12 +1199,12 @@
     "id": 93,
     "scheduled_date": "2026-10-17",
     "locale": "fr",
-    "title": "Entretien PAC : Maintenance Annuelle et Couts Previsionnels",
-    "category": "heatpump",
+    "title": "Renovation profonde : transformer une passoire thermique en maison basse energie",
+    "category": "renovation",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "entretien pac",
-      "renovation energetique heatpump"
+      "renovation profonde",
+      "passoire thermique transformation",
+      "maison basse energie"
     ],
     "status": "scheduled"
   },
@@ -1212,12 +1212,12 @@
     "id": 94,
     "scheduled_date": "2026-10-19",
     "locale": "fr",
-    "title": "Renovation Garage en Espace de Vie Performant",
-    "category": "renovation",
+    "title": "Rifkin et la troisieme revolution industrielle : impact concret sur l'habitat wallon",
+    "category": "digital",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "renovation garage en espace de vie performant",
-      "renovation energetique renovation"
+      "rifkin wallonie",
+      "troisieme revolution industrielle habitat",
+      "impact rifkin logement"
     ],
     "status": "scheduled"
   },
@@ -1225,25 +1225,25 @@
     "id": 95,
     "scheduled_date": "2026-10-21",
     "locale": "fr",
-    "title": "Tesla Powerwall 4 vs BYD HVS : Le Comparatif 2026",
-    "category": "battery",
+    "title": "Panneaux solaires bifaciaux : technologie, rendement et prix en Benelux",
+    "category": "solar",
     "seo_keywords": [
-      "battery belgique 2026",
-      "tesla powerwall 4 vs byd hvs",
-      "renovation energetique battery"
+      "panneaux solaires bifaciaux",
+      "bifacial rendement",
+      "panneau bifacial prix benelux"
     ],
     "status": "scheduled"
   },
   {
     "id": 96,
     "scheduled_date": "2026-10-23",
-    "locale": "fr",
-    "title": "Tarif Bi-Horaire Intelligent : Optimiser Chaque kWh",
-    "category": "smartgrid",
+    "locale": "nl",
+    "title": "Bifaciale zonnepanelen: technologie, rendement en prijs in de Benelux",
+    "category": "solar",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "tarif bi-horaire intelligent",
-      "renovation energetique smartgrid"
+      "bifaciale zonnepanelen",
+      "bifaciaal rendement",
+      "bifaciaal paneel prijs"
     ],
     "status": "scheduled"
   },
@@ -1251,12 +1251,12 @@
     "id": 97,
     "scheduled_date": "2026-10-25",
     "locale": "fr",
-    "title": "Primes Energie Renouvelable Wallonie : Guide Complet 2026",
-    "category": "subsidy",
+    "title": "Detecteur de fumee connecte et smart home : integration et normes 2026",
+    "category": "security",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "primes energie renouvelable wallonie",
-      "renovation energetique subsidy"
+      "detecteur fumee connecte",
+      "smart home securite incendie",
+      "norme detecteur fumee 2026"
     ],
     "status": "scheduled"
   },
@@ -1264,12 +1264,12 @@
     "id": 98,
     "scheduled_date": "2026-10-27",
     "locale": "fr",
-    "title": "Building as a Service : Le Batiment comme Plateforme",
-    "category": "prosumer",
+    "title": "Electromenager connecte et gestion de la demande : reduire sa facture avec le load shifting",
+    "category": "digital",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "building as a service",
-      "renovation energetique prosumer"
+      "electromenager connecte",
+      "load shifting maison",
+      "gestion demande electricite"
     ],
     "status": "scheduled"
   },
@@ -1277,25 +1277,25 @@
     "id": 99,
     "scheduled_date": "2026-10-29",
     "locale": "fr",
-    "title": "Assurance Degats des Eaux : Capteurs IoT Preventifs",
-    "category": "security",
+    "title": "Chaudiere a pellets vs pompe a chaleur : comparatif des couts sur 15 ans",
+    "category": "heatpump",
     "seo_keywords": [
-      "security belgique 2026",
-      "assurance degats des eaux",
-      "renovation energetique security"
+      "chaudiere pellets vs pompe chaleur",
+      "comparatif chauffage",
+      "cout chauffage 15 ans"
     ],
     "status": "scheduled"
   },
   {
     "id": 100,
     "scheduled_date": "2026-10-31",
-    "locale": "fr",
-    "title": "Digital Twin et Maintenance Predictive du Batiment",
-    "category": "digital",
+    "locale": "nl",
+    "title": "Pelletketel vs warmtepomp: kostenvergelijking over 15 jaar",
+    "category": "heatpump",
     "seo_keywords": [
-      "digital belgique 2026",
-      "digital twin et maintenance predictive du batiment",
-      "renovation energetique digital"
+      "pelletketel vs warmtepomp",
+      "vergelijking verwarming",
+      "verwarmingskosten 15 jaar"
     ],
     "status": "scheduled"
   },
@@ -1303,25 +1303,25 @@
     "id": 101,
     "scheduled_date": "2026-11-02",
     "locale": "fr",
-    "title": "Tracker Solaire Residentiel : Suivre le Soleil Automatiquement",
-    "category": "solar",
+    "title": "Double flux VMC : pourquoi la ventilation mecanique est essentielle apres isolation",
+    "category": "insulation",
     "seo_keywords": [
-      "solar belgique 2026",
-      "tracker solaire residentiel",
-      "renovation energetique solar"
+      "vmc double flux",
+      "ventilation mecanique isolation",
+      "qualite air interieur"
     ],
     "status": "scheduled"
   },
   {
     "id": 102,
     "scheduled_date": "2026-11-04",
-    "locale": "fr",
-    "title": "Renovation Energetique Copropriete : Le Guide Collectif",
+    "locale": "nl",
+    "title": "Mechanische ventilatie type D: waarom essentieel na isolatie",
     "category": "insulation",
     "seo_keywords": [
-      "insulation belgique 2026",
-      "renovation energetique copropriete",
-      "renovation energetique insulation"
+      "mechanische ventilatie type d",
+      "ventilatie na isolatie",
+      "binnenluchtkwaliteit"
     ],
     "status": "scheduled"
   },
@@ -1329,25 +1329,25 @@
     "id": 103,
     "scheduled_date": "2026-11-06",
     "locale": "fr",
-    "title": "PAC Solaire Assistee : Combiner Thermique et Photovoltaique",
-    "category": "heatpump",
+    "title": "Tarification dynamique de l'electricite : comment en profiter avec une batterie",
+    "category": "prosumer",
     "seo_keywords": [
-      "heatpump belgique 2026",
-      "pac solaire assistee",
-      "renovation energetique heatpump"
+      "tarification dynamique electricite",
+      "prix dynamique batterie",
+      "tarif variable energie"
     ],
     "status": "scheduled"
   },
   {
     "id": 104,
     "scheduled_date": "2026-11-08",
-    "locale": "fr",
-    "title": "Terrasse et Pergola Bioclimatique : Extension Eco-Confort",
-    "category": "renovation",
+    "locale": "nl",
+    "title": "Dynamische elektriciteitstarieven: hoe profiteren met een thuisbatterij",
+    "category": "prosumer",
     "seo_keywords": [
-      "renovation belgique 2026",
-      "terrasse et pergola bioclimatique",
-      "renovation energetique renovation"
+      "dynamisch tarief elektriciteit",
+      "dynamische prijzen batterij",
+      "variabel energietarief"
     ],
     "status": "scheduled"
   },
@@ -1355,25 +1355,25 @@
     "id": 105,
     "scheduled_date": "2026-11-10",
     "locale": "fr",
-    "title": "Power Wall DIY : Construire Sa Batterie Domestique",
-    "category": "battery",
+    "title": "Renovation energetique et plus-value immobiliere : chiffres cles 2026",
+    "category": "renovation",
     "seo_keywords": [
-      "battery belgique 2026",
-      "power wall diy",
-      "renovation energetique battery"
+      "renovation energetique plus-value",
+      "valeur immobiliere renovation",
+      "retour investissement renovation"
     ],
     "status": "scheduled"
   },
   {
     "id": 106,
     "scheduled_date": "2026-11-12",
-    "locale": "fr",
-    "title": "Reseau Electrique Local : Autoconsommation a l'Echelle du Quartier",
-    "category": "smartgrid",
+    "locale": "nl",
+    "title": "Energetische renovatie en meerwaarde: kerncijfers 2026",
+    "category": "renovation",
     "seo_keywords": [
-      "smartgrid belgique 2026",
-      "reseau electrique local",
-      "renovation energetique smartgrid"
+      "energetische renovatie meerwaarde",
+      "woningwaarde renovatie",
+      "rendement investering renovatie"
     ],
     "status": "scheduled"
   },
@@ -1381,25 +1381,25 @@
     "id": 107,
     "scheduled_date": "2026-11-14",
     "locale": "fr",
-    "title": "Credit d'Impot Transition Energetique 2026 : Etat des Lieux",
-    "category": "subsidy",
+    "title": "Panneaux solaires en hiver : production reelle et astuces pour compenser",
+    "category": "solar",
     "seo_keywords": [
-      "subsidy belgique 2026",
-      "credit d'impot transition energetique 2026",
-      "renovation energetique subsidy"
+      "panneaux solaires hiver production",
+      "rendement solaire hiver",
+      "optimiser solaire hiver"
     ],
     "status": "scheduled"
   },
   {
     "id": 108,
     "scheduled_date": "2026-11-16",
-    "locale": "fr",
-    "title": "Maison Autonome Off-Grid : Realite ou Utopie en 2026 ?",
-    "category": "prosumer",
+    "locale": "nl",
+    "title": "Zonnepanelen in de winter: werkelijke productie en tips om te compenseren",
+    "category": "solar",
     "seo_keywords": [
-      "prosumer belgique 2026",
-      "maison autonome off-grid",
-      "renovation energetique prosumer"
+      "zonnepanelen winter productie",
+      "rendement zonnepanelen winter",
+      "zonnepanelen korte dagen"
     ],
     "status": "scheduled"
   },
@@ -1407,38 +1407,38 @@
     "id": 109,
     "scheduled_date": "2026-11-18",
     "locale": "fr",
-    "title": "Portail et Cloture Intelligente : Perimetre Securise",
-    "category": "security",
+    "title": "Subventions isolation aux Pays-Bas 2026 : ISDE et nouvelles mesures",
+    "category": "subsidy",
     "seo_keywords": [
-      "security belgique 2026",
-      "portail et cloture intelligente",
-      "renovation energetique security"
+      "subvention isolation pays-bas 2026",
+      "isde isolation",
+      "aide renovation pays-bas"
     ],
     "status": "scheduled"
   },
   {
     "id": 110,
     "scheduled_date": "2026-11-20",
-    "locale": "fr",
-    "title": "Intelligence Artificielle et Optimisation Chauffage Domestique",
-    "category": "digital",
+    "locale": "nl",
+    "title": "Isolatiesubsidies Nederland 2026: ISDE en nieuwe maatregelen",
+    "category": "subsidy",
     "seo_keywords": [
-      "digital belgique 2026",
-      "intelligence artificielle et optimisation chauffage domestique",
-      "renovation energetique digital"
+      "isolatiesubsidie nederland 2026",
+      "isde isolatie",
+      "subsidie woningisolatie"
     ],
     "status": "scheduled"
   },
   {
     "id": 111,
     "scheduled_date": "2026-11-22",
-    "locale": "nl",
-    "title": "Bifaciale Zonnepanelen: De Revolutionaire Technologie van 2026",
-    "category": "solar",
+    "locale": "fr",
+    "title": "Internet des objets et gestion energetique : les capteurs essentiels pour votre maison",
+    "category": "digital",
     "seo_keywords": [
-      "solar nederland 2026",
-      "bifaciale zonnepanelen",
-      "energierenovatie solar"
+      "iot gestion energetique",
+      "capteurs maison energie",
+      "internet objets maison"
     ],
     "status": "scheduled"
   },
@@ -1446,25 +1446,25 @@
     "id": 112,
     "scheduled_date": "2026-11-24",
     "locale": "nl",
-    "title": "Buitengevelisolatie: ROI en Premies in Vlaanderen 2026",
-    "category": "insulation",
+    "title": "Internet of Things en energiebeheer: essentiele sensoren voor je woning",
+    "category": "digital",
     "seo_keywords": [
-      "insulation nederland 2026",
-      "buitengevelisolatie",
-      "energierenovatie insulation"
+      "iot energiebeheer",
+      "sensoren woning energie",
+      "internet of things huis"
     ],
     "status": "scheduled"
   },
   {
     "id": 113,
     "scheduled_date": "2026-11-26",
-    "locale": "nl",
-    "title": "Bodemwarmtepomp: Complete Gids voor de Benelux",
-    "category": "heatpump",
+    "locale": "fr",
+    "title": "Serrure connectee et controle d'acces : securiser sa maison renovee",
+    "category": "security",
     "seo_keywords": [
-      "heatpump nederland 2026",
-      "bodemwarmtepomp",
-      "energierenovatie heatpump"
+      "serrure connectee",
+      "controle acces maison",
+      "securite maison renovee"
     ],
     "status": "scheduled"
   },
@@ -1472,25 +1472,25 @@
     "id": 114,
     "scheduled_date": "2026-11-28",
     "locale": "nl",
-    "title": "Energierenovatie Stap voor Stap: Waar Beginnen in 2026?",
-    "category": "renovation",
+    "title": "Slim deurslot en toegangscontrole: je gerenoveerde woning beveiligen",
+    "category": "security",
     "seo_keywords": [
-      "renovation nederland 2026",
-      "energierenovatie stap voor stap",
-      "energierenovatie renovation"
+      "slim deurslot",
+      "toegangscontrole woning",
+      "beveiliging gerenoveerd huis"
     ],
     "status": "scheduled"
   },
   {
     "id": 115,
     "scheduled_date": "2026-11-30",
-    "locale": "nl",
-    "title": "Thuisbatterij: Vergelijking van de Beste Modellen 2026",
-    "category": "battery",
+    "locale": "fr",
+    "title": "Bilan energetique de fin d'annee : analyser vos consommations 2026",
+    "category": "digital",
     "seo_keywords": [
-      "battery nederland 2026",
-      "thuisbatterij",
-      "energierenovatie battery"
+      "bilan energetique annuel",
+      "analyse consommation 2026",
+      "suivi energie maison"
     ],
     "status": "scheduled"
   },
@@ -1498,25 +1498,25 @@
     "id": 116,
     "scheduled_date": "2026-12-02",
     "locale": "nl",
-    "title": "Slim Energiebeheer: Uw Woning Verbonden met het Netwerk",
-    "category": "smartgrid",
+    "title": "Energiebalans einde jaar: je verbruik van 2026 analyseren",
+    "category": "digital",
     "seo_keywords": [
-      "smartgrid nederland 2026",
-      "slim energiebeheer",
-      "energierenovatie smartgrid"
+      "energiebalans jaarlijks",
+      "analyse verbruik 2026",
+      "energiemonitoring woning"
     ],
     "status": "scheduled"
   },
   {
     "id": 117,
     "scheduled_date": "2026-12-04",
-    "locale": "nl",
-    "title": "ISDE Subsidie 2026 Nederland: Alle Wijzigingen Uitgelegd",
-    "category": "subsidy",
+    "locale": "fr",
+    "title": "Chauffage d'appoint electrique : comparatif des solutions basse consommation",
+    "category": "heatpump",
     "seo_keywords": [
-      "subsidy nederland 2026",
-      "isde subsidie 2026 nederland",
-      "energierenovatie subsidy"
+      "chauffage appoint electrique",
+      "radiateur basse consommation",
+      "chauffage economique hiver"
     ],
     "status": "scheduled"
   },
@@ -1524,25 +1524,25 @@
     "id": 118,
     "scheduled_date": "2026-12-06",
     "locale": "nl",
-    "title": "Energiegemeenschap: Oprichten en Toetreden in de Benelux",
-    "category": "prosumer",
+    "title": "Elektrische bijverwarming: vergelijking van zuinige oplossingen",
+    "category": "heatpump",
     "seo_keywords": [
-      "prosumer nederland 2026",
-      "energiegemeenschap",
-      "energierenovatie prosumer"
+      "elektrische bijverwarming",
+      "zuinige radiator",
+      "economische verwarming winter"
     ],
     "status": "scheduled"
   },
   {
     "id": 119,
     "scheduled_date": "2026-12-08",
-    "locale": "nl",
-    "title": "Slim Alarmsysteem: Uw 3IR-Woning Beveiligen",
-    "category": "security",
+    "locale": "fr",
+    "title": "Dernieres semaines pour demander vos primes renovation 2026 en Belgique",
+    "category": "subsidy",
     "seo_keywords": [
-      "security nederland 2026",
-      "slim alarmsysteem",
-      "energierenovatie security"
+      "deadline primes renovation 2026",
+      "derniere limite prime belgique",
+      "demande prime fin annee"
     ],
     "status": "scheduled"
   },
@@ -1550,25 +1550,25 @@
     "id": 120,
     "scheduled_date": "2026-12-10",
     "locale": "nl",
-    "title": "Digitale Tweeling voor Woningen: Simuleren Voor de Renovatie",
-    "category": "digital",
+    "title": "Laatste weken om je renovatiepremies 2026 aan te vragen in Belgie",
+    "category": "subsidy",
     "seo_keywords": [
-      "digital nederland 2026",
-      "digitale tweeling voor woningen",
-      "energierenovatie digital"
+      "deadline renovatiepremie 2026",
+      "laatste limiet premie belgie",
+      "premie aanvragen einde jaar"
     ],
     "status": "scheduled"
   },
   {
     "id": 121,
     "scheduled_date": "2026-12-12",
-    "locale": "nl",
-    "title": "Zelfconsumptie Maximaliseren: Tips voor Zonnepanelen 2026",
-    "category": "solar",
+    "locale": "fr",
+    "title": "Isolation thermique par l'interieur : les nouveaux materiaux biosources 2026",
+    "category": "insulation",
     "seo_keywords": [
-      "solar nederland 2026",
-      "zelfconsumptie maximaliseren",
-      "energierenovatie solar"
+      "isolation interieure biosource",
+      "materiaux isolation ecologique",
+      "isolant biosource 2026"
     ],
     "status": "scheduled"
   },
@@ -1576,25 +1576,25 @@
     "id": 122,
     "scheduled_date": "2026-12-14",
     "locale": "nl",
-    "title": "Dakisolatie: Materialen, Prijzen en Subsidies in Nederland",
+    "title": "Binnenisolatie met biogebaseerde materialen: de nieuwigheden van 2026",
     "category": "insulation",
     "seo_keywords": [
-      "insulation nederland 2026",
-      "dakisolatie",
-      "energierenovatie insulation"
+      "binnenisolatie biogebaseerd",
+      "ecologisch isolatiemateriaal",
+      "bioisolatie 2026"
     ],
     "status": "scheduled"
   },
   {
     "id": 123,
     "scheduled_date": "2026-12-16",
-    "locale": "nl",
-    "title": "Lucht-Lucht vs Lucht-Water Warmtepomp: Welke Kiezen?",
-    "category": "heatpump",
+    "locale": "fr",
+    "title": "Batterie domestique et coupure de courant : l'autonomie en cas de panne reseau",
+    "category": "battery",
     "seo_keywords": [
-      "heatpump nederland 2026",
-      "lucht-lucht vs lucht-water warmtepomp",
-      "energierenovatie heatpump"
+      "batterie domestique coupure courant",
+      "autonomie panne reseau",
+      "backup batterie maison"
     ],
     "status": "scheduled"
   },
@@ -1602,25 +1602,25 @@
     "id": 124,
     "scheduled_date": "2026-12-18",
     "locale": "nl",
-    "title": "Passiefhuis Uitbreiding: Regels en Mogelijkheden 2026",
-    "category": "renovation",
+    "title": "Thuisbatterij bij stroomuitval: autonomie bij een netwerkstoring",
+    "category": "battery",
     "seo_keywords": [
-      "renovation nederland 2026",
-      "passiefhuis uitbreiding",
-      "energierenovatie renovation"
+      "thuisbatterij stroomuitval",
+      "autonomie netwerkstoring",
+      "backup batterij woning"
     ],
     "status": "scheduled"
   },
   {
     "id": 125,
     "scheduled_date": "2026-12-20",
-    "locale": "nl",
-    "title": "Vehicle-to-Home (V2H): Uw Elektrische Auto als Thuisbatterij",
-    "category": "battery",
+    "locale": "fr",
+    "title": "Planifier ses travaux de renovation pour 2027 : anticiper les nouvelles normes",
+    "category": "renovation",
     "seo_keywords": [
-      "battery nederland 2026",
-      "vehicle-to-home (v2h)",
-      "energierenovatie battery"
+      "planifier renovation 2027",
+      "nouvelles normes energetiques",
+      "anticiper renovation"
     ],
     "status": "scheduled"
   },
@@ -1628,38 +1628,38 @@
     "id": 126,
     "scheduled_date": "2026-12-22",
     "locale": "nl",
-    "title": "Slimme Meter: Het Capaciteitstarief in Vlaanderen Uitgelegd",
-    "category": "smartgrid",
+    "title": "Renovatiewerken plannen voor 2027: anticiperen op nieuwe normen",
+    "category": "renovation",
     "seo_keywords": [
-      "smartgrid nederland 2026",
-      "slimme meter",
-      "energierenovatie smartgrid"
+      "renovatie plannen 2027",
+      "nieuwe energienormen",
+      "renovatie voorbereiden"
     ],
     "status": "scheduled"
   },
   {
     "id": 127,
     "scheduled_date": "2026-12-24",
-    "locale": "nl",
-    "title": "Mijn VerbouwPremie 2026: Bedragen en Voorwaarden",
-    "category": "subsidy",
+    "locale": "fr",
+    "title": "Smart meter et tarifs heures creuses : automatiser vos appareils pour economiser",
+    "category": "smartgrid",
     "seo_keywords": [
-      "subsidy nederland 2026",
-      "mijn verbouwpremie 2026",
-      "energierenovatie subsidy"
+      "smart meter heures creuses",
+      "tarif nuit electricite",
+      "automatiser appareils economie"
     ],
     "status": "scheduled"
   },
   {
     "id": 128,
     "scheduled_date": "2026-12-26",
-    "locale": "nl",
-    "title": "Energiepositief Gebouw (BENG+): De Standaard van Morgen",
-    "category": "prosumer",
+    "locale": "fr",
+    "title": "Pompe a chaleur eau-eau : exploiter l'energie de votre nappe phreatique",
+    "category": "heatpump",
     "seo_keywords": [
-      "prosumer nederland 2026",
-      "energiepositief gebouw (beng+)",
-      "energierenovatie prosumer"
+      "pompe chaleur eau eau",
+      "nappe phreatique chauffage",
+      "pac aquathermie"
     ],
     "status": "scheduled"
   },
@@ -1667,25 +1667,25 @@
     "id": 129,
     "scheduled_date": "2026-12-28",
     "locale": "nl",
-    "title": "Groene Woningverzekering: Kortingen voor Gerenoveerde Huizen",
-    "category": "security",
+    "title": "Water-water warmtepomp: energie uit grondwater benutten",
+    "category": "heatpump",
     "seo_keywords": [
-      "security nederland 2026",
-      "groene woningverzekering",
-      "energierenovatie security"
+      "water-water warmtepomp",
+      "grondwater verwarming",
+      "aquathermie warmtepomp"
     ],
     "status": "scheduled"
   },
   {
     "id": 130,
     "scheduled_date": "2026-12-30",
-    "locale": "nl",
-    "title": "Domotica en AI: Het Slimme Huis in 2026",
-    "category": "digital",
+    "locale": "fr",
+    "title": "Nouvelles primes renovation 2027 : ce qui change en Wallonie et a Bruxelles",
+    "category": "subsidy",
     "seo_keywords": [
-      "digital nederland 2026",
-      "domotica en ai",
-      "energierenovatie digital"
+      "primes renovation 2027",
+      "nouveautes prime wallonie",
+      "prime bruxelles 2027"
     ],
     "status": "scheduled"
   },
@@ -1693,25 +1693,25 @@
     "id": 131,
     "scheduled_date": "2027-01-01",
     "locale": "nl",
-    "title": "Zonnepanelen op Plat Dak: Optimale Opstelling 2026",
-    "category": "solar",
+    "title": "Nieuwe renovatiepremies 2027: wat verandert in Vlaanderen en Brussel",
+    "category": "subsidy",
     "seo_keywords": [
-      "solar nederland 2026",
-      "zonnepanelen op plat dak",
-      "energierenovatie solar"
+      "renovatiepremie 2027",
+      "nieuw premie vlaanderen",
+      "premie brussel 2027"
     ],
     "status": "scheduled"
   },
   {
     "id": 132,
     "scheduled_date": "2027-01-03",
-    "locale": "nl",
-    "title": "HR++ Glas vs Triple Glas: De Juiste Keuze in 2026",
+    "locale": "fr",
+    "title": "Deperditions thermiques en hiver : identifier et colmater les fuites d'air",
     "category": "insulation",
     "seo_keywords": [
-      "insulation nederland 2026",
-      "hr++ glas vs triple glas",
-      "energierenovatie insulation"
+      "deperditions thermiques hiver",
+      "fuites air maison",
+      "colmater fuites thermiques"
     ],
     "status": "scheduled"
   },
@@ -1719,25 +1719,25 @@
     "id": 133,
     "scheduled_date": "2027-01-05",
     "locale": "nl",
-    "title": "Warmtepompboiler: Het Economische Alternatief voor Warm Water",
-    "category": "heatpump",
+    "title": "Warmteverlies in de winter: luchtlekken opsporen en dichten",
+    "category": "insulation",
     "seo_keywords": [
-      "heatpump nederland 2026",
-      "warmtepompboiler",
-      "energierenovatie heatpump"
+      "warmteverlies winter",
+      "luchtlekken woning",
+      "luchtdichtheid verbeteren"
     ],
     "status": "scheduled"
   },
   {
     "id": 134,
     "scheduled_date": "2027-01-07",
-    "locale": "nl",
-    "title": "Duurzame Keukenrenovatie: Eco-Design Trends 2026",
-    "category": "renovation",
+    "locale": "fr",
+    "title": "Autoconsommation collective en France : le cadre reglementaire 2027",
+    "category": "prosumer",
     "seo_keywords": [
-      "renovation nederland 2026",
-      "duurzame keukenrenovatie",
-      "energierenovatie renovation"
+      "autoconsommation collective france",
+      "reglementation autoconsommation",
+      "partage energie france"
     ],
     "status": "scheduled"
   },
@@ -1745,25 +1745,25 @@
     "id": 135,
     "scheduled_date": "2027-01-09",
     "locale": "nl",
-    "title": "Thermische Opslag: Alternatief voor Lithium Batterijen",
-    "category": "battery",
+    "title": "Collectief eigenverbruik in Nederland: regelgevend kader 2027",
+    "category": "prosumer",
     "seo_keywords": [
-      "battery nederland 2026",
-      "thermische opslag",
-      "energierenovatie battery"
+      "collectief eigenverbruik nederland",
+      "regelgeving eigenverbruik",
+      "energie delen nederland"
     ],
     "status": "scheduled"
   },
   {
     "id": 136,
     "scheduled_date": "2027-01-11",
-    "locale": "nl",
-    "title": "Dynamisch Energietarief: Slim Verbruiken en Besparen",
-    "category": "smartgrid",
+    "locale": "fr",
+    "title": "Intelligence artificielle et gestion energetique : les algorithmes qui optimisent votre maison",
+    "category": "digital",
     "seo_keywords": [
-      "smartgrid nederland 2026",
-      "dynamisch energietarief",
-      "energierenovatie smartgrid"
+      "ia gestion energetique",
+      "algorithme optimisation energie",
+      "intelligence artificielle maison"
     ],
     "status": "scheduled"
   },
@@ -1771,25 +1771,25 @@
     "id": 137,
     "scheduled_date": "2027-01-13",
     "locale": "nl",
-    "title": "Energielabel Verbeteren: Subsidies en Voordelen in Nederland",
-    "category": "subsidy",
+    "title": "AI en energiebeheer: algoritmen die je woning optimaliseren",
+    "category": "digital",
     "seo_keywords": [
-      "subsidy nederland 2026",
-      "energielabel verbeteren",
-      "energierenovatie subsidy"
+      "ai energiebeheer",
+      "algoritme energieoptimalisatie",
+      "kunstmatige intelligentie woning"
     ],
     "status": "scheduled"
   },
   {
     "id": 138,
     "scheduled_date": "2027-01-15",
-    "locale": "nl",
-    "title": "Collectieve Zelfconsumptie: Het Belgische Model Uitgelegd",
-    "category": "prosumer",
+    "locale": "fr",
+    "title": "Batterie au lithium fer phosphate : pourquoi le LFP domine le marche residentiel",
+    "category": "battery",
     "seo_keywords": [
-      "prosumer nederland 2026",
-      "collectieve zelfconsumptie",
-      "energierenovatie prosumer"
+      "batterie lfp residentiel",
+      "lithium fer phosphate maison",
+      "lfp vs nmc batterie"
     ],
     "status": "scheduled"
   },
@@ -1797,25 +1797,25 @@
     "id": 139,
     "scheduled_date": "2027-01-17",
     "locale": "nl",
-    "title": "Zonne-Energie Bewakingscameras: Autonome Beveiliging",
-    "category": "security",
+    "title": "Lithium-ijzerfosfaatbatterij: waarom LFP de residentiele markt domineert",
+    "category": "battery",
     "seo_keywords": [
-      "security nederland 2026",
-      "zonne-energie bewakingscameras",
-      "energierenovatie security"
+      "lfp batterij residentieel",
+      "lithium ijzerfosfaat woning",
+      "lfp vs nmc batterij"
     ],
     "status": "scheduled"
   },
   {
     "id": 140,
     "scheduled_date": "2027-01-19",
-    "locale": "nl",
-    "title": "BIM voor Renovatie: 3D-Modellering voor Uw Woning",
-    "category": "digital",
+    "locale": "fr",
+    "title": "Renovation de facade et performance energetique : combiner esthetique et isolation",
+    "category": "renovation",
     "seo_keywords": [
-      "digital nederland 2026",
-      "bim voor renovatie",
-      "energierenovatie digital"
+      "renovation facade isolation",
+      "performance energetique facade",
+      "isolation exterieure esthetique"
     ],
     "status": "scheduled"
   },
@@ -1823,25 +1823,25 @@
     "id": 141,
     "scheduled_date": "2027-01-21",
     "locale": "nl",
-    "title": "Zonnepanelen in Winter: Productie en Optimalisatie",
-    "category": "solar",
+    "title": "Gevelrenovatie en energieprestatie: esthetiek en isolatie combineren",
+    "category": "renovation",
     "seo_keywords": [
-      "solar nederland 2026",
-      "zonnepanelen in winter",
-      "energierenovatie solar"
+      "gevelrenovatie isolatie",
+      "energieprestatie gevel",
+      "buitenisolatie esthetiek"
     ],
     "status": "scheduled"
   },
   {
     "id": 142,
     "scheduled_date": "2027-01-23",
-    "locale": "nl",
-    "title": "Spouwmuurisolatie: Technieken en Kosten in de Benelux",
-    "category": "insulation",
+    "locale": "fr",
+    "title": "Thermostat connecte et pompe a chaleur : reglage optimal pour economies maximales",
+    "category": "heatpump",
     "seo_keywords": [
-      "insulation nederland 2026",
-      "spouwmuurisolatie",
-      "energierenovatie insulation"
+      "thermostat connecte pompe chaleur",
+      "reglage thermostat pac",
+      "economies chauffage thermostat"
     ],
     "status": "scheduled"
   },
@@ -1849,25 +1849,25 @@
     "id": 143,
     "scheduled_date": "2027-01-25",
     "locale": "nl",
-    "title": "Vloerverwarming en Warmtepomp: De Optimale Combinatie",
+    "title": "Slimme thermostaat en warmtepomp: optimale instelling voor maximale besparing",
     "category": "heatpump",
     "seo_keywords": [
-      "heatpump nederland 2026",
-      "vloerverwarming en warmtepomp",
-      "energierenovatie heatpump"
+      "slimme thermostaat warmtepomp",
+      "instelling thermostaat",
+      "besparing verwarming thermostaat"
     ],
     "status": "scheduled"
   },
   {
     "id": 144,
     "scheduled_date": "2027-01-27",
-    "locale": "nl",
-    "title": "Ecologische Badkamerrenovatie: Duurzaam en Stijlvol",
+    "locale": "fr",
+    "title": "Certificat PEB et vente immobiliere : impact du label energetique sur le prix",
     "category": "renovation",
     "seo_keywords": [
-      "renovation nederland 2026",
-      "ecologische badkamerrenovatie",
-      "energierenovatie renovation"
+      "certificat peb vente",
+      "label energetique prix immobilier",
+      "peb impact vente"
     ],
     "status": "scheduled"
   },
@@ -1875,25 +1875,25 @@
     "id": 145,
     "scheduled_date": "2027-01-29",
     "locale": "nl",
-    "title": "Groene Waterstof Thuis: De Toekomst van Energieopslag",
-    "category": "battery",
+    "title": "EPC-certificaat en verkoop: impact van het energielabel op de verkoopprijs",
+    "category": "renovation",
     "seo_keywords": [
-      "battery nederland 2026",
-      "groene waterstof thuis",
-      "energierenovatie battery"
+      "epc certificaat verkoop",
+      "energielabel prijs woning",
+      "epc impact verkoopprijs"
     ],
     "status": "scheduled"
   },
   {
     "id": 146,
     "scheduled_date": "2027-01-31",
-    "locale": "nl",
-    "title": "AI Energiemanagement: De Beste Systemen 2026",
-    "category": "smartgrid",
+    "locale": "fr",
+    "title": "Panneaux solaires et neige : faut-il deblayer et comment proteger votre installation",
+    "category": "solar",
     "seo_keywords": [
-      "smartgrid nederland 2026",
-      "ai energiemanagement",
-      "energierenovatie smartgrid"
+      "panneaux solaires neige",
+      "deblayer panneaux solaires",
+      "protection solaire hiver"
     ],
     "status": "scheduled"
   },
@@ -1901,25 +1901,25 @@
     "id": 147,
     "scheduled_date": "2027-02-02",
     "locale": "nl",
-    "title": "Vlaamse Renovatiepremie 2026: Complete Handleiding",
-    "category": "subsidy",
+    "title": "Zonnepanelen en sneeuw: moet je ze vrijmaken en hoe bescherm je je installatie",
+    "category": "solar",
     "seo_keywords": [
-      "subsidy nederland 2026",
-      "vlaamse renovatiepremie 2026",
-      "energierenovatie subsidy"
+      "zonnepanelen sneeuw",
+      "sneeuw zonnepanelen verwijderen",
+      "bescherming zonnepanelen winter"
     ],
     "status": "scheduled"
   },
   {
     "id": 148,
     "scheduled_date": "2027-02-04",
-    "locale": "nl",
-    "title": "Buurtbatterij: Gedeelde Energie tussen Buren",
+    "locale": "fr",
+    "title": "Contrat d'energie verte au Benelux : comment choisir un fournisseur vraiment durable",
     "category": "prosumer",
     "seo_keywords": [
-      "prosumer nederland 2026",
-      "buurtbatterij",
-      "energierenovatie prosumer"
+      "contrat energie verte benelux",
+      "fournisseur electricite durable",
+      "energie verte fournisseur"
     ],
     "status": "scheduled"
   },
@@ -1927,25 +1927,25 @@
     "id": 149,
     "scheduled_date": "2027-02-06",
     "locale": "nl",
-    "title": "Slimme Rookmelders: Brandpreventie in het 3IR-Huis",
-    "category": "security",
+    "title": "Groen energiecontract in de Benelux: een echt duurzame leverancier kiezen",
+    "category": "prosumer",
     "seo_keywords": [
-      "security nederland 2026",
-      "slimme rookmelders",
-      "energierenovatie security"
+      "groen energiecontract benelux",
+      "duurzame elektriciteitsleverancier",
+      "groene energie leverancier"
     ],
     "status": "scheduled"
   },
   {
     "id": 150,
     "scheduled_date": "2027-02-08",
-    "locale": "nl",
-    "title": "Energie-Apps: Top 10 voor Monitoring in 2026",
-    "category": "digital",
+    "locale": "fr",
+    "title": "Pompe a chaleur et radiateurs existants : compatibilite et adaptation",
+    "category": "heatpump",
     "seo_keywords": [
-      "digital nederland 2026",
-      "energie-apps",
-      "energierenovatie digital"
+      "pompe chaleur radiateurs existants",
+      "compatibilite pac radiateur",
+      "adapter radiateur pompe chaleur"
     ],
     "status": "scheduled"
   },
@@ -1953,25 +1953,25 @@
     "id": 151,
     "scheduled_date": "2027-02-10",
     "locale": "nl",
-    "title": "Zonnepanelen Carport: Dubbel Functie voor Uw Woning",
-    "category": "solar",
+    "title": "Warmtepomp en bestaande radiatoren: compatibiliteit en aanpassing",
+    "category": "heatpump",
     "seo_keywords": [
-      "solar nederland 2026",
-      "zonnepanelen carport",
-      "energierenovatie solar"
+      "warmtepomp bestaande radiatoren",
+      "compatibiliteit warmtepomp radiator",
+      "radiator aanpassen warmtepomp"
     ],
     "status": "scheduled"
   },
   {
     "id": 152,
     "scheduled_date": "2027-02-12",
-    "locale": "nl",
-    "title": "Groen Dak en Isolatie: Ecologie Meets Prestatie",
+    "locale": "fr",
+    "title": "Isolation aerogel : le super-isolant du futur deja disponible en renovation",
     "category": "insulation",
     "seo_keywords": [
-      "insulation nederland 2026",
-      "groen dak en isolatie",
-      "energierenovatie insulation"
+      "isolation aerogel",
+      "super isolant renovation",
+      "aerogel isolant prix"
     ],
     "status": "scheduled"
   },
@@ -1979,25 +1979,25 @@
     "id": 153,
     "scheduled_date": "2027-02-14",
     "locale": "nl",
-    "title": "Hybride Warmtepomp: Gas en Warmtepomp Combineren",
-    "category": "heatpump",
+    "title": "Aerogel-isolatie: het superisolatiemateriaal van de toekomst nu beschikbaar",
+    "category": "insulation",
     "seo_keywords": [
-      "heatpump nederland 2026",
-      "hybride warmtepomp",
-      "energierenovatie heatpump"
+      "aerogel isolatie",
+      "superisolatie renovatie",
+      "aerogel isolatiemateriaal prijs"
     ],
     "status": "scheduled"
   },
   {
     "id": 154,
     "scheduled_date": "2027-02-16",
-    "locale": "nl",
-    "title": "Ventilated Gevel: Thermische en Esthetische Renovatie",
-    "category": "renovation",
+    "locale": "fr",
+    "title": "Energie positive : transformer votre maison en productrice nette d'electricite",
+    "category": "smartgrid",
     "seo_keywords": [
-      "renovation nederland 2026",
-      "ventilated gevel",
-      "energierenovatie renovation"
+      "maison energie positive",
+      "producteur net electricite",
+      "batiment energie positive"
     ],
     "status": "scheduled"
   },
@@ -2005,25 +2005,25 @@
     "id": 155,
     "scheduled_date": "2027-02-18",
     "locale": "nl",
-    "title": "Virtuele Batterij: Cloud-Opslag van Energie Uitgelegd",
-    "category": "battery",
+    "title": "Energiepositieve woning: je huis transformeren tot nettoproducent van elektriciteit",
+    "category": "smartgrid",
     "seo_keywords": [
-      "battery nederland 2026",
-      "virtuele batterij",
-      "energierenovatie battery"
+      "energiepositieve woning",
+      "nettoproducent elektriciteit",
+      "energie positief gebouw"
     ],
     "status": "scheduled"
   },
   {
     "id": 156,
     "scheduled_date": "2027-02-20",
-    "locale": "nl",
-    "title": "Vehicle-to-Grid (V2G): De Rol van Uw EV in het Netwerk",
-    "category": "smartgrid",
+    "locale": "fr",
+    "title": "Copropriete et panneaux solaires : installer du photovoltaique en immeuble collectif",
+    "category": "solar",
     "seo_keywords": [
-      "smartgrid nederland 2026",
-      "vehicle-to-grid (v2g)",
-      "energierenovatie smartgrid"
+      "copropriete panneaux solaires",
+      "photovoltaique immeuble",
+      "solaire collectif copropriete"
     ],
     "status": "scheduled"
   },
@@ -2031,25 +2031,25 @@
     "id": 157,
     "scheduled_date": "2027-02-22",
     "locale": "nl",
-    "title": "Groene Certificaten Brussel 2026: Hoeveel Kunt U Verdienen?",
-    "category": "subsidy",
+    "title": "Appartementsgebouw en zonnepanelen: fotovoltaisch installeren in mede-eigendom",
+    "category": "solar",
     "seo_keywords": [
-      "subsidy nederland 2026",
-      "groene certificaten brussel 2026",
-      "energierenovatie subsidy"
+      "appartement zonnepanelen",
+      "fotovoltaisch gebouw",
+      "zonnepanelen mede-eigendom"
     ],
     "status": "scheduled"
   },
   {
     "id": 158,
     "scheduled_date": "2027-02-24",
-    "locale": "nl",
-    "title": "Burgerenergiecooperatie: Word Groene Aandeelhouder",
-    "category": "prosumer",
+    "locale": "fr",
+    "title": "Interphone video connecte et domotique : integration dans votre ecosysteme smart home",
+    "category": "security",
     "seo_keywords": [
-      "prosumer nederland 2026",
-      "burgerenergiecooperatie",
-      "energierenovatie prosumer"
+      "interphone video connecte",
+      "domotique interphone",
+      "parlophone smart home"
     ],
     "status": "scheduled"
   },
@@ -2057,25 +2057,25 @@
     "id": 159,
     "scheduled_date": "2027-02-26",
     "locale": "nl",
-    "title": "Slim Toegangsbeheer: Sloten en Deurbellen 2026",
+    "title": "Slimme videofoon en domotica: integratie in je smart home ecosysteem",
     "category": "security",
     "seo_keywords": [
-      "security nederland 2026",
-      "slim toegangsbeheer",
-      "energierenovatie security"
+      "slimme videofoon",
+      "domotica videofoon",
+      "parlofoon smart home"
     ],
     "status": "scheduled"
   },
   {
     "id": 160,
     "scheduled_date": "2027-02-28",
-    "locale": "nl",
-    "title": "AR en Renovatie: Visualiseer Voor de Verbouwing",
-    "category": "digital",
+    "locale": "fr",
+    "title": "Printemps 2027 : les 10 gestes energetiques a faire avant l'ete",
+    "category": "renovation",
     "seo_keywords": [
-      "digital nederland 2026",
-      "ar en renovatie",
-      "energierenovatie digital"
+      "gestes energetiques printemps",
+      "preparation ete energie",
+      "checklist energie printemps"
     ],
     "status": "scheduled"
   },
@@ -2083,25 +2083,25 @@
     "id": 161,
     "scheduled_date": "2027-03-02",
     "locale": "nl",
-    "title": "Geintegreerde Zonnepanelen (BIPV): Dak en Gevel",
-    "category": "solar",
+    "title": "Lente 2027: 10 energiebesparende acties voor de zomer",
+    "category": "renovation",
     "seo_keywords": [
-      "solar nederland 2026",
-      "geintegreerde zonnepanelen (bipv)",
-      "energierenovatie solar"
+      "energiebesparende acties lente",
+      "voorbereiding zomer energie",
+      "checklist energie lente"
     ],
     "status": "scheduled"
   },
   {
     "id": 162,
     "scheduled_date": "2027-03-04",
-    "locale": "nl",
-    "title": "Koudebruggen Opsporen en Verhelpen in Uw Woning",
-    "category": "insulation",
+    "locale": "fr",
+    "title": "Onduleur hybride solaire-batterie : simplifier votre installation en un seul appareil",
+    "category": "solar",
     "seo_keywords": [
-      "insulation nederland 2026",
-      "koudebruggen opsporen en verhelpen in uw woning",
-      "energierenovatie insulation"
+      "onduleur hybride solaire batterie",
+      "inverseur hybride",
+      "installation solaire simplifiee"
     ],
     "status": "scheduled"
   },
@@ -2109,25 +2109,25 @@
     "id": 163,
     "scheduled_date": "2027-03-06",
     "locale": "nl",
-    "title": "Passieve Koeling met Warmtepomp: Ecologische Airco",
-    "category": "heatpump",
+    "title": "Hybride omvormer zonnepanelen-batterij: je installatie vereenvoudigen",
+    "category": "solar",
     "seo_keywords": [
-      "heatpump nederland 2026",
-      "passieve koeling met warmtepomp",
-      "energierenovatie heatpump"
+      "hybride omvormer",
+      "omvormer zonnepanelen batterij",
+      "vereenvoudigde installatie"
     ],
     "status": "scheduled"
   },
   {
     "id": 164,
     "scheduled_date": "2027-03-08",
-    "locale": "nl",
-    "title": "Erfgoedrenovatie met Energieprestatie-Eisen",
-    "category": "renovation",
+    "locale": "fr",
+    "title": "Deduction fiscale renovation energetique : optimiser votre declaration 2027",
+    "category": "subsidy",
     "seo_keywords": [
-      "renovation nederland 2026",
-      "erfgoedrenovatie met energieprestatie-eisen",
-      "energierenovatie renovation"
+      "deduction fiscale renovation",
+      "declaration fiscale energie",
+      "avantage fiscal renovation 2027"
     ],
     "status": "scheduled"
   },
@@ -2135,25 +2135,25 @@
     "id": 165,
     "scheduled_date": "2027-03-10",
     "locale": "nl",
-    "title": "Second Life Batterijen: Hergebruik uit Elektrische Autos",
-    "category": "battery",
+    "title": "Fiscale aftrek energetische renovatie: optimaliseer je belastingaangifte 2027",
+    "category": "subsidy",
     "seo_keywords": [
-      "battery nederland 2026",
-      "second life batterijen",
-      "energierenovatie battery"
+      "fiscale aftrek renovatie",
+      "belastingaangifte energie",
+      "fiscaal voordeel renovatie 2027"
     ],
     "status": "scheduled"
   },
   {
     "id": 166,
     "scheduled_date": "2027-03-12",
-    "locale": "nl",
-    "title": "Peer-to-Peer Energiehandel: Verkoop Uw Stroom aan Buren",
-    "category": "smartgrid",
+    "locale": "fr",
+    "title": "Pompe a chaleur solaire : coupler PAC et panneaux thermiques pour l'eau chaude",
+    "category": "heatpump",
     "seo_keywords": [
-      "smartgrid nederland 2026",
-      "peer-to-peer energiehandel",
-      "energierenovatie smartgrid"
+      "pompe chaleur solaire",
+      "pac panneaux thermiques",
+      "eau chaude solaire pac"
     ],
     "status": "scheduled"
   },
@@ -2161,25 +2161,25 @@
     "id": 167,
     "scheduled_date": "2027-03-14",
     "locale": "nl",
-    "title": "Luxemburg Energiepremies 2026: Overzicht en Aanvraag",
-    "category": "subsidy",
+    "title": "Zonnewarmtepomp: warmtepomp koppelen aan thermische panelen voor warm water",
+    "category": "heatpump",
     "seo_keywords": [
-      "subsidy nederland 2026",
-      "luxemburg energiepremies 2026",
-      "energierenovatie subsidy"
+      "zonnewarmtepomp",
+      "warmtepomp thermische panelen",
+      "warm water zonne-energie"
     ],
     "status": "scheduled"
   },
   {
     "id": 168,
     "scheduled_date": "2027-03-16",
-    "locale": "nl",
-    "title": "Nul-Energie Woning: Hoe Bereikt U Net Zero?",
-    "category": "prosumer",
+    "locale": "fr",
+    "title": "Gestion de l'eau de pluie et renovation : recuperer, filtrer, reutiliser",
+    "category": "renovation",
     "seo_keywords": [
-      "prosumer nederland 2026",
-      "nul-energie woning",
-      "energierenovatie prosumer"
+      "recuperation eau pluie renovation",
+      "citerne eau pluie maison",
+      "eau pluie reutilisation"
     ],
     "status": "scheduled"
   },
@@ -2187,25 +2187,25 @@
     "id": 169,
     "scheduled_date": "2027-03-18",
     "locale": "nl",
-    "title": "Cyberveiligheid Slim Huis: Bescherm Uw Domotica",
-    "category": "security",
+    "title": "Regenwaterbeheer bij renovatie: opvangen, filteren, hergebruiken",
+    "category": "renovation",
     "seo_keywords": [
-      "security nederland 2026",
-      "cyberveiligheid slim huis",
-      "energierenovatie security"
+      "regenwateropvang renovatie",
+      "regenwaterput woning",
+      "regenwater hergebruik"
     ],
     "status": "scheduled"
   },
   {
     "id": 170,
     "scheduled_date": "2027-03-20",
-    "locale": "nl",
-    "title": "Drone-Audit en Thermografie voor Woningen",
-    "category": "digital",
+    "locale": "fr",
+    "title": "Smart grid local : comment les quartiers deviennent des micro-reseaux autonomes",
+    "category": "smartgrid",
     "seo_keywords": [
-      "digital nederland 2026",
-      "drone-audit en thermografie voor woningen",
-      "energierenovatie digital"
+      "smart grid local",
+      "micro reseau quartier",
+      "quartier autonome energie"
     ],
     "status": "scheduled"
   },
@@ -2213,25 +2213,25 @@
     "id": 171,
     "scheduled_date": "2027-03-22",
     "locale": "nl",
-    "title": "Agrivoltaics: Moestuin en Zonnepanelen Combineren",
-    "category": "solar",
+    "title": "Lokaal smart grid: hoe wijken autonome micro-netwerken worden",
+    "category": "smartgrid",
     "seo_keywords": [
-      "solar nederland 2026",
-      "agrivoltaics",
-      "energierenovatie solar"
+      "lokaal smart grid",
+      "micro-netwerk wijk",
+      "autonome wijk energie"
     ],
     "status": "scheduled"
   },
   {
     "id": 172,
     "scheduled_date": "2027-03-24",
-    "locale": "nl",
-    "title": "Geluidsisolatie: Akoestisch en Thermisch Comfort",
-    "category": "insulation",
+    "locale": "fr",
+    "title": "Assurance cyber pour smart home : proteger vos donnees et vos appareils connectes",
+    "category": "security",
     "seo_keywords": [
-      "insulation nederland 2026",
-      "geluidsisolatie",
-      "energierenovatie insulation"
+      "assurance cyber smart home",
+      "protection donnees maison",
+      "assurance domotique"
     ],
     "status": "scheduled"
   },
@@ -2239,25 +2239,25 @@
     "id": 173,
     "scheduled_date": "2027-03-26",
     "locale": "nl",
-    "title": "Warmtepomp Onderhoud: Jaarlijkse Service en Kosten",
-    "category": "heatpump",
+    "title": "Cyberverzekering voor smart home: bescherm je gegevens en verbonden apparaten",
+    "category": "security",
     "seo_keywords": [
-      "heatpump nederland 2026",
-      "warmtepomp onderhoud",
-      "energierenovatie heatpump"
+      "cyberverzekering smart home",
+      "bescherming gegevens woning",
+      "verzekering domotica"
     ],
     "status": "scheduled"
   },
   {
     "id": 174,
     "scheduled_date": "2027-03-28",
-    "locale": "nl",
-    "title": "Garage Ombouwen tot Leefruimte: Energiezuinig Renoveren",
-    "category": "renovation",
+    "locale": "fr",
+    "title": "Bilan d'un an de transition energetique : les chiffres cles du Benelux 2026-2027",
+    "category": "digital",
     "seo_keywords": [
-      "renovation nederland 2026",
-      "garage ombouwen tot leefruimte",
-      "energierenovatie renovation"
+      "bilan transition energetique benelux",
+      "chiffres cles energie 2027",
+      "evolution energetique benelux"
     ],
     "status": "scheduled"
   },
@@ -2265,25 +2265,25 @@
     "id": 175,
     "scheduled_date": "2027-03-30",
     "locale": "nl",
-    "title": "Tesla Powerwall 4 vs BYD: Vergelijking 2026",
-    "category": "battery",
+    "title": "Balans van een jaar energietransitie: kerncijfers Benelux 2026-2027",
+    "category": "digital",
     "seo_keywords": [
-      "battery nederland 2026",
-      "tesla powerwall 4 vs byd",
-      "energierenovatie battery"
+      "balans energietransitie benelux",
+      "kerncijfers energie 2027",
+      "evolutie energie benelux"
     ],
     "status": "scheduled"
   },
   {
     "id": 176,
     "scheduled_date": "2027-04-01",
-    "locale": "nl",
-    "title": "Slim Bi-Uurtarief: Elk kWh Optimaliseren",
-    "category": "smartgrid",
+    "locale": "fr",
+    "title": "Panneaux solaires nouvelle generation 2027 : perovskite, tandem et rendements records",
+    "category": "solar",
     "seo_keywords": [
-      "smartgrid nederland 2026",
-      "slim bi-uurtarief",
-      "energierenovatie smartgrid"
+      "panneaux solaires perovskite",
+      "solaire tandem 2027",
+      "rendement record panneaux solaires"
     ],
     "status": "scheduled"
   },
@@ -2291,25 +2291,25 @@
     "id": 177,
     "scheduled_date": "2027-04-03",
     "locale": "nl",
-    "title": "Nederlandse Subsidies Hernieuwbare Energie 2026",
-    "category": "subsidy",
+    "title": "Zonnepanelen nieuwe generatie 2027: perovskiet, tandem en recordrendementen",
+    "category": "solar",
     "seo_keywords": [
-      "subsidy nederland 2026",
-      "nederlandse subsidies hernieuwbare energie 2026",
-      "energierenovatie subsidy"
+      "zonnepanelen perovskiet",
+      "solaire tandem 2027",
+      "recordrendement zonnepanelen"
     ],
     "status": "scheduled"
   },
   {
     "id": 178,
     "scheduled_date": "2027-04-05",
-    "locale": "nl",
-    "title": "Building as a Service: Het Gebouw als Platform",
-    "category": "prosumer",
+    "locale": "fr",
+    "title": "Habitat du futur selon Rifkin : la convergence energie-transport-communication",
+    "category": "digital",
     "seo_keywords": [
-      "prosumer nederland 2026",
-      "building as a service",
-      "energierenovatie prosumer"
+      "habitat futur rifkin",
+      "convergence energie transport",
+      "troisieme revolution industrielle habitat"
     ],
     "status": "scheduled"
   },
@@ -2317,25 +2317,25 @@
     "id": 179,
     "scheduled_date": "2027-04-07",
     "locale": "nl",
-    "title": "Waterschade Preventie: IoT-Sensoren voor Vroegtijdige Detectie",
-    "category": "security",
+    "title": "Wonen van de toekomst volgens Rifkin: de convergentie energie-transport-communicatie",
+    "category": "digital",
     "seo_keywords": [
-      "security nederland 2026",
-      "waterschade preventie",
-      "energierenovatie security"
+      "wonen toekomst rifkin",
+      "convergentie energie transport",
+      "derde industriele revolutie wonen"
     ],
     "status": "scheduled"
   },
   {
     "id": 180,
     "scheduled_date": "2027-04-09",
-    "locale": "nl",
-    "title": "Digitale Tweeling en Predictief Onderhoud van Gebouwen",
-    "category": "digital",
+    "locale": "fr",
+    "title": "Batterie de seconde vie : donner une nouvelle utilite aux batteries de vehicules electriques",
+    "category": "battery",
     "seo_keywords": [
-      "digital nederland 2026",
-      "digitale tweeling en predictief onderhoud van gebouwen",
-      "energierenovatie digital"
+      "batterie seconde vie",
+      "recyclage batterie vehicule electrique",
+      "batterie reconditionnee maison"
     ],
     "status": "scheduled"
   },
@@ -2343,25 +2343,25 @@
     "id": 181,
     "scheduled_date": "2027-04-11",
     "locale": "nl",
-    "title": "Zonne-Tracker: Automatisch de Zon Volgen",
-    "category": "solar",
+    "title": "Second-life batterij: een nieuw leven voor batterijen van elektrische voertuigen",
+    "category": "battery",
     "seo_keywords": [
-      "solar nederland 2026",
-      "zonne-tracker",
-      "energierenovatie solar"
+      "second-life batterij",
+      "recyclage batterij elektrisch voertuig",
+      "hergebruik batterij woning"
     ],
     "status": "scheduled"
   },
   {
     "id": 182,
     "scheduled_date": "2027-04-13",
-    "locale": "nl",
-    "title": "VvE Energierenovatie: Collectieve Isolatie Aanpak",
-    "category": "insulation",
+    "locale": "fr",
+    "title": "Votre feuille de route renovation 2027-2030 : objectifs, budget et calendrier",
+    "category": "renovation",
     "seo_keywords": [
-      "insulation nederland 2026",
-      "vve energierenovatie",
-      "energierenovatie insulation"
+      "feuille route renovation 2027",
+      "planning renovation long terme",
+      "objectifs renovation 2030"
     ],
     "status": "scheduled"
   }
