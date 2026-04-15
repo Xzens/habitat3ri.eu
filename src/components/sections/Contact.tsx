@@ -78,7 +78,7 @@ export default function Contact({ locale, dict }: ContactProps) {
                   </div>
                   <div>
                     <p className="text-sm font-semibold">Email</p>
-                    <p className="text-sm text-muted-foreground">contact@habitat3ri.eu</p>
+                    <a href="mailto:info@satyvo.be" className="text-sm text-muted-foreground hover:text-eco-green transition-colors">info@satyvo.be</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -87,7 +87,7 @@ export default function Contact({ locale, dict }: ContactProps) {
                   </div>
                   <div>
                     <p className="text-sm font-semibold">{dict.contact.form.phone}</p>
-                    <p className="text-sm text-muted-foreground">+32 (0) 4XX XX XX XX</p>
+                    <a href="tel:+32456405810" className="text-sm text-muted-foreground hover:text-energy-blue transition-colors">+32 456 40 58 10</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -95,7 +95,7 @@ export default function Contact({ locale, dict }: ContactProps) {
                     <MapPin className="h-5 w-5 text-solar-orange" />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold">{locale === "fr" ? "Zone de couverture" : "Dekkingsgebied"}</p>
+                    <p className="text-sm font-semibold">{{ fr: "Zone de couverture", nl: "Dekkingsgebied", en: "Coverage area", de: "Abdeckungsgebiet", lb: "Ofdeckungsgebitt" }[locale]}</p>
                     <p className="text-sm text-muted-foreground">BE · NL · LU · FR</p>
                   </div>
                 </div>
@@ -105,12 +105,20 @@ export default function Contact({ locale, dict }: ContactProps) {
             {/* Trust signals */}
             <div className="rounded-xl border border-eco-green/20 bg-eco-green/5 p-5">
               <p className="text-sm font-semibold text-eco-green">
-                {locale === "fr" ? "Devis 100% gratuit et sans engagement" : "100% gratis en vrijblijvende offerte"}
+                {{ fr: "Devis 100% gratuit et sans engagement", nl: "100% gratis en vrijblijvende offerte", en: "100% free quote, no obligation", de: "100% kostenlos und unverbindlich", lb: "100% gratis an ouni Engagement" }[locale]}
               </p>
               <p className="mt-1 text-xs text-muted-foreground">
-                {locale === "fr"
-                  ? "Réponse sous 24h par nos experts certifiés."
-                  : "Antwoord binnen 24u door onze gecertificeerde experts."}
+                {{ fr: "Réponse sous 24h par nos experts certifiés.", nl: "Antwoord binnen 24u door onze gecertificeerde experts.", en: "Response within 24h from our certified experts.", de: "Antwort innerhalb von 24 Stunden durch unsere zertifizierten Experten.", lb: "Äntwert bannent 24St vun eise zertifizéierte Experten." }[locale]}
+              </p>
+            </div>
+
+            {/* Company info */}
+            <div className="rounded-xl border border-border/50 bg-card/50 p-4">
+              <p className="text-xs text-muted-foreground">
+                <strong className="text-foreground">Satyvo SA</strong> — BCE 0791.828.816
+              </p>
+              <p className="mt-0.5 text-xs text-muted-foreground">
+                {{ fr: "Société anonyme de droit belge", nl: "Naamloze vennootschap naar Belgisch recht", en: "Belgian limited company (SA)", de: "Belgische Aktiengesellschaft", lb: "Belsch Aktiounsgesellschaft" }[locale]}
               </p>
             </div>
           </motion.div>
