@@ -6,7 +6,13 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export async function generateStaticParams() {
-  return [{ locale: "fr" }, { locale: "nl" }];
+  return [
+    { locale: "fr" },
+    { locale: "nl" },
+    { locale: "en" },
+    { locale: "de" },
+    { locale: "lb" },
+  ];
 }
 
 export default async function LocaleLayout({

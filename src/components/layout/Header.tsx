@@ -1,21 +1,23 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Sun, Moon, Globe, Zap, Brain } from "lucide-react";
+import { Menu, X, Sun, Moon, Globe, Zap, ChevronDown } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { locales, localeNames, localeFlags, type Locale } from "@/i18n/config";
 
 type HeaderProps = {
-  locale: "fr" | "nl";
+  locale: Locale;
   dict: {
     nav: {
       home: string;
       pillars: string;
       solutions: string;
       blog: string;
+      brain: string;
       partners: string;
       contact: string;
       darkMode: string;
@@ -37,7 +39,9 @@ const navItems = [
 export default function Header({ locale, dict }: HeaderProps) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
   const { resolvedTheme, setTheme } = useTheme();
+  const langRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -45,16 +49,23 @@ export default function Header({ locale, dict }: HeaderProps) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const otherLocale = locale === "fr" ? "nl" : "fr";
+  // Close dropdown on outside click
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+        setLangOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
 
   return (
     <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "glass shadow-lg shadow-black/5"
-          : "bg-transparent"
+        scrolled ? "glass shadow-lg shadow-black/5" : "bg-transparent"
       }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
@@ -84,14 +95,45 @@ export default function Header({ locale, dict }: HeaderProps) {
 
         {/* Actions */}
         <div className="flex items-center gap-2">
-          {/* Language Switch */}
-          <Link
-            href={`/${otherLocale}`}
-            className="flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
-          >
-            <Globe className="h-4 w-4" />
-            <span className="hidden sm:inline">{otherLocale.toUpperCase()}</span>
-          </Link>
+          {/* Language Dropdown */}
+          <div ref={langRef} className="relative">
+            <button
+              onClick={() => setLangOpen(!langOpen)}
+              className="flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+              aria-label="Language"
+            >
+              <Globe className="h-4 w-4" />
+              <span className="hidden sm:inline">{localeFlags[locale]}</span>
+              <ChevronDown className={`h-3 w-3 transition-transform ${langOpen ? "rotate-180" : ""}`} />
+            </button>
+
+            <AnimatePresence>
+              {langOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: -5 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -5 }}
+                  className="absolute right-0 top-full mt-1 z-50 w-44 overflow-hidden rounded-xl border border-border bg-card shadow-xl"
+                >
+                  {locales.map((loc) => (
+                    <Link
+                      key={loc}
+                      href={`/${loc}`}
+                      onClick={() => setLangOpen(false)}
+                      className={`flex items-center gap-3 px-4 py-2.5 text-sm transition-colors hover:bg-accent ${
+                        loc === locale ? "bg-eco-green/10 font-semibold text-eco-green" : "text-foreground"
+                      }`}
+                    >
+                      <span className="w-6 text-center text-xs font-bold text-muted-foreground">
+                        {localeFlags[loc]}
+                      </span>
+                      <span>{localeNames[loc]}</span>
+                    </Link>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
 
           {/* Theme Toggle */}
           <button
@@ -144,6 +186,25 @@ export default function Header({ locale, dict }: HeaderProps) {
                   {dict.nav[item.key as keyof typeof dict.nav]}
                 </a>
               ))}
+
+              {/* Mobile language selector */}
+              <div className="mt-2 flex flex-wrap gap-1.5 border-t border-border/50 pt-3">
+                {locales.map((loc) => (
+                  <Link
+                    key={loc}
+                    href={`/${loc}`}
+                    onClick={() => setMobileOpen(false)}
+                    className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-colors ${
+                      loc === locale
+                        ? "bg-eco-green/10 text-eco-green"
+                        : "bg-muted text-muted-foreground hover:text-foreground"
+                    }`}
+                  >
+                    {localeFlags[loc]}
+                  </Link>
+                ))}
+              </div>
+
               <a
                 href="#contact"
                 onClick={() => setMobileOpen(false)}

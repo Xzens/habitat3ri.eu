@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "Habitat 3RI — Ihr Zuhause, Ihr Energiekraftwerk",
+    "description": "Die zentrale Plattform für nachhaltige Sanierung und die Dritte Industrielle Revolution. Verwandeln Sie Ihr Haus in ein Mini-Kraftwerk im Benelux und in Deutschland.",
+    "keywords": "energetische Sanierung, Solaranlagen, Wärmepumpe, Dämmung, Prosumer-Haus, Dritte Industrielle Revolution, Rifkin, Benelux, Deutschland"
+  },
+  "nav": {
+    "home": "Startseite",
+    "pillars": "Die 5 Säulen",
+    "solutions": "Unsere Lösungen",
+    "blog": "Blog 3IR",
+    "partners": "Partner",
+    "contact": "Angebot & Kontakt",
+    "brain": "Zweites Gehirn",
+    "language": "Sprache",
+    "darkMode": "Dunkelmodus",
+    "lightMode": "Hellmodus"
+  },
+  "hero": {
+    "badge": "Dritte Industrielle Revolution",
+    "title": "Verwandeln Sie Ihr Haus in ein",
+    "titleHighlight": "Energiekraftwerk 3IR",
+    "subtitle": "Nachhaltige Sanierung, erneuerbare Energie, intelligentes Wohnen — ein komplettes Ökosystem für Ihre Energiewende im Benelux und in Deutschland.",
+    "cta": "Kostenloses Angebot anfordern",
+    "ctaSecondary": "Die 5 Säulen entdecken",
+    "stats": {
+      "sites": "Spezialisierte Websites",
+      "savings": "Energieeinsparungen",
+      "partners": "Zertifizierte Partner",
+      "countries": "Abgedeckte Länder"
+    }
+  },
+  "pillars": {
+    "sectionTag": "Vision Rifkin",
+    "title": "Die 5 Säulen der Dritten Industriellen Revolution",
+    "subtitle": "Laut Jeremy Rifkin wird die Konvergenz dieser fünf Säulen unser Wohnen und unser Verhältnis zur Energie grundlegend verändern.",
+    "items": [
+      {
+        "title": "Erneuerbare Energien",
+        "description": "Der Umstieg auf erneuerbare Energien — Solar, Wind, Geothermie — als Hauptenergiequelle für jedes Gebäude.",
+        "detail": "Solaranlagen, Kleinwindkraft, Wohngeothermie"
+      },
+      {
+        "title": "Gebäude als Mini-Kraftwerke",
+        "description": "Jedes Gebäude wird zu seinem eigenen Mini-Kraftwerk, das lokal Energie erzeugt und verbraucht.",
+        "detail": "Prosumer-Haus, Eigenverbrauch, Plusenergiegebäude"
+      },
+      {
+        "title": "Energiespeicherung",
+        "description": "Batterien und Speichertechnologien ermöglichen es, überschüssige Energie für eine spätere Nutzung aufzubewahren.",
+        "detail": "Hausbatterien, thermische Speicher, grüner Wasserstoff"
+      },
+      {
+        "title": "Internet der Energie",
+        "description": "Ein intelligentes Netz (Smart Grid), das alle Gebäude verbindet, um Energie optimal zu teilen.",
+        "detail": "Smart Grid, intelligente Zähler, KI-Energiemanagement"
+      },
+      {
+        "title": "Elektromobilität",
+        "description": "Elektrotransport, der durch erneuerbare Energien gespeist und in das Energienetz des Gebäudes integriert wird.",
+        "detail": "Ladestationen, V2H (Vehicle-to-Home), grüne Mobilität"
+      }
+    ]
+  },
+  "solutions": {
+    "sectionTag": "Komplettes Ökosystem",
+    "title": "Unsere integrierten Lösungen",
+    "subtitle": "Ein Netzwerk von über 30 spezialisierten Websites, die alle Aspekte der nachhaltigen Sanierung und der Energiewende abdecken.",
+    "categories": {
+      "renovation": "Sanierung & Ausbau",
+      "energy": "Energie & Dämmung",
+      "security": "Sicherheit & Versicherung",
+      "digital": "Digital & Innovation",
+      "services": "Dienstleistungen & Fachbetriebe"
+    },
+    "cta": "Website besuchen"
+  },
+  "blog": {
+    "sectionTag": "Aktuelles & Ratgeber",
+    "title": "Blog 3IR",
+    "subtitle": "Praktische Ratgeber, Neuigkeiten und Analysen zur energetischen Sanierung und zur Dritten Industriellen Revolution.",
+    "readMore": "Artikel lesen",
+    "viewAll": "Alle Artikel anzeigen",
+    "publishedOn": "Veröffentlicht am",
+    "readingTime": "Min. Lesezeit",
+    "inBrief": "Kurz gefasst",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "keyInfo": "Wichtige Informationen",
+    "faq": "Häufig gestellte Fragen",
+    "relatedArticles": "Verwandte Artikel",
+    "sources": "Quellen",
+    "share": "Diesen Artikel teilen",
+    "categories": {
+      "all": "Alle",
+      "solar": "Solar",
+      "insulation": "Dämmung",
+      "heatpump": "Wärmepumpe",
+      "renovation": "Sanierung",
+      "battery": "Batterien",
+      "smartgrid": "Smart Grid",
+      "subsidy": "Förderungen & Zuschüsse",
+      "prosumer": "Prosumer"
+    }
+  },
+  "partners": {
+    "sectionTag": "Vertrauensnetzwerk",
+    "title": "Unsere Partner",
+    "subtitle": "Ein Netzwerk zertifizierter Fachbetriebe in Belgien, den Niederlanden, Luxemburg, Deutschland und Österreich."
+  },
+  "contact": {
+    "sectionTag": "Jetzt handeln",
+    "title": "Fordern Sie Ihr kostenloses Angebot an",
+    "subtitle": "Erhalten Sie eine individuelle Einschätzung für Ihr 3IR-Sanierungsprojekt.",
+    "form": {
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefon",
+      "country": "Land",
+      "countries": {
+        "be": "Belgien",
+        "nl": "Niederlande",
+        "lu": "Luxemburg",
+        "fr": "Frankreich"
+      },
+      "projectType": "Projektart",
+      "projectTypes": {
+        "solar": "Solaranlagen + Batterie",
+        "insulation": "Dämmung + Wärmepumpe",
+        "renovation": "Komplettsanierung",
+        "smartHome": "Intelligentes Zuhause",
+        "bundle": "3IR-Komplettpaket",
+        "other": "Sonstiges"
+      },
+      "message": "Beschreiben Sie Ihr Projekt",
+      "consent": "Ich stimme der Kontaktaufnahme und der Verarbeitung meiner Daten zu.",
+      "submit": "Anfrage absenden",
+      "success": "Vielen Dank! Ihre Anfrage wurde erfolgreich gesendet.",
+      "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  },
+  "newsletter": {
+    "title": "Werden Sie Teil der Energiewende",
+    "subtitle": "Erhalten Sie unsere Ratgeber, Neuigkeiten und exklusive Angebote.",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "cta": "Anmelden",
+    "success": "Willkommen! Sie erhalten in Kürze unsere Neuigkeiten."
+  },
+  "footer": {
+    "tagline": "Die zentrale Plattform für nachhaltige Sanierung und die Dritte Industrielle Revolution.",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Einstellungen",
+    "sections": {
+      "ecosystem": "Ökosystem",
+      "resources": "Ressourcen",
+      "legal": "Rechtliches"
+    }
+  },
+  "brain": {
+    "sectionTag": "Künstliche Intelligenz",
+    "title": "Zweites Gehirn 3IR",
+    "subtitle": "Ihr persönlicher KI-Assistent für nachhaltige Sanierung. Semantische Suche, intelligenter Chat und personalisierter Wissensbereich.",
+    "features": {
+      "search": {
+        "title": "Semantische Suche",
+        "desc": "Finden Sie präzise Antworten dank Vektorsuche in unseren über 180 Artikeln."
+      },
+      "chat": {
+        "title": "KI-Expertenchat",
+        "desc": "Stellen Sie Ihre Fragen an unseren Assistenten, der auf die gesamte 3IR-Wissensbasis trainiert ist. Quellenbasierte Antworten."
+      },
+      "save": {
+        "title": "Persönliche Sammlung",
+        "desc": "Erstellen Sie Ihre eigene Wissensbasis, indem Sie Artikel und Notizen speichern."
+      },
+      "recommend": {
+        "title": "KI-Empfehlungen",
+        "desc": "Erhalten Sie relevante Artikelvorschläge basierend auf Ihren Interessen und Ihrem Verlauf."
+      }
+    },
+    "cta": "Das Zweite Gehirn entdecken",
+    "pageTitle": "Zweites Gehirn 3IR",
+    "pageDescription": "Suchen, diskutieren und erkunden Sie das 3IR-Wissen mit künstlicher Intelligenz. Unsere Vektordatenbank verbindet über 180 Artikel, um Ihre Fragen zur nachhaltigen Sanierung zu beantworten.",
+    "tabs": {
+      "search": "KI-Suche",
+      "chat": "Expertenchat",
+      "space": "Mein Bereich"
+    },
+    "searchPlaceholder": "Stellen Sie Ihre Frage zur energetischen Sanierung, Förderungen, Solarenergie...",
+    "searching": "Semantische Suche läuft...",
+    "noResults": "Keine Ergebnisse gefunden. Versuchen Sie, Ihre Frage umzuformulieren.",
+    "relevance": "Relevanz",
+    "chatPlaceholder": "Stellen Sie Ihre Frage zur Dritten Industriellen Revolution...",
+    "chatWelcome": "Guten Tag! Ich bin der KI-Assistent 3IR. Stellen Sie mir Ihre Fragen zur energetischen Sanierung, Solaranlagen, Wärmepumpen, Förderungen 2026 oder jedem anderen Thema rund um die Dritte Industrielle Revolution.",
+    "chatThinking": "Verarbeitung läuft...",
+    "chatSources": "Verwendete Quellen:",
+    "chatSend": "Senden",
+    "spaceLogin": "Ihr persönlicher Bereich",
+    "spaceLoginDesc": "Melden Sie sich an, um auf Ihre gespeicherten Artikel, persönlichen Notizen und personalisierten KI-Empfehlungen zuzugreifen."
+  },
+  "solteo": {
+    "sectionTag": "Solarrechner",
+    "title": "Simulieren Sie Ihre Solaranlage in 2 Minuten",
+    "subtitle": "Schätzen Sie kostenlos die Produktion, Einsparungen und Amortisation Ihrer Solaranlagen mit unserem intelligenten Solteo-Rechner.",
+    "cta": "Solarrechner starten",
+    "features": [
+      "Ertragsschätzung basierend auf Ihrer Dachfläche und Ihrem Standort",
+      "Präzise Berechnung der Amortisation mit Förderungen 2026",
+      "Technologievergleich: Monokristallin, Bifazial, TOPCon",
+      "Simulation der Kombination Solar + Batterie + Wärmepumpe",
+      "Kostenloses, individuelles Angebot von zertifizierten Installateuren"
+    ],
+    "disclaimer": "Powered by Solteo — Unverbindliche Simulation. Die endgültigen Ergebnisse hängen von einer technischen Vor-Ort-Prüfung ab."
+  }
+}

@@ -198,5 +198,19 @@
     "chatSend": "Versturen",
     "spaceLogin": "Uw Persoonlijke Ruimte",
     "spaceLoginDesc": "Log in om toegang te krijgen tot uw opgeslagen artikelen, persoonlijke notities en gepersonaliseerde AI-aanbevelingen."
+  },
+  "solteo": {
+    "sectionTag": "Zonnerekenmachine",
+    "title": "Simuleer Uw Zonne-Installatie in 2 Minuten",
+    "subtitle": "Bereken gratis de productie, besparingen en terugverdientijd van uw zonnepanelen met onze slimme Solteo-calculator.",
+    "cta": "Start de zonnerekenmachine",
+    "features": [
+      "Productie-inschatting op basis van uw dak en locatie",
+      "Nauwkeurige ROI-berekening met premies 2026",
+      "Vergelijking van technologieën: monokristallijn, bifaciaal, TOPCon",
+      "Simulatie van zonnepanelen + batterij + warmtepomp",
+      "Gratis gepersonaliseerde offerte van gecertificeerde installateurs"
+    ],
+    "disclaimer": "Powered by Solteo — Indicatieve simulatie. Definitieve resultaten afhankelijk van technische studie ter plaatse."
   }
 }

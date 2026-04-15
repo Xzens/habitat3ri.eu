@@ -4,7 +4,13 @@ import { getDictionary } from "@/i18n/dictionaries";
 import SecondBrainPage from "@/components/brain/SecondBrainPage";
 
 export async function generateStaticParams() {
-  return [{ locale: "fr" }, { locale: "nl" }];
+  return [
+    { locale: "fr" },
+    { locale: "nl" },
+    { locale: "en" },
+    { locale: "de" },
+    { locale: "lb" },
+  ];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {

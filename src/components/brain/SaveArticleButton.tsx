@@ -7,7 +7,7 @@ import { supabase } from "@/lib/supabase";
 type SaveArticleButtonProps = {
   articleId: string;
   initialSaved?: boolean;
-  locale: "fr" | "nl";
+  locale: string;
 };
 
 export default function SaveArticleButton({

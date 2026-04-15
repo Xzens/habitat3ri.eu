@@ -126,7 +126,7 @@ export default function Solutions({ locale, dict }: SolutionsProps) {
                 </div>
                 <h3 className="mt-3 font-semibold">{site.name}</h3>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  {site.description[locale]}
+                  {site.description[locale] || site.description.fr || site.description.nl}
                 </p>
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   {site.country.map((c) => (

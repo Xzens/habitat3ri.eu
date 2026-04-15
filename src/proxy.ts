@@ -1,17 +1,31 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { locales, defaultLocale } from "@/i18n/config";
+import { locales, defaultLocale, type Locale } from "@/i18n/config";
 
-function getLocaleFromHeaders(request: NextRequest): string {
+const langMap: Record<string, Locale> = {
+  fr: "fr",
+  nl: "nl",
+  en: "en",
+  de: "de",
+  lb: "lb",
+  lu: "lb",
+};
+
+function getLocaleFromHeaders(request: NextRequest): Locale {
   const acceptLanguage = request.headers.get("accept-language") || "";
-  const preferred = acceptLanguage.split(",").map((lang) => lang.split(";")[0].trim().substring(0, 2));
-  return preferred.find((lang) => locales.includes(lang as "fr" | "nl")) || defaultLocale;
+  const preferred = acceptLanguage
+    .split(",")
+    .map((lang) => lang.split(";")[0].trim().substring(0, 2).toLowerCase());
+
+  for (const pref of preferred) {
+    if (langMap[pref]) return langMap[pref];
+  }
+  return defaultLocale;
 }
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Skip internal paths, API routes, static files
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
@@ -21,14 +35,12 @@ export function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Check if pathname already has a locale
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
   if (pathnameHasLocale) return NextResponse.next();
 
-  // Redirect to locale-prefixed path
   const locale = getLocaleFromHeaders(request);
   request.nextUrl.pathname = `/${locale}${pathname}`;
   return NextResponse.redirect(request.nextUrl);

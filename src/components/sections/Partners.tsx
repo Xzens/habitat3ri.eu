@@ -4,6 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Award, CheckCircle2 } from "lucide-react";
+import type { Locale } from "@/i18n/config";
 
 type PartnersProps = {
   dict: {
@@ -13,7 +14,7 @@ type PartnersProps = {
       subtitle: string;
     };
   };
-  locale: "fr" | "nl";
+  locale: Locale;
 };
 
 const partnerLogos = [
@@ -27,7 +28,7 @@ const partnerLogos = [
   { name: "Velux", sector: "renovation" },
 ];
 
-const certifications = {
+const certifications: Record<string, string[]> = {
   fr: [
     "Installateurs certifiés RGE / QualiPV",
     "Partenaires agréés Région Wallonne & Bruxelles",
@@ -39,6 +40,24 @@ const certifications = {
     "Erkende partners Vlaams Gewest & Nederland",
     "Geverifieerd en beoordeeld netwerk",
     "Tienjarige garantie op alle werkzaamheden",
+  ],
+  en: [
+    "RGE / QualiPV certified installers",
+    "Approved partners in Wallonia, Brussels & the Netherlands",
+    "Verified and customer-rated network",
+    "10-year guarantee on all works",
+  ],
+  de: [
+    "RGE / QualiPV zertifizierte Installateure",
+    "Zugelassene Partner in der Wallonie, Brüssel & den Niederlanden",
+    "Verifiziertes und kundenbewertetes Netzwerk",
+    "10-Jahres-Garantie auf alle Arbeiten",
+  ],
+  lb: [
+    "RGE / QualiPV zertifizéiert Installateuren",
+    "Uerkannte Partneren an der Wallonie, Bréissel & Lëtzebuerg",
+    "Verifizéiert a vun de Clienten bewäert Netzwierk",
+    "10-Joer-Garantie op all Aarbechten",
   ],
 };
 
@@ -87,7 +106,7 @@ export default function Partners({ dict, locale }: PartnersProps) {
         {/* Certifications */}
         <div className="mx-auto max-w-2xl rounded-2xl border border-eco-green/20 bg-eco-green/5 p-8">
           <h3 className="mb-6 text-center text-lg font-bold">
-            {locale === "fr" ? "Nos garanties" : "Onze garanties"}
+            {{ fr: "Nos garanties", nl: "Onze garanties", en: "Our guarantees", de: "Unsere Garantien", lb: "Eis Garantien" }[locale]}
           </h3>
           <div className="grid gap-4 sm:grid-cols-2">
             {certifications[locale].map((cert) => (

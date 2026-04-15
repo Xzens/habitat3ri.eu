@@ -1,7 +1,7 @@
 export type ConstellationSite = {
   name: string;
   url: string;
-  description: { fr: string; nl: string };
+  description: Record<string, string>;
   category: "renovation" | "energy" | "security" | "digital" | "services";
   lang: "fr" | "nl" | "multi";
   country: ("be" | "nl" | "lu" | "fr")[];

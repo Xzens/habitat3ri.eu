@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "Habitat 3IR — Your Home, Your Power Plant",
+    "description": "The central hub for sustainable renovation and the Third Industrial Revolution. Transform your home into a mini power plant in the Benelux and France.",
+    "keywords": "energy renovation, solar panels, heat pump, insulation, prosumer home, third industrial revolution, Rifkin, Benelux"
+  },
+  "nav": {
+    "home": "Home",
+    "pillars": "The 5 Pillars",
+    "solutions": "Our Solutions",
+    "blog": "3IR Blog",
+    "partners": "Partners",
+    "contact": "Quote & Contact",
+    "brain": "Second Brain",
+    "language": "Language",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode"
+  },
+  "hero": {
+    "badge": "Third Industrial Revolution",
+    "title": "Transform your home into a",
+    "titleHighlight": "3IR energy power plant",
+    "subtitle": "Sustainable renovation, renewable energy, smart home — a complete ecosystem for your energy transition in the Benelux and France.",
+    "cta": "Request a free quote",
+    "ctaSecondary": "Discover the 5 pillars",
+    "stats": {
+      "sites": "Specialised sites",
+      "savings": "Energy savings",
+      "partners": "Certified partners",
+      "countries": "Countries covered"
+    }
+  },
+  "pillars": {
+    "sectionTag": "Rifkin's Vision",
+    "title": "The 5 Pillars of the 3rd Industrial Revolution",
+    "subtitle": "According to Jeremy Rifkin, the convergence of these five pillars will radically transform our homes and our relationship with energy.",
+    "items": [
+      {
+        "title": "Renewable Energy",
+        "description": "The shift to renewable energy — solar, wind, geothermal — as the primary energy source for every building.",
+        "detail": "Solar panels, micro-wind, residential geothermal"
+      },
+      {
+        "title": "Buildings as Mini Power Plants",
+        "description": "Every building becomes its own mini power plant, producing and consuming its energy locally.",
+        "detail": "Prosumer home, self-consumption, positive-energy building"
+      },
+      {
+        "title": "Energy Storage",
+        "description": "Batteries and storage technologies make it possible to store surplus energy for later use.",
+        "detail": "Home batteries, thermal storage, green hydrogen"
+      },
+      {
+        "title": "Energy Internet",
+        "description": "A smart grid that connects all buildings to share energy optimally.",
+        "detail": "Smart grid, smart meters, AI energy management"
+      },
+      {
+        "title": "Electric Mobility",
+        "description": "Electric transport powered by renewable energy, integrated into the building's energy network.",
+        "detail": "Charging stations, V2H (Vehicle-to-Home), green mobility"
+      }
+    ]
+  },
+  "solutions": {
+    "sectionTag": "Complete ecosystem",
+    "title": "Our Integrated Solutions",
+    "subtitle": "A network of over 30 specialised sites covering every aspect of sustainable renovation and the energy transition.",
+    "categories": {
+      "renovation": "Renovation & Finishing",
+      "energy": "Energy & Insulation",
+      "security": "Security & Insurance",
+      "digital": "Digital & Innovation",
+      "services": "Services & Professionals"
+    },
+    "cta": "Visit the site"
+  },
+  "blog": {
+    "sectionTag": "News & Guides",
+    "title": "3IR Blog",
+    "subtitle": "Practical guides, news and analysis on energy renovation and the Third Industrial Revolution.",
+    "readMore": "Read the article",
+    "viewAll": "View all articles",
+    "publishedOn": "Published on",
+    "readingTime": "min read",
+    "inBrief": "In brief",
+    "tableOfContents": "Table of Contents",
+    "keyInfo": "Key information",
+    "faq": "Frequently asked questions",
+    "relatedArticles": "Related articles",
+    "sources": "Sources",
+    "share": "Share this article",
+    "categories": {
+      "all": "All",
+      "solar": "Solar",
+      "insulation": "Insulation",
+      "heatpump": "Heat Pump",
+      "renovation": "Renovation",
+      "battery": "Batteries",
+      "smartgrid": "Smart Grid",
+      "subsidy": "Subsidies & Grants",
+      "prosumer": "Prosumer"
+    }
+  },
+  "partners": {
+    "sectionTag": "Trusted network",
+    "title": "Our Partners",
+    "subtitle": "A network of certified professionals across Belgium, the Netherlands, Luxembourg and France."
+  },
+  "contact": {
+    "sectionTag": "Take action",
+    "title": "Request Your Free Quote",
+    "subtitle": "Receive a personalised estimate for your 3IR energy renovation project.",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone",
+      "country": "Country",
+      "countries": {
+        "be": "Belgium",
+        "nl": "Netherlands",
+        "lu": "Luxembourg",
+        "fr": "France"
+      },
+      "projectType": "Project type",
+      "projectTypes": {
+        "solar": "Solar Panels + Battery",
+        "insulation": "Insulation + Heat Pump",
+        "renovation": "Full Renovation",
+        "smartHome": "Smart Home",
+        "bundle": "Complete 3IR Package",
+        "other": "Other"
+      },
+      "message": "Describe your project",
+      "consent": "I agree to be contacted and consent to the processing of my data.",
+      "submit": "Send my request",
+      "success": "Thank you! Your request has been sent successfully.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "newsletter": {
+    "title": "Join the energy revolution",
+    "subtitle": "Receive our guides, news and exclusive offers.",
+    "placeholder": "Your email address",
+    "cta": "Subscribe",
+    "success": "Welcome! You will receive our latest news soon."
+  },
+  "footer": {
+    "tagline": "The central hub for sustainable renovation and the Third Industrial Revolution.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookie Settings",
+    "sections": {
+      "ecosystem": "Ecosystem",
+      "resources": "Resources",
+      "legal": "Legal"
+    }
+  },
+  "brain": {
+    "sectionTag": "Artificial Intelligence",
+    "title": "3IR Second Brain",
+    "subtitle": "Your personal AI assistant for sustainable renovation. Semantic search, intelligent chat and personalised knowledge space.",
+    "features": {
+      "search": {
+        "title": "Semantic Search",
+        "desc": "Find precise answers through vector search across our 180+ articles."
+      },
+      "chat": {
+        "title": "Expert AI Chat",
+        "desc": "Ask our assistant trained on the entire 3IR knowledge base. Answers with sources."
+      },
+      "save": {
+        "title": "Personal Library",
+        "desc": "Build your own knowledge base by saving articles and notes."
+      },
+      "recommend": {
+        "title": "AI Recommendations",
+        "desc": "Receive relevant article suggestions based on your interests and browsing history."
+      }
+    },
+    "cta": "Explore the Second Brain",
+    "pageTitle": "3IR Second Brain",
+    "pageDescription": "Search, chat and explore 3IR knowledge with artificial intelligence. Our vector database connects over 180 articles to answer your questions on sustainable renovation.",
+    "tabs": {
+      "search": "AI Search",
+      "chat": "Expert Chat",
+      "space": "My Space"
+    },
+    "searchPlaceholder": "Ask your question about energy renovation, subsidies, solar...",
+    "searching": "Semantic search in progress...",
+    "noResults": "No results found. Try rephrasing your question.",
+    "relevance": "Relevance",
+    "chatPlaceholder": "Ask your question about the 3rd Industrial Revolution...",
+    "chatWelcome": "Hello! I am the 3IR AI assistant. Ask me your questions about energy renovation, solar panels, heat pumps, 2026 subsidies or any other topic related to the Third Industrial Revolution.",
+    "chatThinking": "Thinking...",
+    "chatSources": "Sources consulted:",
+    "chatSend": "Send",
+    "spaceLogin": "Your Personal Space",
+    "spaceLoginDesc": "Log in to access your saved articles, personal notes and personalised AI recommendations."
+  },
+  "solteo": {
+    "sectionTag": "Solar Calculator",
+    "title": "Simulate Your Solar Installation in 2 Minutes",
+    "subtitle": "Estimate your solar panel production, savings and return on investment for free with our intelligent Solteo calculator.",
+    "cta": "Launch the solar calculator",
+    "features": [
+      "Production estimate based on your roof and location",
+      "Accurate ROI calculation with 2026 subsidies",
+      "Technology comparison: monocrystalline, bifacial, TOPCon",
+      "Simulation of solar + battery + heat pump coupling",
+      "Free personalised quote from certified installers"
+    ],
+    "disclaimer": "Powered by Solteo — Indicative simulation. Final results depend on an on-site technical survey."
+  }
+}

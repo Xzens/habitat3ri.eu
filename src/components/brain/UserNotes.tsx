@@ -79,30 +79,15 @@ export default function UserNotes({ locale, initialNotes }: UserNotesProps) {
     }
   }
 
-  const labels = {
-    fr: {
-      title: "Mes Notes Personnelles",
-      add: "Nouvelle note",
-      titleLabel: "Titre de la note",
-      contentLabel: "Contenu de votre note",
-      save: "Enregistrer",
-      cancel: "Annuler",
-      empty: "Aucune note pour le moment. Ajoutez vos réflexions sur la rénovation 3RI !",
-      delete: "Supprimer",
-    },
-    nl: {
-      title: "Mijn Persoonlijke Notities",
-      add: "Nieuwe notitie",
-      titleLabel: "Titel van de notitie",
-      contentLabel: "Inhoud van uw notitie",
-      save: "Opslaan",
-      cancel: "Annuleren",
-      empty: "Nog geen notities. Voeg uw gedachten toe over 3IR-renovatie!",
-      delete: "Verwijderen",
-    },
+  const labels: Record<string, Record<string, string>> = {
+    fr: { title: "Mes Notes Personnelles", add: "Nouvelle note", titleLabel: "Titre de la note", contentLabel: "Contenu de votre note", save: "Enregistrer", cancel: "Annuler", empty: "Aucune note pour le moment. Ajoutez vos réflexions sur la rénovation 3RI !", delete: "Supprimer" },
+    nl: { title: "Mijn Persoonlijke Notities", add: "Nieuwe notitie", titleLabel: "Titel van de notitie", contentLabel: "Inhoud van uw notitie", save: "Opslaan", cancel: "Annuleren", empty: "Nog geen notities. Voeg uw gedachten toe over 3IR-renovatie!", delete: "Verwijderen" },
+    en: { title: "My Personal Notes", add: "New note", titleLabel: "Note title", contentLabel: "Note content", save: "Save", cancel: "Cancel", empty: "No notes yet. Add your thoughts on 3IR renovation!", delete: "Delete" },
+    de: { title: "Meine Persönlichen Notizen", add: "Neue Notiz", titleLabel: "Titel der Notiz", contentLabel: "Inhalt Ihrer Notiz", save: "Speichern", cancel: "Abbrechen", empty: "Noch keine Notizen. Fügen Sie Ihre Gedanken zur 3IR-Renovierung hinzu!", delete: "Löschen" },
+    lb: { title: "Meng Perséinlech Notizen", add: "Nei Notiz", titleLabel: "Titel vun der Notiz", contentLabel: "Inhalt vun Ärer Notiz", save: "Späicheren", cancel: "Ofbriechen", empty: "Nach keng Notizen. Setzt Är Gedanken zur 3IR-Renovatioun derbäi!", delete: "Läschen" },
   };
 
-  const t = labels[locale];
+  const t = labels[locale] || labels.fr;
 
   return (
     <div>

@@ -7,6 +7,7 @@ import Solutions from "@/components/sections/Solutions";
 import BlogPreview from "@/components/sections/BlogPreview";
 import Partners from "@/components/sections/Partners";
 import SecondBrainPreview from "@/components/sections/SecondBrainPreview";
+import SolteoCalculator from "@/components/sections/SolteoCalculator";
 import Contact from "@/components/sections/Contact";
 import { sampleArticles } from "@/data/sample-articles";
 
@@ -49,6 +50,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <Pillars dict={dict} />
       <div className="section-divider" />
       <Solutions locale={typedLocale} dict={dict} />
+      <div className="section-divider" />
+      <SolteoCalculator locale={typedLocale} dict={dict} />
       <div className="section-divider" />
       <BlogPreview locale={typedLocale} dict={dict} articles={articles} />
       <div className="section-divider" />

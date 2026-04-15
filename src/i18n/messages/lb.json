@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "Habitat 3IR — Äert Haus, Är Energiezentral",
+    "description": "Den zentrale Hub fir nohalteg Renovatioun an d'Drëtt Industriell Revolutioun. Maacht Äert Haus zu enger Mini-Energiezentral am Benelux a Frankräich.",
+    "keywords": "energetesch Renovatioun, Solarpanneauen, Wärmepompel, Isolatioun, Prosumer Haus, Drëtt Industriell Revolutioun, Rifkin, Benelux"
+  },
+  "nav": {
+    "home": "Heem",
+    "pillars": "Déi 5 Pilieren",
+    "solutions": "Eis Léisungen",
+    "blog": "Blog 3IR",
+    "partners": "Partneren",
+    "contact": "Devis & Kontakt",
+    "brain": "Zweet Gehir",
+    "language": "Sprooch",
+    "darkMode": "Donkele Modus",
+    "lightMode": "Helle Modus"
+  },
+  "hero": {
+    "badge": "Drëtt Industriell Revolutioun",
+    "title": "Maacht Äert Haus zu enger",
+    "titleHighlight": "3IR-Energiezentral",
+    "subtitle": "Nohalteg Renovatioun, erneierbar Energie, intelligent Wunnen — e komplett Ekosystem fir Är Energietransitioun am Benelux a Frankräich.",
+    "cta": "Gratis Devis ufroen",
+    "ctaSecondary": "Déi 5 Pilieren entdecken",
+    "stats": {
+      "sites": "Spezialiséiert Siten",
+      "savings": "Energiespueren",
+      "partners": "Zertifiéiert Partneren",
+      "countries": "Ofgedeckte Länner"
+    }
+  },
+  "pillars": {
+    "sectionTag": "Rifkin Visioun",
+    "title": "Déi 5 Piliere vun der 3. Industrieller Revolutioun",
+    "subtitle": "Laut dem Jeremy Rifkin wäert d'Konvergenz vun dëse fënnef Pilieren eist Wunnen an eise Rapport mat der Energie radikal transforméieren.",
+    "items": [
+      {
+        "title": "Erneierbar Energien",
+        "description": "Den Iwwergang op erneierbar Energien — Solar, Wand, Geothermie — als Haaptenergiequell fir all Gebai.",
+        "detail": "Solarpanneauen, Mikro-Wandenergie, residentiell Geothermie"
+      },
+      {
+        "title": "Gebaier als Mini-Zentralen",
+        "description": "All Gebai gëtt seng eegen Mini-Energiezentral, déi lokal Energie produzéiert a verbraucht.",
+        "detail": "Prosumer Haus, Autokonsum, Energie-positivt Gebai"
+      },
+      {
+        "title": "Energiespäicherung",
+        "description": "Batterien an Späichertechnologien erlaben et, iwwerschësseg Energie ze späicheren fir spéider ze notzen.",
+        "detail": "Hausbatterien, thermesch Späicherung, grénge Waasserstoff"
+      },
+      {
+        "title": "Internet vun der Energie",
+        "description": "En intelligent Netz (Smart Grid), dat all Gebaier verbënnt, fir Energie optimal ze deelen.",
+        "detail": "Smart Grid, intelligent Compteure, KI-Energiegestioun"
+      },
+      {
+        "title": "Elektresch Mobilitéit",
+        "description": "Elektreschen Transport ugedriwwe vun erneierbarer Energie, integréiert an den Energienetz vum Gebai.",
+        "detail": "Luedstatiounen, V2H (Vehicle-to-Home), gréng Mobilitéit"
+      }
+    ]
+  },
+  "solutions": {
+    "sectionTag": "Komplett Ekosystem",
+    "title": "Eis Integréiert Léisungen",
+    "subtitle": "En Netz vu méi wéi 30 spezialiséierte Siten, déi all Aspekter vun der nohalteger Renovatioun an der Energietransitioun ofdecken.",
+    "categories": {
+      "renovation": "Renovatioun & Finissiounen",
+      "energy": "Energie & Isolatioun",
+      "security": "Sécherheet & Versécherung",
+      "digital": "Digital & Innovatioun",
+      "services": "Servicer & Fachleit"
+    },
+    "cta": "De Site besichen"
+  },
+  "blog": {
+    "sectionTag": "Aktualitéiten & Guiden",
+    "title": "Blog 3IR",
+    "subtitle": "Praktesch Guiden, Aktualitéiten an Analysen iwwer energetesch Renovatioun an d'Drëtt Industriell Revolutioun.",
+    "readMore": "Den Artikel liesen",
+    "viewAll": "All Artikele kucken",
+    "publishedOn": "Publizéiert den",
+    "readingTime": "min Liestzäit",
+    "inBrief": "Kuerz gesot",
+    "tableOfContents": "Inhalt",
+    "keyInfo": "Wichteg Informatiounen",
+    "faq": "Heefeg gestallte Froen",
+    "relatedArticles": "Verbonnen Artikelen",
+    "sources": "Quellen",
+    "share": "Dësen Artikel deelen",
+    "categories": {
+      "all": "All",
+      "solar": "Solar",
+      "insulation": "Isolatioun",
+      "heatpump": "Wärmepompel",
+      "renovation": "Renovatioun",
+      "battery": "Batterien",
+      "smartgrid": "Smart Grid",
+      "subsidy": "Subsiden & Hëllefen",
+      "prosumer": "Prosumer"
+    }
+  },
+  "partners": {
+    "sectionTag": "Vertrauensnetz",
+    "title": "Eis Partneren",
+    "subtitle": "En Netz vu zertifiéierte Fachleit an der ganzer Belsch, Holland, Lëtzebuerg a Frankräich."
+  },
+  "contact": {
+    "sectionTag": "Gitt aktiv",
+    "title": "Frot Ären Gratis Devis Un",
+    "subtitle": "Kritt eng personaliséiert Schätzung fir Äre Projet vun energetescher Renovatioun 3IR.",
+    "form": {
+      "name": "Ganzen Numm",
+      "email": "E-Mail Adress",
+      "phone": "Telefon",
+      "country": "Land",
+      "countries": {
+        "be": "Belsch",
+        "nl": "Holland",
+        "lu": "Lëtzebuerg",
+        "fr": "Frankräich"
+      },
+      "projectType": "Typ vum Projet",
+      "projectTypes": {
+        "solar": "Solarpanneauen + Batterie",
+        "insulation": "Isolatioun + Wärmepompel",
+        "renovation": "Komplett Renovatioun",
+        "smartHome": "Intelligent Wunnen",
+        "bundle": "Komplett 3IR-Paket",
+        "other": "Anert"
+      },
+      "message": "Beschreift Äre Projet",
+      "consent": "Ech sinn averstane kontaktéiert ze ginn an ech stëmmen der Veraarbechtung vu mengen Donnéeën zou.",
+      "submit": "Meng Ufro schécken",
+      "success": "Merci! Är Ufro gouf erfollegräich geschéckt.",
+      "error": "E Feeler ass opgetrueden. Probéiert w.e.g. nach eng Kéier."
+    }
+  },
+  "newsletter": {
+    "title": "Maacht mat bei der Energierevolutioun",
+    "subtitle": "Kritt eis Guiden, Aktualitéiten an exklusiv Offeren.",
+    "placeholder": "Är E-Mail Adress",
+    "cta": "Aschreiwen",
+    "success": "Wëllkomm! Dir kritt geschwënn eis Aktualitéiten."
+  },
+  "footer": {
+    "tagline": "Den zentrale Hub fir nohalteg Renovatioun an d'Drëtt Industriell Revolutioun.",
+    "rights": "All Rechter virbehalen.",
+    "privacy": "Dateschutzpolitik",
+    "terms": "Notzungsbedingungen",
+    "cookies": "Cookiegestioun",
+    "sections": {
+      "ecosystem": "Ekosystem",
+      "resources": "Ressourcen",
+      "legal": "Rechtleches"
+    }
+  },
+  "brain": {
+    "sectionTag": "Kënschtlech Intelligenz",
+    "title": "Zweet Gehir 3IR",
+    "subtitle": "Äre perséinlechen KI-Assistent fir nohalteg Renovatioun. Semantesch Sich, intelligent Chat a personaliséierte Wëssensraum.",
+    "features": {
+      "search": {
+        "title": "Semantesch Sich",
+        "desc": "Fannt prezis Äntwerten duerch Vektorsich an eisen 180+ Artikelen."
+      },
+      "chat": {
+        "title": "KI Expert Chat",
+        "desc": "Stellt Är Froen un eisen Assistent, deen op der ganzer 3IR-Wëssensbank trainéiert ass. Mat Quellennochweis."
+      },
+      "save": {
+        "title": "Perséinlech Späicherung",
+        "desc": "Baut Är eegen Wëssensbank op andeems Dir Artikelen an Notize späichert."
+      },
+      "recommend": {
+        "title": "KI-Empfeelungen",
+        "desc": "Kritt relevant Artikelvirschléi baséiert op Ären Interessen an Ärer Geschicht."
+      }
+    },
+    "cta": "D'Zweet Gehir entdecken",
+    "pageTitle": "Zweet Gehir 3IR",
+    "pageDescription": "Sicht, chattt an entdeckt d'3IR-Wëssen mat Kënschtlecher Intelligenz. Eis Vektordatebank verbënnt méi wéi 180 Artikelen fir Är Froen iwwer nohalteg Renovatioun ze beäntwerten.",
+    "tabs": {
+      "search": "KI Sich",
+      "chat": "Expert Chat",
+      "space": "Mäi Beräich"
+    },
+    "searchPlaceholder": "Stellt Är Fro iwwer energetesch Renovatioun, Subsiden, Solar...",
+    "searching": "Semantesch Sich leeft...",
+    "noResults": "Keng Resultater fonnt. Probéiert Är Fro anescht ze formuléieren.",
+    "relevance": "Relevanz",
+    "chatPlaceholder": "Stellt Är Fro iwwer d'3. Industriell Revolutioun...",
+    "chatWelcome": "Moien! Ech sinn den 3IR KI-Assistent. Stellt mir Är Froen iwwer energetesch Renovatioun, Solarpanneauen, Wärmepompelen, PRIMe House 2026 oder all anert Thema ronderëm d'Drëtt Industriell Revolutioun.",
+    "chatThinking": "Iwwerleeung leeft...",
+    "chatSources": "Consultéiert Quellen:",
+    "chatSend": "Schécken",
+    "spaceLogin": "Äre Perséinleche Beräich",
+    "spaceLoginDesc": "Loggt Iech an fir Zougang zu Ären gespäicherten Artikelen, perséinlechen Notizen a personaliséierten KI-Empfeelungen ze kréien."
+  },
+  "solteo": {
+    "sectionTag": "Solar-Rechner",
+    "title": "Simuléiert Är Solarinstallatioun an 2 Minutten",
+    "subtitle": "Schätzt gratis d'Produktioun, d'Erspuernisser an de Retour op Investissement vun Ären Solarpanneauen mat eisem intelligente Solteo-Rechner.",
+    "cta": "De Solar-Rechner starten",
+    "features": [
+      "Produktiounsschätzung baséiert op Ärem Daach an Ärem Standuert",
+      "Prezise Berechnung vum Retour op Investissement mat de PRIMe House 2026",
+      "Vergläich vun den Technologien: monokristallin, bifacial, TOPCon",
+      "Simulatioun vun der Kopplung Solar + Batterie + Wärmepompel",
+      "Gratis personaliséierten Devis vu zertifiéierten Installateure"
+    ],
+    "disclaimer": "Powered by Solteo — Indikativ Simulatioun. D'definitiv Resultater hänke vun enger technescher Etude virun Uert of."
+  }
+}
