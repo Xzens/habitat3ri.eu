@@ -4,6 +4,8 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import Analytics from "@/components/Analytics";
+import CookieConsent from "@/components/CookieConsent";
 
 export async function generateStaticParams() {
   return [
@@ -35,6 +37,8 @@ export default async function LocaleLayout({
           <Header locale={locale as Locale} dict={dict} />
           <main>{children}</main>
           <Footer locale={locale as Locale} dict={dict} />
+          <CookieConsent locale={locale as Locale} />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
