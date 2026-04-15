@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://habitat3ri.eu"),
+  verification: {
+    google: "r9iDEu3K4maAnKdRBLvrHytY3rVv7lush-xWUC9mGbk",
+  },
   title: {
     default: "Habitat 3RI — Votre maison, votre centrale énergétique",
     template: "%s | Habitat 3RI",
