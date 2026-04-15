@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { ArrowRight, Sparkles, Building2, Users, MapPin } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -50,7 +51,17 @@ export default function Hero({ dict }: HeroProps) {
 
   return (
     <section id="accueil" className="relative flex min-h-screen items-center overflow-hidden pt-16">
-      {/* Background gradient */}
+      {/* Background hero image */}
+      <div className="pointer-events-none absolute inset-0 -z-20">
+        <Image
+          src="/images/hero/hero-3ri-home-xai.webp"
+          alt="Maison 3RI durable"
+          fill
+          className="object-cover opacity-15 dark:opacity-10"
+          priority
+        />
+      </div>
+      {/* Background gradient overlay */}
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute left-1/4 top-1/4 h-[500px] w-[500px] rounded-full bg-eco-green/10 blur-[120px]" />
         <div className="absolute bottom-1/4 right-1/4 h-[400px] w-[400px] rounded-full bg-energy-blue/10 blur-[120px]" />

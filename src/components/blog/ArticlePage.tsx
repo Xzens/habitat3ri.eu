@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Calendar, Clock, Share2, ArrowLeft, ExternalLink, Quote } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -130,11 +131,22 @@ export default function ArticlePage({ article, locale, dict, relatedArticles }: 
         </div>
       </header>
 
-      {/* Cover image placeholder */}
-      <div className="mb-8 aspect-video overflow-hidden rounded-2xl bg-gradient-to-br from-eco-green/20 via-energy-blue/10 to-solar-orange/10">
-        <div className="flex h-full items-center justify-center">
-          <span className="text-6xl font-black text-foreground/5">HABITAT 3RI</span>
-        </div>
+      {/* Cover image */}
+      <div className="relative mb-8 aspect-video overflow-hidden rounded-2xl bg-gradient-to-br from-eco-green/20 via-energy-blue/10 to-solar-orange/10">
+        {article.cover_image ? (
+          <Image
+            src={article.cover_image}
+            alt={article.title}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 800px"
+            priority
+          />
+        ) : (
+          <div className="flex h-full items-center justify-center">
+            <span className="text-6xl font-black text-foreground/5">HABITAT 3RI</span>
+          </div>
+        )}
       </div>
 
       {/* In Brief */}

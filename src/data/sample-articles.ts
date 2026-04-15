@@ -9,7 +9,7 @@ export const sampleArticles: Article[] = [
     title: "Panneaux Solaires en 2026 : Le Guide Complet pour la Belgique",
     excerpt:
       "Tout ce que vous devez savoir sur l'installation de panneaux solaires en Belgique en 2026 : primes, rendement, tarif prosumer et retour sur investissement.",
-    cover_image: "/images/blog/solar-panels-belgium.jpg",
+    cover_image: "/images/blog/solar-panels-belgium-xai.webp",
     in_brief:
       "En 2026, installer des panneaux solaires en Belgique reste l'un des investissements les plus rentables pour les propriétaires. Avec les nouvelles primes régionales, un système de 10 kWc coûte entre 8 000 et 12 000 euros après aides, et le retour sur investissement se situe entre 5 et 7 ans. Le tarif prosumer évolue, mais l'autoconsommation et le stockage par batterie rendent le solaire plus attractif que jamais.",
     content: `## Pourquoi investir dans le solaire en 2026 ?
@@ -119,7 +119,7 @@ Le solaire en 2026 est un investissement sûr, rentable et écologique. Avec un 
     title: "Pompe à Chaleur Air-Eau : Tout Savoir pour Votre Maison en 2026",
     excerpt:
       "Guide complet sur les pompes à chaleur air-eau en 2026 : fonctionnement, coûts, primes, COP et conseils d'installation pour le Benelux.",
-    cover_image: "/images/blog/heat-pump-house.jpg",
+    cover_image: "/images/blog/heat-pump-house-xai.webp",
     in_brief:
       "La pompe à chaleur air-eau est devenue le système de chauffage de référence en 2026. Avec un COP moyen de 4,5, elle produit 4,5 kWh de chaleur pour 1 kWh d'électricité consommé. Combinée aux panneaux solaires, elle réduit la facture énergétique de 60 à 75%. Les primes peuvent couvrir jusqu'à 40% du coût d'installation.",
     content: `## La pompe à chaleur : pilier de la maison 3RI
@@ -221,7 +221,7 @@ La pompe à chaleur air-eau est un investissement stratégique pour toute habita
     title: "Devenir Prosumer en 2026 : Transformez Votre Maison en Producteur d'Énergie",
     excerpt:
       "Comment devenir prosumer en Belgique : le guide pour transformer votre habitation en mini-centrale électrique autonome.",
-    cover_image: "/images/blog/prosumer-home.jpg",
+    cover_image: "/images/blog/prosumer-home-xai.webp",
     in_brief:
       "Le concept de prosumer — producteur et consommateur d'énergie — est au cœur de la Troisième Révolution Industrielle. En 2026, devenir prosumer en Belgique implique l'installation de panneaux solaires, d'une batterie de stockage et d'un système de gestion énergétique intelligent. L'objectif : autoconsommer 70 à 90% de sa production et réinjecter le surplus dans le réseau.",
     content: `## Qu'est-ce qu'un prosumer ?
@@ -320,7 +320,7 @@ Le prosumer de demain ne sera pas isolé. Grâce à **l'Internet de l'Énergie**
     title: "Zonnepanelen in 2026: De Complete Gids voor Nederland en België",
     excerpt:
       "Alles wat u moet weten over zonnepanelen in 2026: kosten, subsidies, rendement en terugverdientijd in Nederland en België.",
-    cover_image: "/images/blog/solar-panels-netherlands.jpg",
+    cover_image: "/images/blog/solar-panels-netherlands-xai.webp",
     in_brief:
       "In 2026 blijven zonnepanelen een van de beste investeringen voor huiseigenaren in de Benelux. Met de nieuwste TOPCon-technologie bereiken panelen een rendement van 22-24%. De gemiddelde terugverdientijd is 5-7 jaar in België en 6-8 jaar in Nederland. Gecombineerd met een thuisbatterij stijgt het zelfverbruik van 30% naar meer dan 70%.",
     content: `## Waarom zonnepanelen in 2026?
@@ -420,7 +420,7 @@ Zonnepanelen zijn in 2026 een no-brainer voor elke huiseigenaar in de Benelux. M
     title: "Warmtepomp + Isolatie: De Slimme Combinatie voor 2026",
     excerpt:
       "Hoe de combinatie van warmtepomp en isolatie uw energiefactuur met 70% verlaagt. Complete gids voor de Benelux.",
-    cover_image: "/images/blog/heatpump-insulation.jpg",
+    cover_image: "/images/blog/heatpump-insulation-xai.webp",
     in_brief:
       "De combinatie warmtepomp + isolatie is de meest effectieve strategie voor energierenovatie in 2026. Eerst isoleren verlaagt uw warmtebehoefte met 40-60%, waarna een kleinere (en goedkopere) warmtepomp volstaat. Het resultaat: 70% lagere energiekosten en een comfortabeler woning het hele jaar door.",
     content: `## Waarom eerst isoleren, dan een warmtepomp?

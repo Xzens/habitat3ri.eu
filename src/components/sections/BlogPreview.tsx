@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Clock, Calendar } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
@@ -60,11 +61,18 @@ export default function BlogPreview({ locale, dict, articles }: BlogPreviewProps
               >
                 {/* Cover image */}
                 <div className="relative aspect-video overflow-hidden bg-muted">
-                  <div className="absolute inset-0 bg-gradient-to-br from-eco-green/20 to-energy-blue/20" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-4xl font-black text-foreground/5">3RI</span>
-                  </div>
-                  <div className="absolute left-3 top-3">
+                  {article.cover_image ? (
+                    <Image
+                      src={article.cover_image}
+                      alt={article.title}
+                      fill
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                  ) : (
+                    <div className="absolute inset-0 bg-gradient-to-br from-eco-green/20 to-energy-blue/20" />
+                  )}
+                  <div className="absolute left-3 top-3 z-10">
                     <Badge className="bg-eco-green/90 text-white">{article.category}</Badge>
                   </div>
                 </div>
