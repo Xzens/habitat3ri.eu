@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Habitat 3RI — Uw woning, uw energiecentrale",
+    "description": "Het centrale platform voor duurzame renovatie en de Derde Industriële Revolutie. Transformeer uw woning tot een mini-energiecentrale in de Benelux en Frankrijk.",
+    "keywords": "energierenovatie, zonnepanelen, warmtepomp, isolatie, prosumer woning, derde industriële revolutie, Rifkin, Benelux"
+  },
+  "nav": {
+    "home": "Home",
+    "pillars": "De 5 Pijlers",
+    "solutions": "Onze Oplossingen",
+    "blog": "Blog 3IR",
+    "partners": "Partners",
+    "contact": "Offerte & Contact",
+    "language": "Taal",
+    "darkMode": "Donkere modus",
+    "lightMode": "Lichte modus"
+  },
+  "hero": {
+    "badge": "Derde Industriële Revolutie",
+    "title": "Transformeer uw woning tot",
+    "titleHighlight": "3IR-energiecentrale",
+    "subtitle": "Duurzame renovatie, hernieuwbare energie, slim wonen — een compleet ecosysteem voor uw energietransitie in de Benelux en Frankrijk.",
+    "cta": "Vraag een gratis offerte aan",
+    "ctaSecondary": "Ontdek de 5 pijlers",
+    "stats": {
+      "sites": "Gespecialiseerde sites",
+      "savings": "Energiebesparing",
+      "partners": "Gecertificeerde partners",
+      "countries": "Landen gedekt"
+    }
+  },
+  "pillars": {
+    "sectionTag": "Rifkin Visie",
+    "title": "De 5 Pijlers van de 3de Industriële Revolutie",
+    "subtitle": "Volgens Jeremy Rifkin zal de convergentie van deze vijf pijlers onze woningen en onze relatie met energie radicaal transformeren.",
+    "items": [
+      {
+        "title": "Hernieuwbare Energie",
+        "description": "De overgang naar hernieuwbare energiebronnen — zonne-energie, wind, geothermie — als primaire energiebron voor elk gebouw.",
+        "detail": "Zonnepanelen, micro-windturbines, residentiële geothermie"
+      },
+      {
+        "title": "Gebouwen als Mini-Centrales",
+        "description": "Elk gebouw wordt zijn eigen mini-energiecentrale, die lokaal energie produceert en verbruikt.",
+        "detail": "Prosumer woning, zelfconsumptie, energiepositief gebouw"
+      },
+      {
+        "title": "Energieopslag",
+        "description": "Batterijen en opslagtechnologieën maken het mogelijk overtollige energie op te slaan voor later gebruik.",
+        "detail": "Thuisbatterijen, thermische opslag, groene waterstof"
+      },
+      {
+        "title": "Internet van Energie",
+        "description": "Een slim netwerk (smart grid) dat alle gebouwen verbindt om energie optimaal te delen.",
+        "detail": "Smart grid, slimme meters, AI-energiebeheer"
+      },
+      {
+        "title": "Elektrische Mobiliteit",
+        "description": "Elektrisch transport aangedreven door hernieuwbare energie, geïntegreerd in het energienetwerk van het gebouw.",
+        "detail": "Laadpalen, V2H (Vehicle-to-Home), groene mobiliteit"
+      }
+    ]
+  },
+  "solutions": {
+    "sectionTag": "Compleet ecosysteem",
+    "title": "Onze Geïntegreerde Oplossingen",
+    "subtitle": "Een netwerk van meer dan 30 gespecialiseerde websites die alle aspecten van duurzame renovatie en energietransitie dekken.",
+    "categories": {
+      "renovation": "Renovatie & Afwerking",
+      "energy": "Energie & Isolatie",
+      "security": "Beveiliging & Verzekering",
+      "digital": "Digitaal & Innovatie",
+      "services": "Diensten & Vakmensen"
+    },
+    "cta": "Bezoek de site"
+  },
+  "blog": {
+    "sectionTag": "Nieuws & Gidsen",
+    "title": "Blog 3IR",
+    "subtitle": "Praktische gidsen, nieuws en analyses over energierenovatie en de Derde Industriële Revolutie.",
+    "readMore": "Lees het artikel",
+    "viewAll": "Bekijk alle artikelen",
+    "publishedOn": "Gepubliceerd op",
+    "readingTime": "min leestijd",
+    "inBrief": "Kort samengevat",
+    "tableOfContents": "Inhoud",
+    "keyInfo": "Belangrijke informatie",
+    "faq": "Veelgestelde vragen",
+    "relatedArticles": "Gerelateerde artikelen",
+    "sources": "Bronnen",
+    "share": "Deel dit artikel",
+    "categories": {
+      "all": "Alle",
+      "solar": "Zonne-energie",
+      "insulation": "Isolatie",
+      "heatpump": "Warmtepomp",
+      "renovation": "Renovatie",
+      "battery": "Batterijen",
+      "smartgrid": "Smart Grid",
+      "subsidy": "Premies & Steun",
+      "prosumer": "Prosumer"
+    }
+  },
+  "partners": {
+    "sectionTag": "Betrouwbaar netwerk",
+    "title": "Onze Partners",
+    "subtitle": "Een netwerk van gecertificeerde professionals in heel België, Nederland, Luxemburg en Frankrijk."
+  },
+  "contact": {
+    "sectionTag": "Onderneem actie",
+    "title": "Vraag Uw Gratis Offerte Aan",
+    "subtitle": "Ontvang een gepersonaliseerde schatting voor uw 3IR-energierenovatieproject.",
+    "form": {
+      "name": "Volledige naam",
+      "email": "E-mailadres",
+      "phone": "Telefoon",
+      "country": "Land",
+      "countries": {
+        "be": "België",
+        "nl": "Nederland",
+        "lu": "Luxemburg",
+        "fr": "Frankrijk"
+      },
+      "projectType": "Type project",
+      "projectTypes": {
+        "solar": "Zonnepanelen + Batterij",
+        "insulation": "Isolatie + Warmtepomp",
+        "renovation": "Volledige renovatie",
+        "smartHome": "Slim wonen",
+        "bundle": "Compleet 3IR-pakket",
+        "other": "Ander"
+      },
+      "message": "Beschrijf uw project",
+      "consent": "Ik ga akkoord om gecontacteerd te worden en geef toestemming voor de verwerking van mijn gegevens.",
+      "submit": "Mijn aanvraag versturen",
+      "success": "Bedankt! Uw aanvraag is succesvol verzonden.",
+      "error": "Er is een fout opgetreden. Probeer het opnieuw."
+    }
+  },
+  "newsletter": {
+    "title": "Sluit u aan bij de energierevolutie",
+    "subtitle": "Ontvang onze gidsen, nieuws en exclusieve aanbiedingen.",
+    "placeholder": "Uw e-mailadres",
+    "cta": "Inschrijven",
+    "success": "Welkom! U ontvangt binnenkort ons nieuws."
+  },
+  "footer": {
+    "tagline": "Het centrale platform voor duurzame renovatie en de Derde Industriële Revolutie.",
+    "rights": "Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "cookies": "Cookiebeheer",
+    "sections": {
+      "ecosystem": "Ecosysteem",
+      "resources": "Bronnen",
+      "legal": "Juridisch"
+    }
+  }
+}

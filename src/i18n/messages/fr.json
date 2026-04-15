@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Habitat 3RI — Votre maison, votre centrale énergétique",
+    "description": "Le hub central de la rénovation durable et de la Troisième Révolution Industrielle. Transformez votre habitat en mini-centrale électrique au Benelux et en France.",
+    "keywords": "rénovation énergétique, panneaux solaires, pompe à chaleur, isolation, maison prosumer, troisième révolution industrielle, Rifkin, Benelux"
+  },
+  "nav": {
+    "home": "Accueil",
+    "pillars": "Les 5 Piliers",
+    "solutions": "Nos Solutions",
+    "blog": "Blog 3RI",
+    "partners": "Partenaires",
+    "contact": "Devis & Contact",
+    "language": "Langue",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair"
+  },
+  "hero": {
+    "badge": "Troisième Révolution Industrielle",
+    "title": "Transformez votre maison en",
+    "titleHighlight": "centrale énergétique 3RI",
+    "subtitle": "Rénovation durable, énergie renouvelable, habitat intelligent — un écosystème complet pour votre transition énergétique au Benelux et en France.",
+    "cta": "Demander un devis gratuit",
+    "ctaSecondary": "Découvrir les 5 piliers",
+    "stats": {
+      "sites": "Sites spécialisés",
+      "savings": "Économies d'énergie",
+      "partners": "Partenaires certifiés",
+      "countries": "Pays couverts"
+    }
+  },
+  "pillars": {
+    "sectionTag": "Vision Rifkin",
+    "title": "Les 5 Piliers de la 3ème Révolution Industrielle",
+    "subtitle": "Selon Jeremy Rifkin, la convergence de ces cinq piliers transformera radicalement notre habitat et notre rapport à l'énergie.",
+    "items": [
+      {
+        "title": "Énergies Renouvelables",
+        "description": "Le passage aux énergies renouvelables — solaire, éolien, géothermie — comme source principale d'énergie pour chaque bâtiment.",
+        "detail": "Panneaux solaires, micro-éolien, géothermie résidentielle"
+      },
+      {
+        "title": "Bâtiments Mini-Centrales",
+        "description": "Chaque bâtiment devient sa propre mini-centrale électrique, produisant et consommant son énergie localement.",
+        "detail": "Maison prosumer, autoconsommation, bâtiment à énergie positive"
+      },
+      {
+        "title": "Stockage d'Énergie",
+        "description": "Les batteries et technologies de stockage permettent de conserver l'énergie excédentaire pour une utilisation différée.",
+        "detail": "Batteries domestiques, stockage thermique, hydrogène vert"
+      },
+      {
+        "title": "Internet de l'Énergie",
+        "description": "Un réseau intelligent (smart grid) qui connecte tous les bâtiments pour partager l'énergie de façon optimale.",
+        "detail": "Smart grid, compteurs intelligents, gestion énergétique IA"
+      },
+      {
+        "title": "Mobilité Électrique",
+        "description": "Le transport électrique alimenté par les énergies renouvelables, intégré au réseau énergétique du bâtiment.",
+        "detail": "Bornes de recharge, V2H (Vehicle-to-Home), mobilité verte"
+      }
+    ]
+  },
+  "solutions": {
+    "sectionTag": "Écosystème complet",
+    "title": "Nos Solutions Intégrées",
+    "subtitle": "Un réseau de plus de 30 sites spécialisés couvrant tous les aspects de la rénovation durable et de la transition énergétique.",
+    "categories": {
+      "renovation": "Rénovation & Finitions",
+      "energy": "Énergie & Isolation",
+      "security": "Sécurité & Assurance",
+      "digital": "Digital & Innovation",
+      "services": "Services & Professionnels"
+    },
+    "cta": "Visiter le site"
+  },
+  "blog": {
+    "sectionTag": "Actualités & Guides",
+    "title": "Blog 3RI",
+    "subtitle": "Guides pratiques, actualités et analyses sur la rénovation énergétique et la Troisième Révolution Industrielle.",
+    "readMore": "Lire l'article",
+    "viewAll": "Voir tous les articles",
+    "publishedOn": "Publié le",
+    "readingTime": "min de lecture",
+    "inBrief": "En bref",
+    "tableOfContents": "Sommaire",
+    "keyInfo": "Informations clés",
+    "faq": "Questions fréquentes",
+    "relatedArticles": "Articles connexes",
+    "sources": "Sources",
+    "share": "Partager cet article",
+    "categories": {
+      "all": "Tous",
+      "solar": "Solaire",
+      "insulation": "Isolation",
+      "heatpump": "Pompe à chaleur",
+      "renovation": "Rénovation",
+      "battery": "Batteries",
+      "smartgrid": "Smart Grid",
+      "subsidy": "Primes & Aides",
+      "prosumer": "Prosumer"
+    }
+  },
+  "partners": {
+    "sectionTag": "Réseau de confiance",
+    "title": "Nos Partenaires",
+    "subtitle": "Un réseau de professionnels certifiés dans toute la Belgique, les Pays-Bas, le Luxembourg et la France."
+  },
+  "contact": {
+    "sectionTag": "Passez à l'action",
+    "title": "Demandez Votre Devis Gratuit",
+    "subtitle": "Recevez une estimation personnalisée pour votre projet de rénovation énergétique 3RI.",
+    "form": {
+      "name": "Nom complet",
+      "email": "Adresse email",
+      "phone": "Téléphone",
+      "country": "Pays",
+      "countries": {
+        "be": "Belgique",
+        "nl": "Pays-Bas",
+        "lu": "Luxembourg",
+        "fr": "France"
+      },
+      "projectType": "Type de projet",
+      "projectTypes": {
+        "solar": "Panneaux solaires + Batterie",
+        "insulation": "Isolation + Pompe à chaleur",
+        "renovation": "Rénovation complète",
+        "smartHome": "Maison intelligente",
+        "bundle": "Pack complet 3RI",
+        "other": "Autre"
+      },
+      "message": "Décrivez votre projet",
+      "consent": "J'accepte d'être recontacté et je consens au traitement de mes données.",
+      "submit": "Envoyer ma demande",
+      "success": "Merci ! Votre demande a été envoyée avec succès.",
+      "error": "Une erreur est survenue. Veuillez réessayer."
+    }
+  },
+  "newsletter": {
+    "title": "Rejoignez la révolution énergétique",
+    "subtitle": "Recevez nos guides, actualités et offres exclusives.",
+    "placeholder": "Votre adresse email",
+    "cta": "S'inscrire",
+    "success": "Bienvenue ! Vous recevrez bientôt nos actualités."
+  },
+  "footer": {
+    "tagline": "Le hub central de la rénovation durable et de la Troisième Révolution Industrielle.",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Gestion des cookies",
+    "sections": {
+      "ecosystem": "Écosystème",
+      "resources": "Ressources",
+      "legal": "Légal"
+    }
+  }
+}

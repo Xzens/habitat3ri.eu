@@ -1,0 +1,34 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/publish",
+      "schedule": "0 6 */2 * *"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "habitat3ri.be" }],
+      "destination": "https://habitat3ri.eu/fr",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "habitat3ri.nl" }],
+      "destination": "https://habitat3ri.eu/nl",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "habitat3ri.lu" }],
+      "destination": "https://habitat3ri.eu/fr",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "habitat3ri.fr" }],
+      "destination": "https://habitat3ri.eu/fr",
+      "permanent": true
+    }
+  ]
+}
