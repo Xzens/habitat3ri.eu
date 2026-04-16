@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
     {
       source: "/(.*)",
       headers: [
-        { key: "X-Frame-Options", value: "DENY" },
+        { key: "X-Frame-Options", value: "SAMEORIGIN" },
         { key: "X-Content-Type-Options", value: "nosniff" },
         { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
         { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
@@ -25,7 +25,7 @@ const nextConfig: NextConfig = {
             "img-src 'self' data: blob: https: http:",
             "font-src 'self' https://fonts.gstatic.com",
             "connect-src 'self' https://*.supabase.co https://www.google-analytics.com https://vitals.vercel-insights.com",
-            "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com",
+            "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://app.solteo.fr https://*.solteo.fr",
             "object-src 'none'",
             "base-uri 'self'",
           ].join("; "),
