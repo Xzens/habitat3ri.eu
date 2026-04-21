@@ -81,73 +81,162 @@ function formatBold(text: string): React.ReactNode {
 
 export default function ArticlePage({ article, locale, dict, relatedArticles }: ArticlePageProps) {
   const headings = extractHeadings(article.content);
+  const langMap: Record<string, string> = {
+    fr: "fr-BE",
+    nl: "nl-BE",
+    en: "en-GB",
+    de: "de-DE",
+    lb: "lb-LU",
+  };
+  const inLanguage = langMap[locale] || "fr-BE";
+  const articleUrl = `https://habitat3ri.eu/${locale}/blog/${article.slug}`;
+  const blogUrl = `https://habitat3ri.eu/${locale}/blog`;
+  const homeUrl = `https://habitat3ri.eu/${locale}`;
+  const coverImageUrl = article.cover_image
+    ? `https://habitat3ri.eu${article.cover_image}`
+    : `https://habitat3ri.eu/images/hero/hero-banner-3ri-2026-xai.webp`;
+  const youtubeId = article.youtube_url?.match(/embed\/([a-zA-Z0-9_-]{11})/)?.[1];
+
+  // Build rich Schema.org JSON-LD graph
+  const schemaGraph: Record<string, unknown>[] = [
+    {
+      "@type": "Article",
+      "@id": articleUrl + "#article",
+      headline: article.title,
+      description: article.excerpt,
+      image: coverImageUrl,
+      datePublished: article.published_at,
+      dateModified: article.updated_at,
+      author: {
+        "@type": "Organization",
+        name: "Satyvo SA",
+        url: "https://habitat3ri.eu",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Habitat 3RI",
+        url: "https://habitat3ri.eu",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://habitat3ri.eu/images/hero/hero-banner-3ri-2026-xai.webp",
+        },
+      },
+      mainEntityOfPage: articleUrl,
+      inLanguage,
+      keywords: (article.seo_keywords || []).join(", "),
+      articleSection: article.category,
+      wordCount: article.content.split(/\s+/).length,
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": articleUrl + "#breadcrumb",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: homeUrl },
+        { "@type": "ListItem", position: 2, name: "Blog", item: blogUrl },
+        { "@type": "ListItem", position: 3, name: article.title, item: articleUrl },
+      ],
+    },
+  ];
+
+  // FAQPage schema if FAQ present
+  if (article.faq && article.faq.length > 0) {
+    schemaGraph.push({
+      "@type": "FAQPage",
+      "@id": articleUrl + "#faq",
+      mainEntity: article.faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: { "@type": "Answer", text: item.answer },
+      })),
+    });
+  }
+
+  // VideoObject schema if YouTube video present
+  if (youtubeId) {
+    schemaGraph.push({
+      "@type": "VideoObject",
+      "@id": articleUrl + "#video",
+      name: article.title,
+      description: article.excerpt,
+      thumbnailUrl: `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`,
+      uploadDate: article.published_at,
+      embedUrl: `https://www.youtube-nocookie.com/embed/${youtubeId}`,
+      contentUrl: `https://www.youtube.com/watch?v=${youtubeId}`,
+    });
+  }
 
   const structuredData = JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: article.title,
-    description: article.excerpt,
-    datePublished: article.published_at,
-    dateModified: article.updated_at,
-    author: { "@type": "Organization", name: "Habitat 3RI", url: "https://habitat3ri.eu" },
-    publisher: { "@type": "Organization", name: "Habitat 3RI", url: "https://habitat3ri.eu" },
-    mainEntityOfPage: `https://habitat3ri.eu/${locale}/blog/${article.slug}`,
-    inLanguage: locale === "fr" ? "fr-BE" : "nl-BE",
+    "@graph": schemaGraph,
   });
 
   return (
-    <article className="mx-auto max-w-4xl px-4 pb-24 pt-28 sm:px-6">
-      {/* Back */}
-      <Link
-        href={`/${locale}/blog`}
-        className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-      >
-        <ArrowLeft className="h-4 w-4" />
-        {locale === "fr" ? "Retour au blog" : "Terug naar blog"}
-      </Link>
-
-      {/* Header */}
-      <header className="mb-8">
-        <Badge className="mb-4 bg-eco-green/90 text-white">{article.category}</Badge>
-        <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
-          {article.title}
-        </h1>
-        <div className="mt-4 flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
-          <span className="flex items-center gap-1.5">
-            <Calendar className="h-4 w-4" />
-            {dict.blog.publishedOn}{" "}
-            {article.published_at
-              ? new Date(article.published_at).toLocaleDateString(locale === "fr" ? "fr-BE" : "nl-BE", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })
-              : ""}
-          </span>
-          <span className="flex items-center gap-1.5">
-            <Clock className="h-4 w-4" />
-            {article.reading_time} {dict.blog.readingTime}
-          </span>
-        </div>
-      </header>
-
-      {/* Cover image */}
-      <div className="relative mb-8 aspect-video overflow-hidden rounded-2xl bg-gradient-to-br from-eco-green/20 via-energy-blue/10 to-solar-orange/10">
+    <>
+      {/* Full-width cover image with overlay header — visible desktop + mobile */}
+      <div className="relative h-[50vh] min-h-[400px] w-full overflow-hidden sm:h-[60vh]">
         {article.cover_image ? (
           <Image
             src={article.cover_image}
             alt={article.title}
             fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, 800px"
+            className="object-cover object-center"
+            sizes="100vw"
             priority
           />
         ) : (
-          <div className="flex h-full items-center justify-center">
+          <div className="flex h-full items-center justify-center bg-gradient-to-br from-eco-green/20 via-energy-blue/10 to-solar-orange/10">
             <span className="text-6xl font-black text-foreground/5">HABITAT 3RI</span>
           </div>
         )}
+        {/* Dark gradient overlay for text readability */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0.85) 100%)",
+          }}
+        />
+        {/* Title overlay */}
+        <div className="absolute inset-x-0 bottom-0 px-4 pb-8 sm:px-6 sm:pb-12">
+          <div className="mx-auto max-w-4xl">
+            <Link
+              href={`/${locale}/blog`}
+              className="mb-4 inline-flex items-center gap-1.5 text-xs font-medium text-white/80 transition-colors hover:text-white sm:text-sm"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              {locale === "fr" && "Retour au blog"}
+              {locale === "nl" && "Terug naar blog"}
+              {locale === "en" && "Back to blog"}
+              {locale === "de" && "Zurück zum Blog"}
+              {locale === "lb" && "Zréck op de Blog"}
+            </Link>
+            <Badge className="mb-3 bg-eco-green text-white">{article.category}</Badge>
+            <h1
+              className="text-2xl font-extrabold leading-tight tracking-tight text-white sm:text-3xl md:text-4xl lg:text-5xl"
+              style={{ textShadow: "0 4px 20px rgba(0,0,0,0.5)" }}
+            >
+              {article.title}
+            </h1>
+            <div className="mt-4 flex flex-wrap items-center gap-4 text-xs text-white/90 sm:text-sm">
+              <span className="flex items-center gap-1.5">
+                <Calendar className="h-4 w-4" />
+                {article.published_at
+                  ? new Date(article.published_at).toLocaleDateString(
+                      locale === "fr" ? "fr-BE" : locale === "nl" ? "nl-BE" : locale === "de" ? "de-DE" : locale === "lb" ? "fr-LU" : "en-GB",
+                      { year: "numeric", month: "long", day: "numeric" }
+                    )
+                  : ""}
+              </span>
+              <span className="flex items-center gap-1.5">
+                <Clock className="h-4 w-4" />
+                {article.reading_time} {dict.blog.readingTime}
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <article className="mx-auto max-w-4xl px-4 pb-24 pt-12 sm:px-6">
 
       {/* In Brief */}
       <div className="mb-8 rounded-xl border-l-4 border-eco-green bg-eco-green/5 p-5">
@@ -319,6 +408,7 @@ export default function ArticlePage({ article, locale, dict, relatedArticles }: 
       <script type="application/ld+json" suppressHydrationWarning>
         {structuredData}
       </script>
-    </article>
+      </article>
+    </>
   );
 }
