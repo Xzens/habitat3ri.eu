@@ -116,13 +116,21 @@ export default function ArticlePage({ article, locale, dict, relatedArticles }: 
       datePublished: article.published_at,
       dateModified: article.updated_at,
       author: {
-        "@type": "Person",
-        name: author.name,
-        description: author.role[locale] || author.role.fr,
-        jobTitle: author.role[locale] || author.role.fr,
-        knowsAbout: author.expertise,
-        address: { "@type": "PostalAddress", addressLocality: author.location, addressCountry: "BE" },
-        ...(author.linkedin ? { sameAs: [author.linkedin] } : {}),
+        "@type": "Organization",
+        name: author.organization.name,
+        legalName: author.organization.legalForm,
+        url: author.website,
+        identifier: "BCE " + author.organization.bce,
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: author.organization.address,
+          addressCountry: author.organization.country,
+        },
+        founder: {
+          "@type": "Person",
+          name: author.name,
+          jobTitle: author.role.fr,
+        },
       },
       publisher: {
         "@type": "Organization",

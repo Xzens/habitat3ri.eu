@@ -10,19 +10,8 @@ import { join } from "path";
 
 const CAL_PATH = join(import.meta.dirname, "..", "src", "data", "editorial-calendar.json");
 
-// Niche -> author_slug mapping (cohérent avec src/data/authors.ts)
-const categoryAuthor = {
-  solar: "sophie-claessens",
-  insulation: "sophie-claessens",
-  heatpump: "sophie-claessens",
-  renovation: "nathalie-peeters",
-  battery: "sophie-claessens",
-  smartgrid: "thomas-vandenberghe",
-  subsidy: "nathalie-peeters",
-  prosumer: "thomas-vandenberghe",
-  security: "marc-dumont",
-  digital: "thomas-vandenberghe",
-};
+// Auteur unique (conformité E-E-A-T + AI Act 2026)
+const AUTHOR_SLUG = "samuel-thiret";
 
 // Category-specific photographic prompts (language-aware for locale context)
 const promptTemplates = {
@@ -83,7 +72,7 @@ const enriched = calendar.map((entry) => {
   const slug = slugify(entry.title);
   const tpls = promptTemplates[entry.category] || promptTemplates.solar;
   const prompt = tpls[entry.locale] || tpls.fr;
-  const author_slug = categoryAuthor[entry.category] || "sophie-claessens";
+  const author_slug = AUTHOR_SLUG;
   return {
     ...entry,
     slug,

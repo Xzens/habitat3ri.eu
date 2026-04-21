@@ -129,8 +129,8 @@ export async function GET(request: Request) {
 
     // Publish max 1 article per CRON run (48h rhythm)
     const entry = candidates[0];
-    const authorSlug = entry.author_slug || "sophie-claessens";
-    const author = getAuthorBySlug(authorSlug) || getAuthorForCategory(entry.category);
+    const authorSlug = "samuel-thiret"; // Auteur unique (conformité E-E-A-T + AI Act)
+    const author = getAuthorBySlug(authorSlug);
 
     // 1. Generate content via xAI
     const systemPrompt = SYSTEM_PROMPTS[entry.locale] || SYSTEM_PROMPTS.fr;

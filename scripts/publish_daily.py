@@ -402,8 +402,8 @@ def publish_entry(entry: dict, dry_run: bool = False) -> bool:
     log("INFO", f"Processing {lang}/{slug}")
 
     authors = load_authors()
-    author_slug = entry.get("author_slug", "sophie-claessens")
-    author = authors.get(author_slug, {"slug": author_slug, "name": "Sophie Claessens"})
+    author_slug = entry.get("author_slug", "samuel-thiret")
+    author = authors.get(author_slug, {"slug": "samuel-thiret", "name": "Samuel Thiret"})
 
     # === Step 1: Generate image (if missing) ===
     img_path = ROOT / "public" / entry["image"].lstrip("/")
