@@ -24,6 +24,7 @@ export type Article = {
   tags: string[];
   seo_keywords: string[];
   reading_time: number;
+  author_slug?: string;
   status: "draft" | "published" | "scheduled";
   published_at: string | null;
   scheduled_at: string | null;

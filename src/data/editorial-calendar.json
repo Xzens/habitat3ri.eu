@@ -10,7 +10,11 @@
       "rendement panneau solaire",
       "photovoltaique belgique"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "panneaux-solaires-en-2026-quel-rendement-esperer-en-belgique",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/panneaux-solaires-en-2026-quel-rendement-esperer-en-belgique-xai.webp"
   },
   {
     "id": 2,
@@ -23,7 +27,11 @@
       "rendement zonnepanelen",
       "fotovoltaisch rendement"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "zonnepanelen-in-2026-welk-rendement-mag-je-verwachten-in-belgie",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/zonnepanelen-in-2026-welk-rendement-mag-je-verwachten-in-belgie-xai.webp"
   },
   {
     "id": 3,
@@ -36,7 +44,11 @@
       "aides renovation energetique",
       "prime habitation wallonie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "primes-renovation-2026-en-wallonie-guide-complet-des-aides-disponibles",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic close-up of Belgian couple reviewing energy subsidy documents at kitchen table, prime Wallonie papers visible, warm afternoon lighting, lifestyle photography, 2026 energy renovation planning",
+    "image": "/images/blog/calendar/primes-renovation-2026-en-wallonie-guide-complet-des-aides-disponibles-xai.webp"
   },
   {
     "id": 4,
@@ -49,7 +61,11 @@
       "subsidies renovatie",
       "mijn verbouwpremie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "renovatiepremies-2026-in-vlaanderen-overzicht-van-alle-beschikbare-subsidies",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch couple reviewing ISDE subsidy forms on laptop at home, papers visible on table, warm indoor lighting, renovation planning 2026",
+    "image": "/images/blog/calendar/renovatiepremies-2026-in-vlaanderen-overzicht-van-alle-beschikbare-subsidies-xai.webp"
   },
   {
     "id": 5,
@@ -62,7 +78,11 @@
       "installation pac maison mitoyenne",
       "chauffage pompe a chaleur"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "pompe-a-chaleur-air-eau-le-guide-d-installation-pour-maisons-mitoyennes",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/pompe-a-chaleur-air-eau-le-guide-d-installation-pour-maisons-mitoyennes-xai.webp"
   },
   {
     "id": 6,
@@ -75,7 +95,11 @@
       "installatie warmtepomp rijwoning",
       "verwarming warmtepomp"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "warmtepomp-lucht-water-installatiegids-voor-rijwoningen",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/warmtepomp-lucht-water-installatiegids-voor-rijwoningen-xai.webp"
   },
   {
     "id": 7,
@@ -88,7 +112,11 @@
       "sarking toiture prix",
       "caissons chevronnes isolation"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "isolation-toiture-par-l-exterieur-sarking-vs-caissons-chevronnes",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/isolation-toiture-par-l-exterieur-sarking-vs-caissons-chevronnes-xai.webp"
   },
   {
     "id": 8,
@@ -101,7 +129,11 @@
       "reseau intelligent maison",
       "gestion energie intelligente"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "smart-grid-residentiel-comment-connecter-votre-maison-au-reseau-intelligent",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic smart home energy dashboard visualization, real-time solar production graph, battery level, heat pump status, holographic digital twin display, dark premium UI with green and blue accents, prosumer energy management, photorealistic",
+    "image": "/images/blog/calendar/smart-grid-residentiel-comment-connecter-votre-maison-au-reseau-intelligent-xai.webp"
   },
   {
     "id": 9,
@@ -114,7 +146,11 @@
       "beste thuisbatterij",
       "batterij zonnepanelen"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "thuisbatterij-kiezen-in-2026-vergelijking-van-de-5-beste-modellen",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic home battery (BYD or Tesla Powerwall) mounted in Dutch garage, connected to zonnepanelen inverter, modern clean installation, sustainable energy storage",
+    "image": "/images/blog/calendar/thuisbatterij-kiezen-in-2026-vergelijking-van-de-5-beste-modellen-xai.webp"
   },
   {
     "id": 10,
@@ -127,7 +163,11 @@
       "tesla powerwall 3",
       "byd hvs avis"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "batterie-domestique-tesla-powerwall-3-vs-byd-hvs-en-conditions-reelles",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic Tesla Powerwall 2 home battery mounted on garage wall of Belgian modern home, connected to solar inverter, LED status display visible, clean technical installation, bright ambient lighting",
+    "image": "/images/blog/calendar/batterie-domestique-tesla-powerwall-3-vs-byd-hvs-en-conditions-reelles-xai.webp"
   },
   {
     "id": 11,
@@ -140,7 +180,11 @@
       "prosommateur belgique",
       "compteur double flux"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "prosommateur-en-wallonie-comprendre-le-tarif-prosumer-et-l-optimiser",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic Belgian smart home living room with tablet showing energy flow dashboard (solar production, battery, heat pump), wall-mounted display, cozy modern interior with plants, warm evening lighting, ultra-photorealistic lifestyle",
+    "image": "/images/blog/calendar/prosommateur-en-wallonie-comprendre-le-tarif-prosumer-et-l-optimiser-xai.webp"
   },
   {
     "id": 12,
@@ -153,7 +197,11 @@
       "slim verbruik",
       "digitale meter prosument"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "prosumententarief-vlaanderen-2026-hoe-je-factuur-verlagen-met-slim-verbruik",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "Dutch smart home with prosumer energy hub, tablet showing energy dashboard, modern minimalist interior, 2026 sustainable living, photorealistic",
+    "image": "/images/blog/calendar/prosumententarief-vlaanderen-2026-hoe-je-factuur-verlagen-met-slim-verbruik-xai.webp"
   },
   {
     "id": 13,
@@ -166,7 +214,11 @@
       "partage energie solaire",
       "energie citoyenne"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "communautes-d-energie-en-belgique-creer-un-partage-solaire-entre-voisins",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic smart home energy dashboard visualization, real-time solar production graph, battery level, heat pump status, holographic digital twin display, dark premium UI with green and blue accents, prosumer energy management, photorealistic",
+    "image": "/images/blog/calendar/communautes-d-energie-en-belgique-creer-un-partage-solaire-entre-voisins-xai.webp"
   },
   {
     "id": 14,
@@ -179,7 +231,11 @@
       "energie delen buren",
       "zonne-energie gemeenschap"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "energiegemeenschappen-in-belgie-zo-deel-je-zonne-energie-met-je-buren",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "Dutch smart home energy management system display showing real-time zonnepanelen production and verbruik, modern interface, premium UI, photorealistic",
+    "image": "/images/blog/calendar/energiegemeenschappen-in-belgie-zo-deel-je-zonne-energie-met-je-buren-xai.webp"
   },
   {
     "id": 15,
@@ -192,7 +248,11 @@
       "simulation renovation",
       "digital twin maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "jumeau-numerique-batiment-simuler-votre-renovation-avant-de-commencer",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/jumeau-numerique-batiment-simuler-votre-renovation-avant-de-commencer-xai.webp"
   },
   {
     "id": 16,
@@ -205,7 +265,11 @@
       "renovation maison annees 70",
       "ordre travaux renovation"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "renovation-energetique-globale-par-ou-commencer-dans-une-maison-des-annees-70",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/renovation-energetique-globale-par-ou-commencer-dans-une-maison-des-annees-70-xai.webp"
   },
   {
     "id": 17,
@@ -218,7 +282,11 @@
       "renovatie jaren 70 woning",
       "volgorde renovatiewerken"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "energetische-renovatie-waar-begin-je-bij-een-woning-uit-de-jaren-70",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch renovated living room interior, Scandinavian-Dutch design, modern minimalist, plants, natural light, sustainable materials, architectural interior photography 2026",
+    "image": "/images/blog/calendar/energetische-renovatie-waar-begin-je-bij-een-woning-uit-de-jaren-70-xai.webp"
   },
   {
     "id": 18,
@@ -231,7 +299,11 @@
       "aide renovation france",
       "prime renovation energetique france"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "maprimerenov-2026-en-france-montants-conditions-et-nouveautes",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic close-up of Belgian couple reviewing energy subsidy documents at kitchen table, prime Wallonie papers visible, warm afternoon lighting, lifestyle photography, 2026 energy renovation planning",
+    "image": "/images/blog/calendar/maprimerenov-2026-en-france-montants-conditions-et-nouveautes-xai.webp"
   },
   {
     "id": 19,
@@ -244,7 +316,11 @@
       "home assistant energie",
       "slim huis automatisering"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "domotica-en-energiebeheer-je-woning-slim-aansturen-met-home-assistant",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "digital twin Dutch home visualization, 3D BIM model blended with real photo, energy data overlay, architectural rendering 2026",
+    "image": "/images/blog/calendar/domotica-en-energiebeheer-je-woning-slim-aansturen-met-home-assistant-xai.webp"
   },
   {
     "id": 20,
@@ -257,7 +333,11 @@
       "cybersecurite domotique",
       "protection smart home"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "securite-de-la-maison-connectee-proteger-votre-systeme-domotique-des-cyberattaques",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic modern Belgian smart home security system, Verisure-style keypad by front door, discreet wireless cameras, family entering home, warm lifestyle photography",
+    "image": "/images/blog/calendar/securite-de-la-maison-connectee-proteger-votre-systeme-domotique-des-cyberattaques-xai.webp"
   },
   {
     "id": 21,
@@ -270,7 +350,11 @@
       "domotica hackers",
       "cyberveiligheid slimme woning"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "beveiliging-van-je-smart-home-bescherm-je-domotica-tegen-hackers",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic Dutch smart home beveiligingssysteem, modern alarmsysteem keypad, wireless camera's, veilige woning, lifestyle photography 2026",
+    "image": "/images/blog/calendar/beveiliging-van-je-smart-home-bescherm-je-domotica-tegen-hackers-xai.webp"
   },
   {
     "id": 22,
@@ -283,7 +367,11 @@
       "troisieme revolution industrielle maison",
       "habitat durable rifkin"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "les-5-piliers-de-rifkin-appliques-a-l-habitat-vers-une-maison-du-futur",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/les-5-piliers-de-rifkin-appliques-a-l-habitat-vers-une-maison-du-futur-xai.webp"
   },
   {
     "id": 23,
@@ -296,7 +384,11 @@
       "eps laine de roche",
       "fibre bois isolation facade"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "isolation-exterieure-des-facades-choisir-entre-eps-laine-de-roche-et-fibre-de-bois",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/isolation-exterieure-des-facades-choisir-entre-eps-laine-de-roche-et-fibre-de-bois-xai.webp"
   },
   {
     "id": 24,
@@ -309,7 +401,11 @@
       "rendement zonnepanelen zomer",
       "warmte zonnepanelen prestaties"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "zonnepanelen-en-hittegolf-prestaties-optimaliseren-bij-extreme-warmte",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/zonnepanelen-en-hittegolf-prestaties-optimaliseren-bij-extreme-warmte-xai.webp"
   },
   {
     "id": 25,
@@ -322,7 +418,11 @@
       "inclinaison panneaux solaires",
       "nettoyage panneaux solaires"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "optimiser-vos-panneaux-solaires-en-ete-inclinaison-ombrage-et-nettoyage",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/optimiser-vos-panneaux-solaires-en-ete-inclinaison-ombrage-et-nettoyage-xai.webp"
   },
   {
     "id": 26,
@@ -335,7 +435,11 @@
       "alternative climatisation",
       "confort ete sans clim"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "refroidissement-passif-alternatives-ecologiques-a-la-climatisation-traditionnelle",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/refroidissement-passif-alternatives-ecologiques-a-la-climatisation-traditionnelle-xai.webp"
   },
   {
     "id": 27,
@@ -348,7 +452,11 @@
       "solutions passives benelux",
       "rafraichissement naturel maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "confort-thermique-estival-sans-climatisation-solutions-passives-pour-le-benelux",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/confort-thermique-estival-sans-climatisation-solutions-passives-pour-le-benelux-xai.webp"
   },
   {
     "id": 28,
@@ -361,7 +469,11 @@
       "cloud energetique",
       "stockage surplus solaire"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "batterie-virtuelle-stocker-votre-surplus-solaire-sur-le-cloud-energetique",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic Tesla Powerwall 2 home battery mounted on garage wall of Belgian modern home, connected to solar inverter, LED status display visible, clean technical installation, bright ambient lighting",
+    "image": "/images/blog/calendar/batterie-virtuelle-stocker-votre-surplus-solaire-sur-le-cloud-energetique-xai.webp"
   },
   {
     "id": 29,
@@ -374,7 +486,11 @@
       "compteur double sens",
       "impact facture compteur"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "compteur-bidirectionnel-en-wallonie-fonctionnement-et-impact-sur-votre-facture",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic Belgian smart home living room with tablet showing energy flow dashboard (solar production, battery, heat pump), wall-mounted display, cozy modern interior with plants, warm evening lighting, ultra-photorealistic lifestyle",
+    "image": "/images/blog/calendar/compteur-bidirectionnel-en-wallonie-fonctionnement-et-impact-sur-votre-facture-xai.webp"
   },
   {
     "id": 30,
@@ -387,7 +503,11 @@
       "aide solaire luxembourg",
       "subside panneau solaire lux"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "primes-photovoltaiques-au-luxembourg-2026-tout-ce-qui-change",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic close-up of Belgian couple reviewing energy subsidy documents at kitchen table, prime Wallonie papers visible, warm afternoon lighting, lifestyle photography, 2026 energy renovation planning",
+    "image": "/images/blog/calendar/primes-photovoltaiques-au-luxembourg-2026-tout-ce-qui-change-xai.webp"
   },
   {
     "id": 31,
@@ -400,7 +520,11 @@
       "isde regeling",
       "salderingsregeling 2026"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "subsidies-zonnepanelen-nederland-2026-isde-salderingsregeling-en-meer",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch couple reviewing ISDE subsidy forms on laptop at home, papers visible on table, warm indoor lighting, renovation planning 2026",
+    "image": "/images/blog/calendar/subsidies-zonnepanelen-nederland-2026-isde-salderingsregeling-en-meer-xai.webp"
   },
   {
     "id": 32,
@@ -413,7 +537,11 @@
       "geothermie benelux",
       "pac geothermique prix"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "pompe-a-chaleur-geothermique-rentabilite-et-retour-sur-investissement-au-benelux",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/pompe-a-chaleur-geothermique-rentabilite-et-retour-sur-investissement-au-benelux-xai.webp"
   },
   {
     "id": 33,
@@ -426,7 +554,11 @@
       "tuile photovoltaique prix",
       "esthetique solaire toiture"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "tuiles-solaires-vs-panneaux-classiques-esthetique-rendement-et-prix-compares",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/tuiles-solaires-vs-panneaux-classiques-esthetique-rendement-et-prix-compares-xai.webp"
   },
   {
     "id": 34,
@@ -439,7 +571,11 @@
       "injection mousse isolante",
       "isolation exterieure murs"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "isolation-des-murs-creux-injection-vs-isolation-par-l-exterieur-en-2026",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/isolation-des-murs-creux-injection-vs-isolation-par-l-exterieur-en-2026-xai.webp"
   },
   {
     "id": 35,
@@ -452,7 +588,11 @@
       "buitengevelisolatie",
       "muurisolatie vergelijking 2026"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "spouwmuurisolatie-vs-buitengevelisolatie-welke-keuze-in-2026",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of Dutch installer applying cavity wall insulation in spouwmuur of Netherlands brick house, professional renovation photography, warm natural lighting, thermal bridge detail, 2026 energie renovatie",
+    "image": "/images/blog/calendar/spouwmuurisolatie-vs-buitengevelisolatie-welke-keuze-in-2026-xai.webp"
   },
   {
     "id": 36,
@@ -465,7 +605,11 @@
       "voiture electrique batterie maison",
       "v2h belgique"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "vehicle-to-home-utiliser-votre-voiture-electrique-comme-batterie-domestique",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic Tesla Powerwall 2 home battery mounted on garage wall of Belgian modern home, connected to solar inverter, LED status display visible, clean technical installation, bright ambient lighting",
+    "image": "/images/blog/calendar/vehicle-to-home-utiliser-votre-voiture-electrique-comme-batterie-domestique-xai.webp"
   },
   {
     "id": 37,
@@ -478,7 +622,11 @@
       "securite installation photovoltaique",
       "antivol panneau solaire"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "alarme-connectee-et-panneaux-solaires-securiser-votre-installation-photovoltaique",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic modern Belgian smart home security system, Verisure-style keypad by front door, discreet wireless cameras, family entering home, warm lifestyle photography",
+    "image": "/images/blog/calendar/alarme-connectee-et-panneaux-solaires-securiser-votre-installation-photovoltaique-xai.webp"
   },
   {
     "id": 38,
@@ -491,7 +639,11 @@
       "synergie ve autoconsommation",
       "voiture electrique maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "mobilite-electrique-et-maison-solaire-synergie-entre-ve-et-autoconsommation",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic Belgian smart home living room with tablet showing energy flow dashboard (solar production, battery, heat pump), wall-mounted display, cozy modern interior with plants, warm evening lighting, ultra-photorealistic lifestyle",
+    "image": "/images/blog/calendar/mobilite-electrique-et-maison-solaire-synergie-entre-ve-et-autoconsommation-xai.webp"
   },
   {
     "id": 39,
@@ -504,7 +656,11 @@
       "maximiser production solaire",
       "gestion energie vacances"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "production-solaire-en-ete-maximiser-l-autoconsommation-pendant-les-vacances",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/production-solaire-en-ete-maximiser-l-autoconsommation-pendant-les-vacances-xai.webp"
   },
   {
     "id": 40,
@@ -517,7 +673,11 @@
       "zonne-energie vakantie",
       "zelfconsumptie maximaliseren"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "zonne-energie-in-de-zomer-zo-maximaliseer-je-eigenverbruik-tijdens-vakantie",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/zonne-energie-in-de-zomer-zo-maximaliseer-je-eigenverbruik-tijdens-vakantie-xai.webp"
   },
   {
     "id": 41,
@@ -530,7 +690,11 @@
       "recharge voiture electrique panneaux solaires",
       "wallbox solaire"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "borne-de-recharge-solaire-a-domicile-alimenter-votre-ve-avec-vos-panneaux",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/borne-de-recharge-solaire-a-domicile-alimenter-votre-ve-avec-vos-panneaux-xai.webp"
   },
   {
     "id": 42,
@@ -543,7 +707,11 @@
       "elektrische auto zonnepanelen laden",
       "wallbox zonne-energie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "thuislader-op-zonne-energie-laad-je-ev-op-met-je-eigen-zonnepanelen",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/thuislader-op-zonne-energie-laad-je-ev-op-met-je-eigen-zonnepanelen-xai.webp"
   },
   {
     "id": 43,
@@ -556,7 +724,11 @@
       "pergola photovoltaique",
       "carport solaire belgique"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "pergola-solaire-produire-de-l-electricite-tout-en-protegeant-votre-terrasse",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/pergola-solaire-produire-de-l-electricite-tout-en-protegeant-votre-terrasse-xai.webp"
   },
   {
     "id": 44,
@@ -569,7 +741,11 @@
       "zonnepanelen pergola",
       "carport zonnepanelen prijs"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "zonne-carport-en-pergola-elektriciteit-opwekken-en-je-terras-beschermen",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/zonne-carport-en-pergola-elektriciteit-opwekken-en-je-terras-beschermen-xai.webp"
   },
   {
     "id": 45,
@@ -582,7 +758,11 @@
       "domotique stores automatiques",
       "automatisation maison ete"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "smart-home-ete-automatiser-stores-arrosage-et-ventilation-avec-la-domotique",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/smart-home-ete-automatiser-stores-arrosage-et-ventilation-avec-la-domotique-xai.webp"
   },
   {
     "id": 46,
@@ -595,7 +775,11 @@
       "automatische zonwering",
       "domotica ventilatie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "slim-wonen-in-de-zomer-zonwering-bewatering-en-ventilatie-automatiseren",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "digital twin Dutch home visualization, 3D BIM model blended with real photo, energy data overlay, architectural rendering 2026",
+    "image": "/images/blog/calendar/slim-wonen-in-de-zomer-zonwering-bewatering-en-ventilatie-automatiseren-xai.webp"
   },
   {
     "id": 47,
@@ -608,7 +792,11 @@
       "toit vert photovoltaique",
       "toiture verte ville"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "toiture-vegetalisee-et-panneaux-solaires-une-combinaison-gagnante-en-ville",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/toiture-vegetalisee-et-panneaux-solaires-une-combinaison-gagnante-en-ville-xai.webp"
   },
   {
     "id": 48,
@@ -621,7 +809,11 @@
       "ecologie performance energetique",
       "toit vegetal urbain"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "toiture-verte-et-biodiversite-urbaine-coupler-ecologie-et-performance-energetique",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/toiture-verte-et-biodiversite-urbaine-coupler-ecologie-et-performance-energetique-xai.webp"
   },
   {
     "id": 49,
@@ -634,7 +826,11 @@
       "travaux rentables label energetique",
       "audit energetique maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "epc-score-ameliorer-les-travaux-les-plus-rentables-pour-monter-d-un-label",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/epc-score-ameliorer-les-travaux-les-plus-rentables-pour-monter-d-un-label-xai.webp"
   },
   {
     "id": 50,
@@ -647,7 +843,11 @@
       "rendabele renovatiewerken",
       "energielabel woning"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "epc-label-verbeteren-de-meest-rendabele-werken-om-een-label-op-te-klimmen",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch renovated living room interior, Scandinavian-Dutch design, modern minimalist, plants, natural light, sustainable materials, architectural interior photography 2026",
+    "image": "/images/blog/calendar/epc-label-verbeteren-de-meest-rendabele-werken-om-een-label-op-te-klimmen-xai.webp"
   },
   {
     "id": 51,
@@ -660,7 +860,11 @@
       "assurance maison renovee",
       "garantie renovation energetique"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "assurance-habitation-verte-les-garanties-specifiques-pour-maisons-renovees",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic modern Belgian smart home security system, Verisure-style keypad by front door, discreet wireless cameras, family entering home, warm lifestyle photography",
+    "image": "/images/blog/calendar/assurance-habitation-verte-les-garanties-specifiques-pour-maisons-renovees-xai.webp"
   },
   {
     "id": 52,
@@ -673,7 +877,11 @@
       "normes incendie isolation",
       "systeme securite incendie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "protection-incendie-maison-renovee-normes-et-systemes-pour-habitations-isolees",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic modern Belgian smart home security system, Verisure-style keypad by front door, discreet wireless cameras, family entering home, warm lifestyle photography",
+    "image": "/images/blog/calendar/protection-incendie-maison-renovee-normes-et-systemes-pour-habitations-isolees-xai.webp"
   },
   {
     "id": 53,
@@ -686,7 +894,11 @@
       "micro inverseur solaire",
       "choix onduleur panneaux solaires"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "micro-onduleurs-vs-onduleur-central-quel-choix-pour-votre-installation-2026",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/micro-onduleurs-vs-onduleur-central-quel-choix-pour-votre-installation-2026-xai.webp"
   },
   {
     "id": 54,
@@ -699,7 +911,11 @@
       "centrale omvormer vergelijking",
       "omvormer zonnepanelen"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "micro-omvormers-vs-centrale-omvormer-de-beste-keuze-voor-jouw-installatie",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/micro-omvormers-vs-centrale-omvormer-de-beste-keuze-voor-jouw-installatie-xai.webp"
   },
   {
     "id": 55,
@@ -712,7 +928,11 @@
       "calendrier travaux renovation",
       "renovation rentree"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "planifier-sa-renovation-de-rentree-calendrier-ideal-des-travaux-d-automne",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/planifier-sa-renovation-de-rentree-calendrier-ideal-des-travaux-d-automne-xai.webp"
   },
   {
     "id": 56,
@@ -725,7 +945,11 @@
       "salle de bain efficacite energie",
       "renovation interieure durable"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "renovation-cuisine-et-salle-de-bain-integrer-l-efficacite-energetique-au-confort",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/renovation-cuisine-et-salle-de-bain-integrer-l-efficacite-energetique-au-confort-xai.webp"
   },
   {
     "id": 57,
@@ -738,7 +962,11 @@
       "conserver energie solaire",
       "batterie long terme"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "stockage-intersaisonnier-les-nouvelles-solutions-pour-conserver-l-energie-solaire",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic Tesla Powerwall 2 home battery mounted on garage wall of Belgian modern home, connected to solar inverter, LED status display visible, clean technical installation, bright ambient lighting",
+    "image": "/images/blog/calendar/stockage-intersaisonnier-les-nouvelles-solutions-pour-conserver-l-energie-solaire-xai.webp"
   },
   {
     "id": 58,
@@ -751,7 +979,11 @@
       "pac chaudiere condensation",
       "chauffage hybride"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "pompe-a-chaleur-hybride-combiner-pac-et-chaudiere-a-condensation",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/pompe-a-chaleur-hybride-combiner-pac-et-chaudiere-a-condensation-xai.webp"
   },
   {
     "id": 59,
@@ -764,7 +996,11 @@
       "warmtepomp condensatieketel",
       "hybride verwarming"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "hybride-warmtepomp-combinatie-van-warmtepomp-en-condensatieketel",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/hybride-warmtepomp-combinatie-van-warmtepomp-en-condensatieketel-xai.webp"
   },
   {
     "id": 60,
@@ -777,7 +1013,11 @@
       "confort acoustique energetique",
       "isolation combinee"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "isolation-phonique-et-thermique-combiner-confort-acoustique-et-energetique",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/isolation-phonique-et-thermique-combiner-confort-acoustique-et-energetique-xai.webp"
   },
   {
     "id": 61,
@@ -790,7 +1030,11 @@
       "alternative vmc",
       "ventilation maison ancienne"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "ventilation-naturelle-assistee-alternative-a-la-vmc-pour-maisons-anciennes",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/ventilation-naturelle-assistee-alternative-a-la-vmc-pour-maisons-anciennes-xai.webp"
   },
   {
     "id": 62,
@@ -803,7 +1047,11 @@
       "donnees consommation temps reel",
       "compteur digital belgique"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "compteur-intelligent-fluvius-comprendre-vos-donnees-de-consommation-en-temps-reel",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic smart home energy dashboard visualization, real-time solar production graph, battery level, heat pump status, holographic digital twin display, dark premium UI with green and blue accents, prosumer energy management, photorealistic",
+    "image": "/images/blog/calendar/compteur-intelligent-fluvius-comprendre-vos-donnees-de-consommation-en-temps-reel-xai.webp"
   },
   {
     "id": 63,
@@ -816,7 +1064,11 @@
       "verbruiksgegevens realtime",
       "digitale meter belgie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "slimme-meter-fluvius-je-verbruiksgegevens-in-realtime-begrijpen",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "Dutch smart home energy management system display showing real-time zonnepanelen production and verbruik, modern interface, premium UI, photorealistic",
+    "image": "/images/blog/calendar/slimme-meter-fluvius-je-verbruiksgegevens-in-realtime-begrijpen-xai.webp"
   },
   {
     "id": 64,
@@ -829,7 +1081,11 @@
       "echelonner travaux renovation",
       "renovation progressive"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "renovation-par-etapes-echelonner-les-travaux-sans-perdre-en-efficacite",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/renovation-par-etapes-echelonner-les-travaux-sans-perdre-en-efficacite-xai.webp"
   },
   {
     "id": 65,
@@ -842,7 +1098,11 @@
       "budget renovation 4 facades",
       "prix renovation maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "cout-reel-d-une-renovation-energetique-complete-budget-type-pour-une-maison-4-facades",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/cout-reel-d-une-renovation-energetique-complete-budget-type-pour-une-maison-4-facades-xai.webp"
   },
   {
     "id": 66,
@@ -855,7 +1115,11 @@
       "taux pret renovation",
       "credit renovation energetique"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "pret-vert-en-belgique-2026-taux-conditions-et-banques-partenaires",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic close-up of Belgian couple reviewing energy subsidy documents at kitchen table, prime Wallonie papers visible, warm afternoon lighting, lifestyle photography, 2026 energy renovation planning",
+    "image": "/images/blog/calendar/pret-vert-en-belgique-2026-taux-conditions-et-banques-partenaires-xai.webp"
   },
   {
     "id": 67,
@@ -868,7 +1132,11 @@
       "renovatielening tarief",
       "krediet energetische renovatie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "groene-lening-belgie-2026-tarieven-voorwaarden-en-partnerbanken",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch couple reviewing ISDE subsidy forms on laptop at home, papers visible on table, warm indoor lighting, renovation planning 2026",
+    "image": "/images/blog/calendar/groene-lening-belgie-2026-tarieven-voorwaarden-en-partnerbanken-xai.webp"
   },
   {
     "id": 68,
@@ -881,7 +1149,11 @@
       "securite autonome jardin",
       "camera solaire exterieur"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "camera-de-surveillance-solaire-securite-autonome-pour-votre-jardin-et-garage",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic modern Belgian smart home security system, Verisure-style keypad by front door, discreet wireless cameras, family entering home, warm lifestyle photography",
+    "image": "/images/blog/calendar/camera-de-surveillance-solaire-securite-autonome-pour-votre-jardin-et-garage-xai.webp"
   },
   {
     "id": 69,
@@ -894,7 +1166,11 @@
       "complement pompe chaleur",
       "panneau infrarouge chauffage"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "chauffage-infrarouge-electrique-complement-ideal-a-la-pompe-a-chaleur",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/chauffage-infrarouge-electrique-complement-ideal-a-la-pompe-a-chaleur-xai.webp"
   },
   {
     "id": 70,
@@ -907,7 +1183,11 @@
       "checklist chauffage",
       "entretien pac automne"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "preparer-son-chauffage-pour-l-hiver-checklist-de-maintenance-pompe-a-chaleur",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/preparer-son-chauffage-pour-l-hiver-checklist-de-maintenance-pompe-a-chaleur-xai.webp"
   },
   {
     "id": 71,
@@ -920,7 +1200,11 @@
       "checklist verwarming",
       "warmtepomp winterklaar"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "verwarmingsinstallatie-winterklaar-maken-onderhoudschecklist-warmtepomp",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/verwarmingsinstallatie-winterklaar-maken-onderhoudschecklist-warmtepomp-xai.webp"
   },
   {
     "id": 72,
@@ -933,7 +1217,11 @@
       "deperdition thermique sol",
       "isoler cave maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "isolation-sol-et-cave-les-techniques-efficaces-pour-stopper-les-deperditions",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/isolation-sol-et-cave-les-techniques-efficaces-pour-stopper-les-deperditions-xai.webp"
   },
   {
     "id": 73,
@@ -946,7 +1234,11 @@
       "kelderisolatie",
       "warmteverlies vloer"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "vloer-en-kelderisolatie-effectieve-technieken-tegen-warmteverlies",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of Dutch installer applying cavity wall insulation in spouwmuur of Netherlands brick house, professional renovation photography, warm natural lighting, thermal bridge detail, 2026 energie renovatie",
+    "image": "/images/blog/calendar/vloer-en-kelderisolatie-effectieve-technieken-tegen-warmteverlies-xai.webp"
   },
   {
     "id": 74,
@@ -959,7 +1251,11 @@
       "cadre legal energie citoyenne",
       "projet pilote energie lux"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "energie-communautaire-au-luxembourg-le-cadre-legal-2026-et-les-projets-pilotes",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic smart home energy dashboard visualization, real-time solar production graph, battery level, heat pump status, holographic digital twin display, dark premium UI with green and blue accents, prosumer energy management, photorealistic",
+    "image": "/images/blog/calendar/energie-communautaire-au-luxembourg-le-cadre-legal-2026-et-les-projets-pilotes-xai.webp"
   },
   {
     "id": 75,
@@ -972,7 +1268,11 @@
       "juridisch kader energie",
       "buurtenergie project"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "energiecooperaties-in-nederland-juridisch-kader-en-succesvolle-projecten",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "Dutch smart home energy management system display showing real-time zonnepanelen production and verbruik, modern interface, premium UI, photorealistic",
+    "image": "/images/blog/calendar/energiecooperaties-in-nederland-juridisch-kader-en-succesvolle-projecten-xai.webp"
   },
   {
     "id": 76,
@@ -985,7 +1285,11 @@
       "audit energetique proprietaire",
       "diagnostic energetique maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "audit-energetique-obligatoire-ce-que-les-proprietaires-doivent-savoir-en-2026",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/audit-energetique-obligatoire-ce-que-les-proprietaires-doivent-savoir-en-2026-xai.webp"
   },
   {
     "id": 77,
@@ -998,7 +1302,11 @@
       "energieaudit eigenaar",
       "energieprestatie woning"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "verplicht-energieaudit-2026-wat-eigenaars-moeten-weten",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch renovated living room interior, Scandinavian-Dutch design, modern minimalist, plants, natural light, sustainable materials, architectural interior photography 2026",
+    "image": "/images/blog/calendar/verplicht-energieaudit-2026-wat-eigenaars-moeten-weten-xai.webp"
   },
   {
     "id": 78,
@@ -1011,7 +1319,11 @@
       "stockage sodium ion",
       "alternative lithium batterie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "batterie-sodium-ion-la-prochaine-revolution-du-stockage-residentiel",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic Tesla Powerwall 2 home battery mounted on garage wall of Belgian modern home, connected to solar inverter, LED status display visible, clean technical installation, bright ambient lighting",
+    "image": "/images/blog/calendar/batterie-sodium-ion-la-prochaine-revolution-du-stockage-residentiel-xai.webp"
   },
   {
     "id": 79,
@@ -1024,7 +1336,11 @@
       "hydrogene residentiel",
       "pile combustible maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "stockage-hydrogene-domestique-la-prochaine-frontiere-du-stockage-residentiel",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic Tesla Powerwall 2 home battery mounted on garage wall of Belgian modern home, connected to solar inverter, LED status display visible, clean technical installation, bright ambient lighting",
+    "image": "/images/blog/calendar/stockage-hydrogene-domestique-la-prochaine-frontiere-du-stockage-residentiel-xai.webp"
   },
   {
     "id": 80,
@@ -1037,7 +1353,11 @@
       "plancher chauffant pac",
       "basse temperature chauffage"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "chauffage-au-sol-et-pompe-a-chaleur-le-duo-ideal-pour-la-basse-temperature",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/chauffage-au-sol-et-pompe-a-chaleur-le-duo-ideal-pour-la-basse-temperature-xai.webp"
   },
   {
     "id": 81,
@@ -1050,7 +1370,11 @@
       "lage temperatuur verwarming",
       "vloerverwarming combinatie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "vloerverwarming-en-warmtepomp-het-ideale-duo-voor-lage-temperatuur",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/vloerverwarming-en-warmtepomp-het-ideale-duo-voor-lage-temperatuur-xai.webp"
   },
   {
     "id": 82,
@@ -1063,7 +1387,11 @@
       "triple vitrage prix",
       "menuiserie energetique"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "fenetres-triple-vitrage-quand-le-surinvestissement-devient-rentable",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/fenetres-triple-vitrage-quand-le-surinvestissement-devient-rentable-xai.webp"
   },
   {
     "id": 83,
@@ -1076,7 +1404,11 @@
       "aide renovation bruxelles",
       "subside energetique bruxelles"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "prime-renolution-a-bruxelles-2026-conditions-et-montants-actualises",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic close-up of Belgian couple reviewing energy subsidy documents at kitchen table, prime Wallonie papers visible, warm afternoon lighting, lifestyle photography, 2026 energy renovation planning",
+    "image": "/images/blog/calendar/prime-renolution-a-bruxelles-2026-conditions-et-montants-actualises-xai.webp"
   },
   {
     "id": 84,
@@ -1089,7 +1421,11 @@
       "subsidie renovatie brussel",
       "energiepremie brussel"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "renovatiepremie-brussel-2026-voorwaarden-en-geactualiseerde-bedragen",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch couple reviewing ISDE subsidy forms on laptop at home, papers visible on table, warm indoor lighting, renovation planning 2026",
+    "image": "/images/blog/calendar/renovatiepremie-brussel-2026-voorwaarden-en-geactualiseerde-bedragen-xai.webp"
   },
   {
     "id": 85,
@@ -1102,7 +1438,11 @@
       "rifkin benelux",
       "habitat rifkin piliers"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "troisieme-revolution-industrielle-et-logement-la-vision-de-rifkin-pour-le-benelux",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/troisieme-revolution-industrielle-et-logement-la-vision-de-rifkin-pour-le-benelux-xai.webp"
   },
   {
     "id": 86,
@@ -1115,7 +1455,11 @@
       "rifkin benelux",
       "wonen rifkin pijlers"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "derde-industriele-revolutie-en-wonen-rifkins-visie-voor-de-benelux",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "digital twin Dutch home visualization, 3D BIM model blended with real photo, energy data overlay, architectural rendering 2026",
+    "image": "/images/blog/calendar/derde-industriele-revolutie-en-wonen-rifkins-visie-voor-de-benelux-xai.webp"
   },
   {
     "id": 87,
@@ -1128,7 +1472,11 @@
       "pac reversible",
       "chauffage climatisation pac"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "pompe-a-chaleur-air-air-chauffer-et-climatiser-avec-un-seul-appareil",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/pompe-a-chaleur-air-air-chauffer-et-climatiser-avec-un-seul-appareil-xai.webp"
   },
   {
     "id": 88,
@@ -1141,7 +1489,11 @@
       "reversibele warmtepomp",
       "verwarming koeling warmtepomp"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "lucht-lucht-warmtepomp-verwarmen-en-koelen-met-een-toestel",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/lucht-lucht-warmtepomp-verwarmen-en-koelen-met-een-toestel-xai.webp"
   },
   {
     "id": 89,
@@ -1154,7 +1506,11 @@
       "isolation combles perdus",
       "cellulose soufflee prix"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "isolation-par-insufflation-de-cellulose-avantages-pour-les-combles-perdus",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/isolation-par-insufflation-de-cellulose-avantages-pour-les-combles-perdus-xai.webp"
   },
   {
     "id": 90,
@@ -1167,7 +1523,11 @@
       "isolation facade legere",
       "crepi isolant prix"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "enduit-isolant-exterieur-une-solution-legere-pour-les-facades-fragiles",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/enduit-isolant-exterieur-une-solution-legere-pour-les-facades-fragiles-xai.webp"
   },
   {
     "id": 91,
@@ -1180,7 +1540,11 @@
       "energie decentralisee",
       "blockchain energie residentiel"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "smart-grid-et-blockchain-la-gestion-decentralisee-de-l-energie-en-pratique",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic smart home energy dashboard visualization, real-time solar production graph, battery level, heat pump status, holographic digital twin display, dark premium UI with green and blue accents, prosumer energy management, photorealistic",
+    "image": "/images/blog/calendar/smart-grid-et-blockchain-la-gestion-decentralisee-de-l-energie-en-pratique-xai.webp"
   },
   {
     "id": 92,
@@ -1193,7 +1557,11 @@
       "gedecentraliseerde energie",
       "blockchain energie residentieel"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "smart-grid-en-blockchain-gedecentraliseerd-energiebeheer-in-de-praktijk",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "Dutch smart home energy management system display showing real-time zonnepanelen production and verbruik, modern interface, premium UI, photorealistic",
+    "image": "/images/blog/calendar/smart-grid-en-blockchain-gedecentraliseerd-energiebeheer-in-de-praktijk-xai.webp"
   },
   {
     "id": 93,
@@ -1206,7 +1574,11 @@
       "passoire thermique transformation",
       "maison basse energie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "renovation-profonde-transformer-une-passoire-thermique-en-maison-basse-energie",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/renovation-profonde-transformer-une-passoire-thermique-en-maison-basse-energie-xai.webp"
   },
   {
     "id": 94,
@@ -1219,7 +1591,11 @@
       "troisieme revolution industrielle habitat",
       "impact rifkin logement"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "rifkin-et-la-troisieme-revolution-industrielle-impact-concret-sur-l-habitat-wallon",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/rifkin-et-la-troisieme-revolution-industrielle-impact-concret-sur-l-habitat-wallon-xai.webp"
   },
   {
     "id": 95,
@@ -1232,7 +1608,11 @@
       "bifacial rendement",
       "panneau bifacial prix benelux"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "panneaux-solaires-bifaciaux-technologie-rendement-et-prix-en-benelux",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/panneaux-solaires-bifaciaux-technologie-rendement-et-prix-en-benelux-xai.webp"
   },
   {
     "id": 96,
@@ -1245,7 +1625,11 @@
       "bifaciaal rendement",
       "bifaciaal paneel prijs"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "bifaciale-zonnepanelen-technologie-rendement-en-prijs-in-de-benelux",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/bifaciale-zonnepanelen-technologie-rendement-en-prijs-in-de-benelux-xai.webp"
   },
   {
     "id": 97,
@@ -1258,7 +1642,11 @@
       "smart home securite incendie",
       "norme detecteur fumee 2026"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "detecteur-de-fumee-connecte-et-smart-home-integration-et-normes-2026",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic modern Belgian smart home security system, Verisure-style keypad by front door, discreet wireless cameras, family entering home, warm lifestyle photography",
+    "image": "/images/blog/calendar/detecteur-de-fumee-connecte-et-smart-home-integration-et-normes-2026-xai.webp"
   },
   {
     "id": 98,
@@ -1271,7 +1659,11 @@
       "load shifting maison",
       "gestion demande electricite"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "electromenager-connecte-et-gestion-de-la-demande-reduire-sa-facture-avec-le-load-shifting",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/electromenager-connecte-et-gestion-de-la-demande-reduire-sa-facture-avec-le-load-shifting-xai.webp"
   },
   {
     "id": 99,
@@ -1284,7 +1676,11 @@
       "comparatif chauffage",
       "cout chauffage 15 ans"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "chaudiere-a-pellets-vs-pompe-a-chaleur-comparatif-des-couts-sur-15-ans",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/chaudiere-a-pellets-vs-pompe-a-chaleur-comparatif-des-couts-sur-15-ans-xai.webp"
   },
   {
     "id": 100,
@@ -1297,7 +1693,11 @@
       "vergelijking verwarming",
       "verwarmingskosten 15 jaar"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "pelletketel-vs-warmtepomp-kostenvergelijking-over-15-jaar",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/pelletketel-vs-warmtepomp-kostenvergelijking-over-15-jaar-xai.webp"
   },
   {
     "id": 101,
@@ -1310,7 +1710,11 @@
       "ventilation mecanique isolation",
       "qualite air interieur"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "double-flux-vmc-pourquoi-la-ventilation-mecanique-est-essentielle-apres-isolation",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/double-flux-vmc-pourquoi-la-ventilation-mecanique-est-essentielle-apres-isolation-xai.webp"
   },
   {
     "id": 102,
@@ -1323,7 +1727,11 @@
       "ventilatie na isolatie",
       "binnenluchtkwaliteit"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "mechanische-ventilatie-type-d-waarom-essentieel-na-isolatie",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of Dutch installer applying cavity wall insulation in spouwmuur of Netherlands brick house, professional renovation photography, warm natural lighting, thermal bridge detail, 2026 energie renovatie",
+    "image": "/images/blog/calendar/mechanische-ventilatie-type-d-waarom-essentieel-na-isolatie-xai.webp"
   },
   {
     "id": 103,
@@ -1336,7 +1744,11 @@
       "prix dynamique batterie",
       "tarif variable energie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "tarification-dynamique-de-l-electricite-comment-en-profiter-avec-une-batterie",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic Belgian smart home living room with tablet showing energy flow dashboard (solar production, battery, heat pump), wall-mounted display, cozy modern interior with plants, warm evening lighting, ultra-photorealistic lifestyle",
+    "image": "/images/blog/calendar/tarification-dynamique-de-l-electricite-comment-en-profiter-avec-une-batterie-xai.webp"
   },
   {
     "id": 104,
@@ -1349,7 +1761,11 @@
       "dynamische prijzen batterij",
       "variabel energietarief"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "dynamische-elektriciteitstarieven-hoe-profiteren-met-een-thuisbatterij",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "Dutch smart home with prosumer energy hub, tablet showing energy dashboard, modern minimalist interior, 2026 sustainable living, photorealistic",
+    "image": "/images/blog/calendar/dynamische-elektriciteitstarieven-hoe-profiteren-met-een-thuisbatterij-xai.webp"
   },
   {
     "id": 105,
@@ -1362,7 +1778,11 @@
       "valeur immobiliere renovation",
       "retour investissement renovation"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "renovation-energetique-et-plus-value-immobiliere-chiffres-cles-2026",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/renovation-energetique-et-plus-value-immobiliere-chiffres-cles-2026-xai.webp"
   },
   {
     "id": 106,
@@ -1375,7 +1795,11 @@
       "woningwaarde renovatie",
       "rendement investering renovatie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "energetische-renovatie-en-meerwaarde-kerncijfers-2026",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch renovated living room interior, Scandinavian-Dutch design, modern minimalist, plants, natural light, sustainable materials, architectural interior photography 2026",
+    "image": "/images/blog/calendar/energetische-renovatie-en-meerwaarde-kerncijfers-2026-xai.webp"
   },
   {
     "id": 107,
@@ -1388,7 +1812,11 @@
       "rendement solaire hiver",
       "optimiser solaire hiver"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "panneaux-solaires-en-hiver-production-reelle-et-astuces-pour-compenser",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/panneaux-solaires-en-hiver-production-reelle-et-astuces-pour-compenser-xai.webp"
   },
   {
     "id": 108,
@@ -1401,7 +1829,11 @@
       "rendement zonnepanelen winter",
       "zonnepanelen korte dagen"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "zonnepanelen-in-de-winter-werkelijke-productie-en-tips-om-te-compenseren",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/zonnepanelen-in-de-winter-werkelijke-productie-en-tips-om-te-compenseren-xai.webp"
   },
   {
     "id": 109,
@@ -1414,7 +1846,11 @@
       "isde isolation",
       "aide renovation pays-bas"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "subventions-isolation-aux-pays-bas-2026-isde-et-nouvelles-mesures",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic close-up of Belgian couple reviewing energy subsidy documents at kitchen table, prime Wallonie papers visible, warm afternoon lighting, lifestyle photography, 2026 energy renovation planning",
+    "image": "/images/blog/calendar/subventions-isolation-aux-pays-bas-2026-isde-et-nouvelles-mesures-xai.webp"
   },
   {
     "id": 110,
@@ -1427,7 +1863,11 @@
       "isde isolatie",
       "subsidie woningisolatie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "isolatiesubsidies-nederland-2026-isde-en-nieuwe-maatregelen",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch couple reviewing ISDE subsidy forms on laptop at home, papers visible on table, warm indoor lighting, renovation planning 2026",
+    "image": "/images/blog/calendar/isolatiesubsidies-nederland-2026-isde-en-nieuwe-maatregelen-xai.webp"
   },
   {
     "id": 111,
@@ -1440,7 +1880,11 @@
       "capteurs maison energie",
       "internet objets maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "internet-des-objets-et-gestion-energetique-les-capteurs-essentiels-pour-votre-maison",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/internet-des-objets-et-gestion-energetique-les-capteurs-essentiels-pour-votre-maison-xai.webp"
   },
   {
     "id": 112,
@@ -1453,7 +1897,11 @@
       "sensoren woning energie",
       "internet of things huis"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "internet-of-things-en-energiebeheer-essentiele-sensoren-voor-je-woning",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "digital twin Dutch home visualization, 3D BIM model blended with real photo, energy data overlay, architectural rendering 2026",
+    "image": "/images/blog/calendar/internet-of-things-en-energiebeheer-essentiele-sensoren-voor-je-woning-xai.webp"
   },
   {
     "id": 113,
@@ -1466,7 +1914,11 @@
       "controle acces maison",
       "securite maison renovee"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "serrure-connectee-et-controle-d-acces-securiser-sa-maison-renovee",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic modern Belgian smart home security system, Verisure-style keypad by front door, discreet wireless cameras, family entering home, warm lifestyle photography",
+    "image": "/images/blog/calendar/serrure-connectee-et-controle-d-acces-securiser-sa-maison-renovee-xai.webp"
   },
   {
     "id": 114,
@@ -1479,7 +1931,11 @@
       "toegangscontrole woning",
       "beveiliging gerenoveerd huis"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "slim-deurslot-en-toegangscontrole-je-gerenoveerde-woning-beveiligen",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic Dutch smart home beveiligingssysteem, modern alarmsysteem keypad, wireless camera's, veilige woning, lifestyle photography 2026",
+    "image": "/images/blog/calendar/slim-deurslot-en-toegangscontrole-je-gerenoveerde-woning-beveiligen-xai.webp"
   },
   {
     "id": 115,
@@ -1492,7 +1948,11 @@
       "analyse consommation 2026",
       "suivi energie maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "bilan-energetique-de-fin-d-annee-analyser-vos-consommations-2026",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/bilan-energetique-de-fin-d-annee-analyser-vos-consommations-2026-xai.webp"
   },
   {
     "id": 116,
@@ -1505,7 +1965,11 @@
       "analyse verbruik 2026",
       "energiemonitoring woning"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "energiebalans-einde-jaar-je-verbruik-van-2026-analyseren",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "digital twin Dutch home visualization, 3D BIM model blended with real photo, energy data overlay, architectural rendering 2026",
+    "image": "/images/blog/calendar/energiebalans-einde-jaar-je-verbruik-van-2026-analyseren-xai.webp"
   },
   {
     "id": 117,
@@ -1518,7 +1982,11 @@
       "radiateur basse consommation",
       "chauffage economique hiver"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "chauffage-d-appoint-electrique-comparatif-des-solutions-basse-consommation",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/chauffage-d-appoint-electrique-comparatif-des-solutions-basse-consommation-xai.webp"
   },
   {
     "id": 118,
@@ -1531,7 +1999,11 @@
       "zuinige radiator",
       "economische verwarming winter"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "elektrische-bijverwarming-vergelijking-van-zuinige-oplossingen",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/elektrische-bijverwarming-vergelijking-van-zuinige-oplossingen-xai.webp"
   },
   {
     "id": 119,
@@ -1544,7 +2016,11 @@
       "derniere limite prime belgique",
       "demande prime fin annee"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "dernieres-semaines-pour-demander-vos-primes-renovation-2026-en-belgique",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic close-up of Belgian couple reviewing energy subsidy documents at kitchen table, prime Wallonie papers visible, warm afternoon lighting, lifestyle photography, 2026 energy renovation planning",
+    "image": "/images/blog/calendar/dernieres-semaines-pour-demander-vos-primes-renovation-2026-en-belgique-xai.webp"
   },
   {
     "id": 120,
@@ -1557,7 +2033,11 @@
       "laatste limiet premie belgie",
       "premie aanvragen einde jaar"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "laatste-weken-om-je-renovatiepremies-2026-aan-te-vragen-in-belgie",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch couple reviewing ISDE subsidy forms on laptop at home, papers visible on table, warm indoor lighting, renovation planning 2026",
+    "image": "/images/blog/calendar/laatste-weken-om-je-renovatiepremies-2026-aan-te-vragen-in-belgie-xai.webp"
   },
   {
     "id": 121,
@@ -1570,7 +2050,11 @@
       "materiaux isolation ecologique",
       "isolant biosource 2026"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "isolation-thermique-par-l-interieur-les-nouveaux-materiaux-biosources-2026",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/isolation-thermique-par-l-interieur-les-nouveaux-materiaux-biosources-2026-xai.webp"
   },
   {
     "id": 122,
@@ -1583,7 +2067,11 @@
       "ecologisch isolatiemateriaal",
       "bioisolatie 2026"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "binnenisolatie-met-biogebaseerde-materialen-de-nieuwigheden-van-2026",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of Dutch installer applying cavity wall insulation in spouwmuur of Netherlands brick house, professional renovation photography, warm natural lighting, thermal bridge detail, 2026 energie renovatie",
+    "image": "/images/blog/calendar/binnenisolatie-met-biogebaseerde-materialen-de-nieuwigheden-van-2026-xai.webp"
   },
   {
     "id": 123,
@@ -1596,7 +2084,11 @@
       "autonomie panne reseau",
       "backup batterie maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "batterie-domestique-et-coupure-de-courant-l-autonomie-en-cas-de-panne-reseau",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic Tesla Powerwall 2 home battery mounted on garage wall of Belgian modern home, connected to solar inverter, LED status display visible, clean technical installation, bright ambient lighting",
+    "image": "/images/blog/calendar/batterie-domestique-et-coupure-de-courant-l-autonomie-en-cas-de-panne-reseau-xai.webp"
   },
   {
     "id": 124,
@@ -1609,7 +2101,11 @@
       "autonomie netwerkstoring",
       "backup batterij woning"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "thuisbatterij-bij-stroomuitval-autonomie-bij-een-netwerkstoring",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic home battery (BYD or Tesla Powerwall) mounted in Dutch garage, connected to zonnepanelen inverter, modern clean installation, sustainable energy storage",
+    "image": "/images/blog/calendar/thuisbatterij-bij-stroomuitval-autonomie-bij-een-netwerkstoring-xai.webp"
   },
   {
     "id": 125,
@@ -1622,7 +2118,11 @@
       "nouvelles normes energetiques",
       "anticiper renovation"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "planifier-ses-travaux-de-renovation-pour-2027-anticiper-les-nouvelles-normes",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/planifier-ses-travaux-de-renovation-pour-2027-anticiper-les-nouvelles-normes-xai.webp"
   },
   {
     "id": 126,
@@ -1635,7 +2135,11 @@
       "nieuwe energienormen",
       "renovatie voorbereiden"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "renovatiewerken-plannen-voor-2027-anticiperen-op-nieuwe-normen",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch renovated living room interior, Scandinavian-Dutch design, modern minimalist, plants, natural light, sustainable materials, architectural interior photography 2026",
+    "image": "/images/blog/calendar/renovatiewerken-plannen-voor-2027-anticiperen-op-nieuwe-normen-xai.webp"
   },
   {
     "id": 127,
@@ -1648,7 +2152,11 @@
       "tarif nuit electricite",
       "automatiser appareils economie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "smart-meter-et-tarifs-heures-creuses-automatiser-vos-appareils-pour-economiser",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic smart home energy dashboard visualization, real-time solar production graph, battery level, heat pump status, holographic digital twin display, dark premium UI with green and blue accents, prosumer energy management, photorealistic",
+    "image": "/images/blog/calendar/smart-meter-et-tarifs-heures-creuses-automatiser-vos-appareils-pour-economiser-xai.webp"
   },
   {
     "id": 128,
@@ -1661,7 +2169,11 @@
       "nappe phreatique chauffage",
       "pac aquathermie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "pompe-a-chaleur-eau-eau-exploiter-l-energie-de-votre-nappe-phreatique",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/pompe-a-chaleur-eau-eau-exploiter-l-energie-de-votre-nappe-phreatique-xai.webp"
   },
   {
     "id": 129,
@@ -1674,7 +2186,11 @@
       "grondwater verwarming",
       "aquathermie warmtepomp"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "water-water-warmtepomp-energie-uit-grondwater-benutten",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/water-water-warmtepomp-energie-uit-grondwater-benutten-xai.webp"
   },
   {
     "id": 130,
@@ -1687,7 +2203,11 @@
       "nouveautes prime wallonie",
       "prime bruxelles 2027"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "nouvelles-primes-renovation-2027-ce-qui-change-en-wallonie-et-a-bruxelles",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic close-up of Belgian couple reviewing energy subsidy documents at kitchen table, prime Wallonie papers visible, warm afternoon lighting, lifestyle photography, 2026 energy renovation planning",
+    "image": "/images/blog/calendar/nouvelles-primes-renovation-2027-ce-qui-change-en-wallonie-et-a-bruxelles-xai.webp"
   },
   {
     "id": 131,
@@ -1700,7 +2220,11 @@
       "nieuw premie vlaanderen",
       "premie brussel 2027"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "nieuwe-renovatiepremies-2027-wat-verandert-in-vlaanderen-en-brussel",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch couple reviewing ISDE subsidy forms on laptop at home, papers visible on table, warm indoor lighting, renovation planning 2026",
+    "image": "/images/blog/calendar/nieuwe-renovatiepremies-2027-wat-verandert-in-vlaanderen-en-brussel-xai.webp"
   },
   {
     "id": 132,
@@ -1713,7 +2237,11 @@
       "fuites air maison",
       "colmater fuites thermiques"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "deperditions-thermiques-en-hiver-identifier-et-colmater-les-fuites-d-air",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/deperditions-thermiques-en-hiver-identifier-et-colmater-les-fuites-d-air-xai.webp"
   },
   {
     "id": 133,
@@ -1726,7 +2254,11 @@
       "luchtlekken woning",
       "luchtdichtheid verbeteren"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "warmteverlies-in-de-winter-luchtlekken-opsporen-en-dichten",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of Dutch installer applying cavity wall insulation in spouwmuur of Netherlands brick house, professional renovation photography, warm natural lighting, thermal bridge detail, 2026 energie renovatie",
+    "image": "/images/blog/calendar/warmteverlies-in-de-winter-luchtlekken-opsporen-en-dichten-xai.webp"
   },
   {
     "id": 134,
@@ -1739,7 +2271,11 @@
       "reglementation autoconsommation",
       "partage energie france"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "autoconsommation-collective-en-france-le-cadre-reglementaire-2027",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic Belgian smart home living room with tablet showing energy flow dashboard (solar production, battery, heat pump), wall-mounted display, cozy modern interior with plants, warm evening lighting, ultra-photorealistic lifestyle",
+    "image": "/images/blog/calendar/autoconsommation-collective-en-france-le-cadre-reglementaire-2027-xai.webp"
   },
   {
     "id": 135,
@@ -1752,7 +2288,11 @@
       "regelgeving eigenverbruik",
       "energie delen nederland"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "collectief-eigenverbruik-in-nederland-regelgevend-kader-2027",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "Dutch smart home with prosumer energy hub, tablet showing energy dashboard, modern minimalist interior, 2026 sustainable living, photorealistic",
+    "image": "/images/blog/calendar/collectief-eigenverbruik-in-nederland-regelgevend-kader-2027-xai.webp"
   },
   {
     "id": 136,
@@ -1765,7 +2305,11 @@
       "algorithme optimisation energie",
       "intelligence artificielle maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "intelligence-artificielle-et-gestion-energetique-les-algorithmes-qui-optimisent-votre-maison",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/intelligence-artificielle-et-gestion-energetique-les-algorithmes-qui-optimisent-votre-maison-xai.webp"
   },
   {
     "id": 137,
@@ -1778,7 +2322,11 @@
       "algoritme energieoptimalisatie",
       "kunstmatige intelligentie woning"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "ai-en-energiebeheer-algoritmen-die-je-woning-optimaliseren",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "digital twin Dutch home visualization, 3D BIM model blended with real photo, energy data overlay, architectural rendering 2026",
+    "image": "/images/blog/calendar/ai-en-energiebeheer-algoritmen-die-je-woning-optimaliseren-xai.webp"
   },
   {
     "id": 138,
@@ -1791,7 +2339,11 @@
       "lithium fer phosphate maison",
       "lfp vs nmc batterie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "batterie-au-lithium-fer-phosphate-pourquoi-le-lfp-domine-le-marche-residentiel",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic Tesla Powerwall 2 home battery mounted on garage wall of Belgian modern home, connected to solar inverter, LED status display visible, clean technical installation, bright ambient lighting",
+    "image": "/images/blog/calendar/batterie-au-lithium-fer-phosphate-pourquoi-le-lfp-domine-le-marche-residentiel-xai.webp"
   },
   {
     "id": 139,
@@ -1804,7 +2356,11 @@
       "lithium ijzerfosfaat woning",
       "lfp vs nmc batterij"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "lithium-ijzerfosfaatbatterij-waarom-lfp-de-residentiele-markt-domineert",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic home battery (BYD or Tesla Powerwall) mounted in Dutch garage, connected to zonnepanelen inverter, modern clean installation, sustainable energy storage",
+    "image": "/images/blog/calendar/lithium-ijzerfosfaatbatterij-waarom-lfp-de-residentiele-markt-domineert-xai.webp"
   },
   {
     "id": 140,
@@ -1817,7 +2373,11 @@
       "performance energetique facade",
       "isolation exterieure esthetique"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "renovation-de-facade-et-performance-energetique-combiner-esthetique-et-isolation",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/renovation-de-facade-et-performance-energetique-combiner-esthetique-et-isolation-xai.webp"
   },
   {
     "id": 141,
@@ -1830,7 +2390,11 @@
       "energieprestatie gevel",
       "buitenisolatie esthetiek"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "gevelrenovatie-en-energieprestatie-esthetiek-en-isolatie-combineren",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch renovated living room interior, Scandinavian-Dutch design, modern minimalist, plants, natural light, sustainable materials, architectural interior photography 2026",
+    "image": "/images/blog/calendar/gevelrenovatie-en-energieprestatie-esthetiek-en-isolatie-combineren-xai.webp"
   },
   {
     "id": 142,
@@ -1843,7 +2407,11 @@
       "reglage thermostat pac",
       "economies chauffage thermostat"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "thermostat-connecte-et-pompe-a-chaleur-reglage-optimal-pour-economies-maximales",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/thermostat-connecte-et-pompe-a-chaleur-reglage-optimal-pour-economies-maximales-xai.webp"
   },
   {
     "id": 143,
@@ -1856,7 +2424,11 @@
       "instelling thermostaat",
       "besparing verwarming thermostaat"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "slimme-thermostaat-en-warmtepomp-optimale-instelling-voor-maximale-besparing",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/slimme-thermostaat-en-warmtepomp-optimale-instelling-voor-maximale-besparing-xai.webp"
   },
   {
     "id": 144,
@@ -1869,7 +2441,11 @@
       "label energetique prix immobilier",
       "peb impact vente"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "certificat-peb-et-vente-immobiliere-impact-du-label-energetique-sur-le-prix",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/certificat-peb-et-vente-immobiliere-impact-du-label-energetique-sur-le-prix-xai.webp"
   },
   {
     "id": 145,
@@ -1882,7 +2458,11 @@
       "energielabel prijs woning",
       "epc impact verkoopprijs"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "epc-certificaat-en-verkoop-impact-van-het-energielabel-op-de-verkoopprijs",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch renovated living room interior, Scandinavian-Dutch design, modern minimalist, plants, natural light, sustainable materials, architectural interior photography 2026",
+    "image": "/images/blog/calendar/epc-certificaat-en-verkoop-impact-van-het-energielabel-op-de-verkoopprijs-xai.webp"
   },
   {
     "id": 146,
@@ -1895,7 +2475,11 @@
       "deblayer panneaux solaires",
       "protection solaire hiver"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "panneaux-solaires-et-neige-faut-il-deblayer-et-comment-proteger-votre-installation",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/panneaux-solaires-et-neige-faut-il-deblayer-et-comment-proteger-votre-installation-xai.webp"
   },
   {
     "id": 147,
@@ -1908,7 +2492,11 @@
       "sneeuw zonnepanelen verwijderen",
       "bescherming zonnepanelen winter"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "zonnepanelen-en-sneeuw-moet-je-ze-vrijmaken-en-hoe-bescherm-je-je-installatie",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/zonnepanelen-en-sneeuw-moet-je-ze-vrijmaken-en-hoe-bescherm-je-je-installatie-xai.webp"
   },
   {
     "id": 148,
@@ -1921,7 +2509,11 @@
       "fournisseur electricite durable",
       "energie verte fournisseur"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "contrat-d-energie-verte-au-benelux-comment-choisir-un-fournisseur-vraiment-durable",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic Belgian smart home living room with tablet showing energy flow dashboard (solar production, battery, heat pump), wall-mounted display, cozy modern interior with plants, warm evening lighting, ultra-photorealistic lifestyle",
+    "image": "/images/blog/calendar/contrat-d-energie-verte-au-benelux-comment-choisir-un-fournisseur-vraiment-durable-xai.webp"
   },
   {
     "id": 149,
@@ -1934,7 +2526,11 @@
       "duurzame elektriciteitsleverancier",
       "groene energie leverancier"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "groen-energiecontract-in-de-benelux-een-echt-duurzame-leverancier-kiezen",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "Dutch smart home with prosumer energy hub, tablet showing energy dashboard, modern minimalist interior, 2026 sustainable living, photorealistic",
+    "image": "/images/blog/calendar/groen-energiecontract-in-de-benelux-een-echt-duurzame-leverancier-kiezen-xai.webp"
   },
   {
     "id": 150,
@@ -1947,7 +2543,11 @@
       "compatibilite pac radiateur",
       "adapter radiateur pompe chaleur"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "pompe-a-chaleur-et-radiateurs-existants-compatibilite-et-adaptation",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/pompe-a-chaleur-et-radiateurs-existants-compatibilite-et-adaptation-xai.webp"
   },
   {
     "id": 151,
@@ -1960,7 +2560,11 @@
       "compatibiliteit warmtepomp radiator",
       "radiator aanpassen warmtepomp"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "warmtepomp-en-bestaande-radiatoren-compatibiliteit-en-aanpassing",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/warmtepomp-en-bestaande-radiatoren-compatibiliteit-en-aanpassing-xai.webp"
   },
   {
     "id": 152,
@@ -1973,7 +2577,11 @@
       "super isolant renovation",
       "aerogel isolant prix"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "isolation-aerogel-le-super-isolant-du-futur-deja-disponible-en-renovation",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
+    "image": "/images/blog/calendar/isolation-aerogel-le-super-isolant-du-futur-deja-disponible-en-renovation-xai.webp"
   },
   {
     "id": 153,
@@ -1986,7 +2594,11 @@
       "superisolatie renovatie",
       "aerogel isolatiemateriaal prijs"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "aerogel-isolatie-het-superisolatiemateriaal-van-de-toekomst-nu-beschikbaar",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic close-up of Dutch installer applying cavity wall insulation in spouwmuur of Netherlands brick house, professional renovation photography, warm natural lighting, thermal bridge detail, 2026 energie renovatie",
+    "image": "/images/blog/calendar/aerogel-isolatie-het-superisolatiemateriaal-van-de-toekomst-nu-beschikbaar-xai.webp"
   },
   {
     "id": 154,
@@ -1999,7 +2611,11 @@
       "producteur net electricite",
       "batiment energie positive"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "energie-positive-transformer-votre-maison-en-productrice-nette-d-electricite",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic smart home energy dashboard visualization, real-time solar production graph, battery level, heat pump status, holographic digital twin display, dark premium UI with green and blue accents, prosumer energy management, photorealistic",
+    "image": "/images/blog/calendar/energie-positive-transformer-votre-maison-en-productrice-nette-d-electricite-xai.webp"
   },
   {
     "id": 155,
@@ -2012,7 +2628,11 @@
       "nettoproducent elektriciteit",
       "energie positief gebouw"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "energiepositieve-woning-je-huis-transformeren-tot-nettoproducent-van-elektriciteit",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "Dutch smart home energy management system display showing real-time zonnepanelen production and verbruik, modern interface, premium UI, photorealistic",
+    "image": "/images/blog/calendar/energiepositieve-woning-je-huis-transformeren-tot-nettoproducent-van-elektriciteit-xai.webp"
   },
   {
     "id": 156,
@@ -2025,7 +2645,11 @@
       "photovoltaique immeuble",
       "solaire collectif copropriete"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "copropriete-et-panneaux-solaires-installer-du-photovoltaique-en-immeuble-collectif",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/copropriete-et-panneaux-solaires-installer-du-photovoltaique-en-immeuble-collectif-xai.webp"
   },
   {
     "id": 157,
@@ -2038,7 +2662,11 @@
       "fotovoltaisch gebouw",
       "zonnepanelen mede-eigendom"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "appartementsgebouw-en-zonnepanelen-fotovoltaisch-installeren-in-mede-eigendom",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/appartementsgebouw-en-zonnepanelen-fotovoltaisch-installeren-in-mede-eigendom-xai.webp"
   },
   {
     "id": 158,
@@ -2051,7 +2679,11 @@
       "domotique interphone",
       "parlophone smart home"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "interphone-video-connecte-et-domotique-integration-dans-votre-ecosysteme-smart-home",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic modern Belgian smart home security system, Verisure-style keypad by front door, discreet wireless cameras, family entering home, warm lifestyle photography",
+    "image": "/images/blog/calendar/interphone-video-connecte-et-domotique-integration-dans-votre-ecosysteme-smart-home-xai.webp"
   },
   {
     "id": 159,
@@ -2064,7 +2696,11 @@
       "domotica videofoon",
       "parlofoon smart home"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "slimme-videofoon-en-domotica-integratie-in-je-smart-home-ecosysteem",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic Dutch smart home beveiligingssysteem, modern alarmsysteem keypad, wireless camera's, veilige woning, lifestyle photography 2026",
+    "image": "/images/blog/calendar/slimme-videofoon-en-domotica-integratie-in-je-smart-home-ecosysteem-xai.webp"
   },
   {
     "id": 160,
@@ -2077,7 +2713,11 @@
       "preparation ete energie",
       "checklist energie printemps"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "printemps-2027-les-10-gestes-energetiques-a-faire-avant-l-ete",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/printemps-2027-les-10-gestes-energetiques-a-faire-avant-l-ete-xai.webp"
   },
   {
     "id": 161,
@@ -2090,7 +2730,11 @@
       "voorbereiding zomer energie",
       "checklist energie lente"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "lente-2027-10-energiebesparende-acties-voor-de-zomer",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch renovated living room interior, Scandinavian-Dutch design, modern minimalist, plants, natural light, sustainable materials, architectural interior photography 2026",
+    "image": "/images/blog/calendar/lente-2027-10-energiebesparende-acties-voor-de-zomer-xai.webp"
   },
   {
     "id": 162,
@@ -2103,7 +2747,11 @@
       "inverseur hybride",
       "installation solaire simplifiee"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "onduleur-hybride-solaire-batterie-simplifier-votre-installation-en-un-seul-appareil",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/onduleur-hybride-solaire-batterie-simplifier-votre-installation-en-un-seul-appareil-xai.webp"
   },
   {
     "id": 163,
@@ -2116,7 +2764,11 @@
       "omvormer zonnepanelen batterij",
       "vereenvoudigde installatie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "hybride-omvormer-zonnepanelen-batterij-je-installatie-vereenvoudigen",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/hybride-omvormer-zonnepanelen-batterij-je-installatie-vereenvoudigen-xai.webp"
   },
   {
     "id": 164,
@@ -2129,7 +2781,11 @@
       "declaration fiscale energie",
       "avantage fiscal renovation 2027"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "deduction-fiscale-renovation-energetique-optimiser-votre-declaration-2027",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic close-up of Belgian couple reviewing energy subsidy documents at kitchen table, prime Wallonie papers visible, warm afternoon lighting, lifestyle photography, 2026 energy renovation planning",
+    "image": "/images/blog/calendar/deduction-fiscale-renovation-energetique-optimiser-votre-declaration-2027-xai.webp"
   },
   {
     "id": 165,
@@ -2142,7 +2798,11 @@
       "belastingaangifte energie",
       "fiscaal voordeel renovatie 2027"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "fiscale-aftrek-energetische-renovatie-optimaliseer-je-belastingaangifte-2027",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch couple reviewing ISDE subsidy forms on laptop at home, papers visible on table, warm indoor lighting, renovation planning 2026",
+    "image": "/images/blog/calendar/fiscale-aftrek-energetische-renovatie-optimaliseer-je-belastingaangifte-2027-xai.webp"
   },
   {
     "id": 166,
@@ -2155,7 +2815,11 @@
       "pac panneaux thermiques",
       "eau chaude solaire pac"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "pompe-a-chaleur-solaire-coupler-pac-et-panneaux-thermiques-pour-l-eau-chaude",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
+    "image": "/images/blog/calendar/pompe-a-chaleur-solaire-coupler-pac-et-panneaux-thermiques-pour-l-eau-chaude-xai.webp"
   },
   {
     "id": 167,
@@ -2168,7 +2832,11 @@
       "warmtepomp thermische panelen",
       "warm water zonne-energie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "zonnewarmtepomp-warmtepomp-koppelen-aan-thermische-panelen-voor-warm-water",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
+    "image": "/images/blog/calendar/zonnewarmtepomp-warmtepomp-koppelen-aan-thermische-panelen-voor-warm-water-xai.webp"
   },
   {
     "id": 168,
@@ -2181,7 +2849,11 @@
       "citerne eau pluie maison",
       "eau pluie reutilisation"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "gestion-de-l-eau-de-pluie-et-renovation-recuperer-filtrer-reutiliser",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/gestion-de-l-eau-de-pluie-et-renovation-recuperer-filtrer-reutiliser-xai.webp"
   },
   {
     "id": 169,
@@ -2194,7 +2866,11 @@
       "regenwaterput woning",
       "regenwater hergebruik"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "regenwaterbeheer-bij-renovatie-opvangen-filteren-hergebruiken",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic Dutch renovated living room interior, Scandinavian-Dutch design, modern minimalist, plants, natural light, sustainable materials, architectural interior photography 2026",
+    "image": "/images/blog/calendar/regenwaterbeheer-bij-renovatie-opvangen-filteren-hergebruiken-xai.webp"
   },
   {
     "id": 170,
@@ -2207,7 +2883,11 @@
       "micro reseau quartier",
       "quartier autonome energie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "smart-grid-local-comment-les-quartiers-deviennent-des-micro-reseaux-autonomes",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "futuristic smart home energy dashboard visualization, real-time solar production graph, battery level, heat pump status, holographic digital twin display, dark premium UI with green and blue accents, prosumer energy management, photorealistic",
+    "image": "/images/blog/calendar/smart-grid-local-comment-les-quartiers-deviennent-des-micro-reseaux-autonomes-xai.webp"
   },
   {
     "id": 171,
@@ -2220,7 +2900,11 @@
       "micro-netwerk wijk",
       "autonome wijk energie"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "lokaal-smart-grid-hoe-wijken-autonome-micro-netwerken-worden",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "Dutch smart home energy management system display showing real-time zonnepanelen production and verbruik, modern interface, premium UI, photorealistic",
+    "image": "/images/blog/calendar/lokaal-smart-grid-hoe-wijken-autonome-micro-netwerken-worden-xai.webp"
   },
   {
     "id": 172,
@@ -2233,7 +2917,11 @@
       "protection donnees maison",
       "assurance domotique"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "assurance-cyber-pour-smart-home-proteger-vos-donnees-et-vos-appareils-connectes",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic modern Belgian smart home security system, Verisure-style keypad by front door, discreet wireless cameras, family entering home, warm lifestyle photography",
+    "image": "/images/blog/calendar/assurance-cyber-pour-smart-home-proteger-vos-donnees-et-vos-appareils-connectes-xai.webp"
   },
   {
     "id": 173,
@@ -2246,7 +2934,11 @@
       "bescherming gegevens woning",
       "verzekering domotica"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "cyberverzekering-voor-smart-home-bescherm-je-gegevens-en-verbonden-apparaten",
+    "author_slug": "marc-dumont",
+    "image_prompt": "photorealistic Dutch smart home beveiligingssysteem, modern alarmsysteem keypad, wireless camera's, veilige woning, lifestyle photography 2026",
+    "image": "/images/blog/calendar/cyberverzekering-voor-smart-home-bescherm-je-gegevens-en-verbonden-apparaten-xai.webp"
   },
   {
     "id": 174,
@@ -2259,7 +2951,11 @@
       "chiffres cles energie 2027",
       "evolution energetique benelux"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "bilan-d-un-an-de-transition-energetique-les-chiffres-cles-du-benelux-2026-2027",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/bilan-d-un-an-de-transition-energetique-les-chiffres-cles-du-benelux-2026-2027-xai.webp"
   },
   {
     "id": 175,
@@ -2272,7 +2968,11 @@
       "kerncijfers energie 2027",
       "evolutie energie benelux"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "balans-van-een-jaar-energietransitie-kerncijfers-benelux-2026-2027",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "digital twin Dutch home visualization, 3D BIM model blended with real photo, energy data overlay, architectural rendering 2026",
+    "image": "/images/blog/calendar/balans-van-een-jaar-energietransitie-kerncijfers-benelux-2026-2027-xai.webp"
   },
   {
     "id": 176,
@@ -2285,7 +2985,11 @@
       "solaire tandem 2027",
       "rendement record panneaux solaires"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "panneaux-solaires-nouvelle-generation-2027-perovskite-tandem-et-rendements-records",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
+    "image": "/images/blog/calendar/panneaux-solaires-nouvelle-generation-2027-perovskite-tandem-et-rendements-records-xai.webp"
   },
   {
     "id": 177,
@@ -2298,7 +3002,11 @@
       "solaire tandem 2027",
       "recordrendement zonnepanelen"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "zonnepanelen-nieuwe-generatie-2027-perovskiet-tandem-en-recordrendementen",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
+    "image": "/images/blog/calendar/zonnepanelen-nieuwe-generatie-2027-perovskiet-tandem-en-recordrendementen-xai.webp"
   },
   {
     "id": 178,
@@ -2311,7 +3019,11 @@
       "convergence energie transport",
       "troisieme revolution industrielle habitat"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "habitat-du-futur-selon-rifkin-la-convergence-energie-transport-communication",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "architectural digital twin visualization of modern Belgian home, 3D wireframe blueprint transition to real photo, energy performance data overlay, futuristic professional architectural rendering, tech-focused",
+    "image": "/images/blog/calendar/habitat-du-futur-selon-rifkin-la-convergence-energie-transport-communication-xai.webp"
   },
   {
     "id": 179,
@@ -2324,7 +3036,11 @@
       "convergentie energie transport",
       "derde industriele revolutie wonen"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "wonen-van-de-toekomst-volgens-rifkin-de-convergentie-energie-transport-communicatie",
+    "author_slug": "thomas-vandenberghe",
+    "image_prompt": "digital twin Dutch home visualization, 3D BIM model blended with real photo, energy data overlay, architectural rendering 2026",
+    "image": "/images/blog/calendar/wonen-van-de-toekomst-volgens-rifkin-de-convergentie-energie-transport-communicatie-xai.webp"
   },
   {
     "id": 180,
@@ -2337,7 +3053,11 @@
       "recyclage batterie vehicule electrique",
       "batterie reconditionnee maison"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "batterie-de-seconde-vie-donner-une-nouvelle-utilite-aux-batteries-de-vehicules-electriques",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic Tesla Powerwall 2 home battery mounted on garage wall of Belgian modern home, connected to solar inverter, LED status display visible, clean technical installation, bright ambient lighting",
+    "image": "/images/blog/calendar/batterie-de-seconde-vie-donner-une-nouvelle-utilite-aux-batteries-de-vehicules-electriques-xai.webp"
   },
   {
     "id": 181,
@@ -2350,7 +3070,11 @@
       "recyclage batterij elektrisch voertuig",
       "hergebruik batterij woning"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "second-life-batterij-een-nieuw-leven-voor-batterijen-van-elektrische-voertuigen",
+    "author_slug": "sophie-claessens",
+    "image_prompt": "photorealistic home battery (BYD or Tesla Powerwall) mounted in Dutch garage, connected to zonnepanelen inverter, modern clean installation, sustainable energy storage",
+    "image": "/images/blog/calendar/second-life-batterij-een-nieuw-leven-voor-batterijen-van-elektrische-voertuigen-xai.webp"
   },
   {
     "id": 182,
@@ -2363,6 +3087,10 @@
       "planning renovation long terme",
       "objectifs renovation 2030"
     ],
-    "status": "scheduled"
+    "status": "scheduled",
+    "slug": "votre-feuille-de-route-renovation-2027-2030-objectifs-budget-et-calendrier",
+    "author_slug": "nathalie-peeters",
+    "image_prompt": "photorealistic wide shot of modern Belgian home interior during final renovation phase, wood parquet floors, white walls, designer kitchen island visible, natural light through large windows, Scandinavian-Belgian interior design 2026",
+    "image": "/images/blog/calendar/votre-feuille-de-route-renovation-2027-2030-objectifs-budget-et-calendrier-xai.webp"
   }
 ]

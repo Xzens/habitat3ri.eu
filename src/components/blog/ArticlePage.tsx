@@ -8,6 +8,8 @@ import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import type { Article } from "@/lib/supabase";
 import type { Locale } from "@/i18n/config";
+import { getAuthorForCategory, getAuthorBySlug } from "@/data/authors";
+import AuthorCard from "./AuthorCard";
 
 type ArticlePageProps = {
   article: Article;
@@ -81,6 +83,12 @@ function formatBold(text: string): React.ReactNode {
 
 export default function ArticlePage({ article, locale, dict, relatedArticles }: ArticlePageProps) {
   const headings = extractHeadings(article.content);
+
+  // Resolve author (by slug if set, otherwise by category)
+  const author = article.author_slug
+    ? getAuthorBySlug(article.author_slug) || getAuthorForCategory(article.category)
+    : getAuthorForCategory(article.category);
+
   const langMap: Record<string, string> = {
     fr: "fr-BE",
     nl: "nl-BE",
@@ -108,9 +116,13 @@ export default function ArticlePage({ article, locale, dict, relatedArticles }: 
       datePublished: article.published_at,
       dateModified: article.updated_at,
       author: {
-        "@type": "Organization",
-        name: "Satyvo SA",
-        url: "https://habitat3ri.eu",
+        "@type": "Person",
+        name: author.name,
+        description: author.role[locale] || author.role.fr,
+        jobTitle: author.role[locale] || author.role.fr,
+        knowsAbout: author.expertise,
+        address: { "@type": "PostalAddress", addressLocality: author.location, addressCountry: "BE" },
+        ...(author.linkedin ? { sameAs: [author.linkedin] } : {}),
       },
       publisher: {
         "@type": "Organization",
@@ -309,6 +321,9 @@ export default function ArticlePage({ article, locale, dict, relatedArticles }: 
           />
         </div>
       )}
+
+      {/* Author card */}
+      <AuthorCard author={author} locale={locale} />
 
       {/* FAQ */}
       {article.faq.length > 0 && (
