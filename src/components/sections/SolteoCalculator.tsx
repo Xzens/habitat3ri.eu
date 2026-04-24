@@ -23,6 +23,7 @@ type SolteoCalculatorProps = {
 };
 
 const SOLTEO_COMPANY_ID = "55ac3311-28fe-47dd-8d28-91238edb89b0";
+const SOLTEO_URL = `https://ecostal-be.solteo.eu/lead-magnet?companyId=${SOLTEO_COMPANY_ID}`;
 
 export default function SolteoCalculator({ locale, dict }: SolteoCalculatorProps) {
   const ref = useRef(null);
@@ -173,10 +174,12 @@ export default function SolteoCalculator({ locale, dict }: SolteoCalculatorProps
               </button>
             </div>
             <iframe
-              src={`https://app.solteo.fr/lead-magnet?companyId=${SOLTEO_COMPANY_ID}`}
-              title="Solteo Solar Calculator"
-              className="h-[900px] w-full border-0 bg-white"
+              src={SOLTEO_URL}
+              title="Formulaire Estimation Solaire Solteo"
+              className="h-[870px] w-full border-0 bg-white"
               allow="geolocation"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
             />
           </motion.div>
         )}

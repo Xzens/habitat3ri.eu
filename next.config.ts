@@ -25,7 +25,7 @@ const nextConfig: NextConfig = {
             "img-src 'self' data: blob: https: http:",
             "font-src 'self' https://fonts.gstatic.com",
             "connect-src 'self' https://*.supabase.co https://www.google-analytics.com https://vitals.vercel-insights.com",
-            "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://app.solteo.fr https://*.solteo.fr",
+            "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://*.solteo.eu https://*.solteo.fr https://app.solteo.fr",
             "object-src 'none'",
             "base-uri 'self'",
           ].join("; "),
