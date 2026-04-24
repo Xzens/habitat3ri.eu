@@ -1,14 +1,15 @@
 import { notFound } from "next/navigation";
 import { hasLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { sampleArticles } from "@/data/sample-articles";
+import { getArticleBySlug, listArticles, listAllSlugs } from "@/lib/articles";
 import ArticlePage from "@/components/blog/ArticlePage";
 
+// Next.js 16 : articles publiés dynamiquement via CRON → génère à la demande
+export const dynamicParams = true;
+export const revalidate = 300; // re-génère la page toutes les 5 min
+
 export async function generateStaticParams() {
-  return sampleArticles.map((a) => ({
-    locale: a.locale,
-    slug: a.slug,
-  }));
+  return listAllSlugs();
 }
 
 export async function generateMetadata({
@@ -17,7 +18,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
-  const article = sampleArticles.find((a) => a.slug === slug && a.locale === locale);
+  const article = await getArticleBySlug(slug, locale);
   if (!article) return {};
 
   return {
@@ -31,7 +32,7 @@ export async function generateMetadata({
       title: article.title,
       description: article.excerpt,
       type: "article",
-      publishedTime: article.published_at,
+      publishedTime: article.published_at || undefined,
       locale: locale === "fr" ? "fr_BE" : "nl_BE",
       images: article.cover_image ? [{ url: article.cover_image }] : [],
     },
@@ -47,14 +48,13 @@ export default async function ArticlePageRoute({
   if (!hasLocale(locale)) notFound();
 
   const typedLocale = locale as Locale;
-  const article = sampleArticles.find((a) => a.slug === slug && a.locale === typedLocale);
+  const article = await getArticleBySlug(slug, typedLocale);
   if (!article) notFound();
 
   const dict = await getDictionary(typedLocale);
 
-  const relatedArticles = sampleArticles
-    .filter((a) => a.locale === typedLocale && a.slug !== slug && a.status === "published")
-    .slice(0, 3);
+  const allForLocale = await listArticles(typedLocale, 20);
+  const relatedArticles = allForLocale.filter((a) => a.slug !== slug).slice(0, 3);
 
   return (
     <ArticlePage article={article} dict={dict} locale={typedLocale} relatedArticles={relatedArticles} />

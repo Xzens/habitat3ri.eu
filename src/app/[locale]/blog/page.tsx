@@ -1,8 +1,10 @@
 import { notFound } from "next/navigation";
 import { hasLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { sampleArticles } from "@/data/sample-articles";
+import { listArticles } from "@/lib/articles";
 import BlogList from "@/components/blog/BlogList";
+
+export const revalidate = 300;
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -25,9 +27,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
   const typedLocale = locale as Locale;
   const dict = await getDictionary(typedLocale);
 
-  const articles = sampleArticles
-    .filter((a) => a.locale === typedLocale && a.status === "published")
-    .sort((a, b) => new Date(b.published_at!).getTime() - new Date(a.published_at!).getTime());
+  const articles = await listArticles(typedLocale, 200);
 
   return (
     <div className="mx-auto max-w-7xl px-4 pb-24 pt-28 sm:px-6 lg:px-8">

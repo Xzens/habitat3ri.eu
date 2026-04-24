@@ -8,7 +8,9 @@ import BlogPreview from "@/components/sections/BlogPreview";
 import Partners from "@/components/sections/Partners";
 import SolteoCalculator from "@/components/sections/SolteoCalculator";
 import Contact from "@/components/sections/Contact";
-import { sampleArticles } from "@/data/sample-articles";
+import { listArticles } from "@/lib/articles";
+
+export const revalidate = 300;
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -38,9 +40,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const typedLocale = locale as Locale;
   const dict = await getDictionary(typedLocale);
 
-  const articles = sampleArticles
-    .filter((a) => a.locale === typedLocale && a.status === "published")
-    .slice(0, 3);
+  const articles = await listArticles(typedLocale, 3);
 
   return (
     <>
