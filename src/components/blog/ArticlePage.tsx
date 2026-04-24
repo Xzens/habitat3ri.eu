@@ -31,19 +31,106 @@ type ArticlePageProps = {
   relatedArticles: Article[];
 };
 
+/** Strips xAI-generated TOC and Introduction headings (we render our own TOC + In Brief). */
+function stripRedundantSections(html: string): string {
+  let cleaned = html.replace(
+    /<h2\b[^>]*id=["']?(sommaire|table-of-contents|toc|inhoud|contents)["']?[^>]*>[\s\S]*?<\/h2>\s*<ul[\s\S]*?<\/ul>/gi,
+    ""
+  );
+  cleaned = cleaned.replace(
+    /<h2\b[^>]*>\s*(Sommaire|Table des mati\u00e8res|Inhoud|Table of Contents)\s*<\/h2>\s*(<ul[\s\S]*?<\/ul>)?/gi,
+    ""
+  );
+  cleaned = cleaned.replace(
+    /<h2\b[^>]*id=["']?introduction["']?[^>]*>[\s\S]*?<\/h2>/gi,
+    ""
+  );
+  return cleaned;
+}
+
+/** Détecte si le content est du HTML (xAI Grok) ou du Markdown (sample articles). */
+function isHtmlContent(content: string): boolean {
+  const trimmed = content.trim();
+  // Starts with <h1/h2/h3/p/div/etc. or contains typical block tags
+  return /^<(h[1-6]|p|div|ul|ol|table|section|article)/i.test(trimmed) ||
+    (content.includes("</h2>") && !content.includes("\n## "));
+}
+
+/** Extract headings from HTML or Markdown content for the TOC. */
 function extractHeadings(content: string) {
   const headings: { level: number; text: string; id: string }[] = [];
-  const regex = /^(#{2,3})\s+(.+)$/gm;
-  let match;
-  while ((match = regex.exec(content)) !== null) {
-    const text = match[2];
-    const id = text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-    headings.push({ level: match[1].length, text, id });
+
+  if (isHtmlContent(content)) {
+    // Parse HTML: <h2 id="...">Text</h2> or <h2>Text</h2>
+    const regex = /<h([23])\b([^>]*)>([\s\S]*?)<\/h\1>/gi;
+    let match;
+    while ((match = regex.exec(content)) !== null) {
+      const level = parseInt(match[1], 10);
+      const attrs = match[2];
+      const text = match[3].replace(/<[^>]+>/g, "").trim();
+      const idMatch = attrs.match(/id=["']([^"']+)["']/);
+      const id = idMatch
+        ? idMatch[1]
+        : text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      headings.push({ level, text, id });
+    }
+  } else {
+    // Markdown: ## or ###
+    const regex = /^(#{2,3})\s+(.+)$/gm;
+    let match;
+    while ((match = regex.exec(content)) !== null) {
+      const text = match[2];
+      const id = text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      headings.push({ level: match[1].length, text, id });
+    }
   }
   return headings;
 }
 
+/** Add id attributes + Tailwind classes to HTML h2/h3 for TOC and styling. */
+function enrichHtml(html: string): string {
+  return html
+    .replace(/<h2\b([^>]*)>([\s\S]*?)<\/h2>/gi, (match, attrs, inner) => {
+      const text = inner.replace(/<[^>]+>/g, "").trim();
+      const hasId = /id=/i.test(attrs);
+      const id = hasId
+        ? attrs.match(/id=["']([^"']+)["']/i)?.[1] || ""
+        : text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      const idAttr = hasId ? attrs : `${attrs} id="${id}"`;
+      return `<h2${idAttr} class="text-2xl font-bold mt-10 mb-4 text-eco-green scroll-mt-24">${inner}</h2>`;
+    })
+    .replace(/<h3\b([^>]*)>([\s\S]*?)<\/h3>/gi, (match, attrs, inner) => {
+      const text = inner.replace(/<[^>]+>/g, "").trim();
+      const hasId = /id=/i.test(attrs);
+      const id = hasId
+        ? attrs.match(/id=["']([^"']+)["']/i)?.[1] || ""
+        : text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      const idAttr = hasId ? attrs : `${attrs} id="${id}"`;
+      return `<h3${idAttr} class="text-xl font-bold mt-8 mb-3 text-energy-blue scroll-mt-24">${inner}</h3>`;
+    })
+    .replace(/<p\b([^>]*)>/gi, '<p$1 class="mb-3 leading-relaxed">')
+    .replace(/<ul\b([^>]*)>/gi, '<ul$1 class="ml-5 mb-4 list-disc space-y-1">')
+    .replace(/<ol\b([^>]*)>/gi, '<ol$1 class="ml-5 mb-4 list-decimal space-y-1">')
+    .replace(/<li\b([^>]*)>/gi, '<li$1 class="leading-relaxed">')
+    .replace(/<table\b([^>]*)>/gi, '<table$1 class="w-full my-6 border-collapse border border-border/50">')
+    .replace(/<th\b([^>]*)>/gi, '<th$1 class="border border-border/50 bg-muted/50 px-3 py-2 text-left font-semibold">')
+    .replace(/<td\b([^>]*)>/gi, '<td$1 class="border border-border/50 px-3 py-2">')
+    .replace(/<blockquote\b([^>]*)>/gi, '<blockquote$1 class="border-l-4 border-eco-green pl-4 my-4 italic text-muted-foreground">')
+    .replace(/<a\b([^>]*)>/gi, (match, attrs) => {
+      if (/class=/i.test(attrs)) return match;
+      return `<a${attrs} class="text-energy-blue underline hover:text-eco-green">`;
+    });
+}
+
 function ContentRenderer({ content }: { content: string }) {
+  // HTML path: render directly with dangerouslySetInnerHTML (developer-controlled content from xAI)
+  if (isHtmlContent(content)) {
+    const enriched = enrichHtml(stripRedundantSections(content));
+    // eslint-disable-next-line @next/next/no-unknown-property
+    return <div className="article-html-content" dangerouslySetInnerHTML={{ __html: enriched }} />;
+  }
+
+  // Markdown path (sample articles)
   const lines = content.split("\n");
   const elements: React.ReactNode[] = [];
 
