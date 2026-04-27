@@ -26,13 +26,15 @@ type HeaderProps = {
   };
 };
 
+// Navigation items — hash anchors are prefixed with locale home in render
+// so they work from any page (blog, legal, etc.) and not only from the home page.
 const navItems = [
-  { key: "home", href: "#accueil" },
-  { key: "pillars", href: "#piliers" },
-  { key: "solutions", href: "#solutions" },
-  { key: "blog", href: "#blog" },
-  { key: "partners", href: "#partenaires" },
-  { key: "contact", href: "#contact" },
+  { key: "home", anchor: "" },
+  { key: "pillars", anchor: "#piliers" },
+  { key: "solutions", anchor: "#solutions" },
+  { key: "blog", anchor: "/blog" },
+  { key: "partners", anchor: "#partenaires" },
+  { key: "contact", anchor: "#contact" },
 ] as const;
 
 export default function Header({ locale, dict }: HeaderProps) {
@@ -81,15 +83,20 @@ export default function Header({ locale, dict }: HeaderProps) {
 
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-1 lg:flex">
-          {navItems.map((item) => (
-            <a
-              key={item.key}
-              href={item.href}
-              className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
-            >
-              {dict.nav[item.key as keyof typeof dict.nav]}
-            </a>
-          ))}
+          {navItems.map((item) => {
+            const href = item.anchor.startsWith("#")
+              ? `/${locale}${item.anchor}`
+              : `/${locale}${item.anchor}`;
+            return (
+              <Link
+                key={item.key}
+                href={href}
+                className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+              >
+                {dict.nav[item.key as keyof typeof dict.nav]}
+              </Link>
+            );
+          })}
         </nav>
 
         {/* Actions */}
@@ -176,14 +183,14 @@ export default function Header({ locale, dict }: HeaderProps) {
           >
             <div className="flex flex-col gap-1 p-4">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.key}
-                  href={item.href}
+                  href={`/${locale}${item.anchor}`}
                   onClick={() => setMobileOpen(false)}
                   className="rounded-lg px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
                 >
                   {dict.nav[item.key as keyof typeof dict.nav]}
-                </a>
+                </Link>
               ))}
 
               {/* Mobile language selector */}

@@ -82,19 +82,24 @@ export default function Footer({ locale, dict }: FooterProps) {
                 </Link>
               </li>
               <li>
-                <a href="#piliers" className="text-sm text-muted-foreground hover:text-foreground">
-                  {locale === "fr" ? "Les 5 Piliers Rifkin" : "De 5 Rifkin Pijlers"}
-                </a>
+                <Link href={`/${locale}#piliers`} className="text-sm text-muted-foreground hover:text-foreground">
+                  {{ fr: "Les 5 Piliers Rifkin", nl: "De 5 Rifkin Pijlers", en: "The 5 Rifkin Pillars", de: "Die 5 Rifkin-Säulen", lb: "Déi 5 Rifkin-Pilieren" }[locale]}
+                </Link>
               </li>
               <li>
-                <a href="#solutions" className="text-sm text-muted-foreground hover:text-foreground">
-                  {locale === "fr" ? "Nos Solutions" : "Onze Oplossingen"}
-                </a>
+                <Link href={`/${locale}#solutions`} className="text-sm text-muted-foreground hover:text-foreground">
+                  {{ fr: "Nos Solutions", nl: "Onze Oplossingen", en: "Our Solutions", de: "Unsere Lösungen", lb: "Eis Léisungen" }[locale]}
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground">
-                  {locale === "fr" ? "Devis Gratuit" : "Gratis Offerte"}
-                </a>
+                <Link href={`/${locale}#calculateur`} className="text-sm text-muted-foreground hover:text-foreground">
+                  {{ fr: "Calculateur Solaire", nl: "Zonnerekenmachine", en: "Solar Calculator", de: "Solarrechner", lb: "Sonnerechner" }[locale]}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}#contact`} className="text-sm text-muted-foreground hover:text-foreground">
+                  {{ fr: "Devis Gratuit", nl: "Gratis Offerte", en: "Free Quote", de: "Kostenloses Angebot", lb: "Gratis Offert" }[locale]}
+                </Link>
               </li>
             </ul>
           </div>
@@ -144,9 +149,18 @@ export default function Footer({ locale, dict }: FooterProps) {
             <Link href={`/${locale}/mentions-legales`} className="text-xs text-muted-foreground hover:text-foreground">
               {dict.footer.terms}
             </Link>
-            <a href="#" className="text-xs text-muted-foreground hover:text-foreground">
+            <button
+              type="button"
+              onClick={() => {
+                if (typeof window !== "undefined") {
+                  localStorage.removeItem("habitat3ri-cookie-consent");
+                  window.location.reload();
+                }
+              }}
+              className="text-xs text-muted-foreground hover:text-foreground cursor-pointer"
+            >
               {dict.footer.cookies}
-            </a>
+            </button>
           </div>
         </div>
       </div>
