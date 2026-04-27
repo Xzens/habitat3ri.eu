@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Zap, ExternalLink, Mail } from "lucide-react";
+import CookieResetButton from "./CookieResetButton";
 import { constellation } from "@/data/constellation";
 import type { Locale } from "@/i18n/config";
 
@@ -149,18 +150,7 @@ export default function Footer({ locale, dict }: FooterProps) {
             <Link href={`/${locale}/mentions-legales`} className="text-xs text-muted-foreground hover:text-foreground">
               {dict.footer.terms}
             </Link>
-            <button
-              type="button"
-              onClick={() => {
-                if (typeof window !== "undefined") {
-                  localStorage.removeItem("habitat3ri-cookie-consent");
-                  window.location.reload();
-                }
-              }}
-              className="text-xs text-muted-foreground hover:text-foreground cursor-pointer"
-            >
-              {dict.footer.cookies}
-            </button>
+            <CookieResetButton label={dict.footer.cookies} />
           </div>
         </div>
       </div>
