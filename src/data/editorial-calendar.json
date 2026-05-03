@@ -10,11 +10,12 @@
       "rendement panneau solaire",
       "photovoltaique belgique"
     ],
-    "status": "scheduled",
+    "status": "published",
     "slug": "panneaux-solaires-en-2026-quel-rendement-esperer-en-belgique",
     "author_slug": "samuel-thiret",
     "image_prompt": "photorealistic aerial drone view of modern Belgian suburban house roof covered with sleek black monocrystalline solar panels, bright blue sky with soft clouds, professional architectural photography, golden hour warm lighting, European residential neighborhood, 2026 sustainable architecture",
-    "image": "/images/blog/calendar/panneaux-solaires-en-2026-quel-rendement-esperer-en-belgique-xai.webp"
+    "image": "/images/blog/calendar/panneaux-solaires-en-2026-quel-rendement-esperer-en-belgique-xai.webp",
+    "published_at": "2026-04-24T11:30:55Z"
   },
   {
     "id": 2,
@@ -27,11 +28,12 @@
       "rendement zonnepanelen",
       "fotovoltaisch rendement"
     ],
-    "status": "scheduled",
+    "status": "published",
     "slug": "zonnepanelen-in-2026-welk-rendement-mag-je-verwachten-in-belgie",
     "author_slug": "samuel-thiret",
     "image_prompt": "photorealistic aerial drone view of Dutch row houses with solar panels on all rooftops, Amsterdam-style architecture, urban sustainable neighborhood, overcast Dutch sky, professional architectural photography, 2026 sustainable Benelux",
-    "image": "/images/blog/calendar/zonnepanelen-in-2026-welk-rendement-mag-je-verwachten-in-belgie-xai.webp"
+    "image": "/images/blog/calendar/zonnepanelen-in-2026-welk-rendement-mag-je-verwachten-in-belgie-xai.webp",
+    "published_at": "2026-04-24T11:32:03Z"
   },
   {
     "id": 3,
@@ -44,11 +46,12 @@
       "aides renovation energetique",
       "prime habitation wallonie"
     ],
-    "status": "scheduled",
+    "status": "published",
     "slug": "primes-renovation-2026-en-wallonie-guide-complet-des-aides-disponibles",
     "author_slug": "samuel-thiret",
     "image_prompt": "photorealistic close-up of Belgian couple reviewing energy subsidy documents at kitchen table, prime Wallonie papers visible, warm afternoon lighting, lifestyle photography, 2026 energy renovation planning",
-    "image": "/images/blog/calendar/primes-renovation-2026-en-wallonie-guide-complet-des-aides-disponibles-xai.webp"
+    "image": "/images/blog/calendar/primes-renovation-2026-en-wallonie-guide-complet-des-aides-disponibles-xai.webp",
+    "published_at": "2026-04-24T11:33:05Z"
   },
   {
     "id": 4,
@@ -61,11 +64,12 @@
       "subsidies renovatie",
       "mijn verbouwpremie"
     ],
-    "status": "scheduled",
+    "status": "published",
     "slug": "renovatiepremies-2026-in-vlaanderen-overzicht-van-alle-beschikbare-subsidies",
     "author_slug": "samuel-thiret",
     "image_prompt": "photorealistic Dutch couple reviewing ISDE subsidy forms on laptop at home, papers visible on table, warm indoor lighting, renovation planning 2026",
-    "image": "/images/blog/calendar/renovatiepremies-2026-in-vlaanderen-overzicht-van-alle-beschikbare-subsidies-xai.webp"
+    "image": "/images/blog/calendar/renovatiepremies-2026-in-vlaanderen-overzicht-van-alle-beschikbare-subsidies-xai.webp",
+    "published_at": "2026-04-24T11:34:13Z"
   },
   {
     "id": 5,
@@ -78,11 +82,12 @@
       "installation pac maison mitoyenne",
       "chauffage pompe a chaleur"
     ],
-    "status": "scheduled",
+    "status": "published",
     "slug": "pompe-a-chaleur-air-eau-le-guide-d-installation-pour-maisons-mitoyennes",
     "author_slug": "samuel-thiret",
     "image_prompt": "photorealistic modern white air-water heat pump unit (Daikin style) installed next to Belgian cream-brick house, autumn garden with colorful leaves, installer checking copper refrigerant pipes, warm natural lighting, professional HVAC installation photography",
-    "image": "/images/blog/calendar/pompe-a-chaleur-air-eau-le-guide-d-installation-pour-maisons-mitoyennes-xai.webp"
+    "image": "/images/blog/calendar/pompe-a-chaleur-air-eau-le-guide-d-installation-pour-maisons-mitoyennes-xai.webp",
+    "published_at": "2026-04-24T11:35:21Z"
   },
   {
     "id": 6,
@@ -95,11 +100,12 @@
       "installatie warmtepomp rijwoning",
       "verwarming warmtepomp"
     ],
-    "status": "scheduled",
+    "status": "published",
     "slug": "warmtepomp-lucht-water-installatiegids-voor-rijwoningen",
     "author_slug": "samuel-thiret",
     "image_prompt": "photorealistic modern air-water warmtepomp unit installed next to Dutch brick house, professional HVAC installation, warm natural lighting, installer in background, 2026 sustainable heating",
-    "image": "/images/blog/calendar/warmtepomp-lucht-water-installatiegids-voor-rijwoningen-xai.webp"
+    "image": "/images/blog/calendar/warmtepomp-lucht-water-installatiegids-voor-rijwoningen-xai.webp",
+    "published_at": "2026-04-26T03:01:07Z"
   },
   {
     "id": 7,
@@ -112,11 +118,12 @@
       "sarking toiture prix",
       "caissons chevronnes isolation"
     ],
-    "status": "scheduled",
+    "status": "published",
     "slug": "isolation-toiture-par-l-exterieur-sarking-vs-caissons-chevronnes",
     "author_slug": "samuel-thiret",
     "image_prompt": "photorealistic close-up of professional craftsman installing thick mineral wool insulation panels on exterior cavity wall of Belgian brick house, autumn lighting, documentary renovation photography, detail of thermal bridge treatment, 2026 energy renovation",
-    "image": "/images/blog/calendar/isolation-toiture-par-l-exterieur-sarking-vs-caissons-chevronnes-xai.webp"
+    "image": "/images/blog/calendar/isolation-toiture-par-l-exterieur-sarking-vs-caissons-chevronnes-xai.webp",
+    "published_at": "2026-04-28T03:01:06Z"
   },
   {
     "id": 8,
@@ -129,11 +136,12 @@
       "reseau intelligent maison",
       "gestion energie intelligente"
     ],
-    "status": "scheduled",
+    "status": "published",
     "slug": "smart-grid-residentiel-comment-connecter-votre-maison-au-reseau-intelligent",
     "author_slug": "samuel-thiret",
     "image_prompt": "futuristic smart home energy dashboard visualization, real-time solar production graph, battery level, heat pump status, holographic digital twin display, dark premium UI with green and blue accents, prosumer energy management, photorealistic",
-    "image": "/images/blog/calendar/smart-grid-residentiel-comment-connecter-votre-maison-au-reseau-intelligent-xai.webp"
+    "image": "/images/blog/calendar/smart-grid-residentiel-comment-connecter-votre-maison-au-reseau-intelligent-xai.webp",
+    "published_at": "2026-04-30T03:01:20Z"
   },
   {
     "id": 9,
@@ -146,11 +154,12 @@
       "beste thuisbatterij",
       "batterij zonnepanelen"
     ],
-    "status": "scheduled",
+    "status": "published",
     "slug": "thuisbatterij-kiezen-in-2026-vergelijking-van-de-5-beste-modellen",
     "author_slug": "samuel-thiret",
     "image_prompt": "photorealistic home battery (BYD or Tesla Powerwall) mounted in Dutch garage, connected to zonnepanelen inverter, modern clean installation, sustainable energy storage",
-    "image": "/images/blog/calendar/thuisbatterij-kiezen-in-2026-vergelijking-van-de-5-beste-modellen-xai.webp"
+    "image": "/images/blog/calendar/thuisbatterij-kiezen-in-2026-vergelijking-van-de-5-beste-modellen-xai.webp",
+    "published_at": "2026-05-02T03:01:55Z"
   },
   {
     "id": 10,
