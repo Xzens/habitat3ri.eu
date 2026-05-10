@@ -1,12 +1,13 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/config";
-import { sampleArticles } from "@/data/sample-articles";
+import { listArticles } from "@/lib/articles";
 
 const BASE_URL = "https://habitat3ri.eu";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const hreflangAll = Object.fromEntries(locales.map((l) => [l, `${BASE_URL}/${l}`]));
+// Revalider le sitemap toutes les 5 min pour inclure les nouveaux articles xAI
+export const revalidate = 300;
 
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Homepage + blog listing per locale (with hreflang)
   const staticPages = locales.flatMap((locale) => [
     {
@@ -42,15 +43,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  // Blog articles
-  const articlePages = sampleArticles
-    .filter((a) => a.status === "published")
-    .map((article) => ({
-      url: `${BASE_URL}/${article.locale}/blog/${article.slug}`,
-      lastModified: new Date(article.updated_at),
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-    }));
+  // Blog articles — fetched dynamically (Supabase + sample fallback)
+  // Get all published articles across all locales (no locale filter = all)
+  const allArticles = await listArticles(undefined, 500);
+  const articlePages = allArticles.map((article) => ({
+    url: `${BASE_URL}/${article.locale}/blog/${article.slug}`,
+    lastModified: new Date(article.updated_at || article.published_at || new Date()),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
 
   return [...staticPages, ...legalPages, ...articlePages];
 }
