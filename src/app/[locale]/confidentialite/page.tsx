@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { hasLocale, locales, type Locale } from "@/i18n/config";
+import { buildAlternates } from "@/i18n/hreflang";
 import { legalContent } from "@/data/legal-content";
 import LegalPage from "@/components/LegalPage";
 
@@ -13,6 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const content = legalContent[locale] || legalContent.fr;
   return {
     title: content.confidentialite.title,
+    alternates: buildAlternates("/confidentialite", locale as Locale),
     robots: { index: true, follow: true },
   };
 }

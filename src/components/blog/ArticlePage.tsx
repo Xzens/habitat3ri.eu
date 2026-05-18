@@ -192,6 +192,19 @@ export default function ArticlePage({ article, locale, dict, relatedArticles }: 
     : `https://habitat3ri.eu/images/hero/hero-banner-3ri-2026-xai.webp`;
   const youtubeId = article.youtube_url?.match(/embed\/([a-zA-Z0-9_-]{11})/)?.[1];
 
+  // Word count: strip HTML tags + collapse whitespace before counting tokens,
+  // otherwise tag soup ("<p>", "</p>") inflates the count and short stubs over-count.
+  const plainText = article.content
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;|&amp;|&lt;|&gt;|&quot;|&#\d+;/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const wordCount = plainText.length === 0 ? 0 : plainText.split(" ").length;
+
+  // Author URL: prefer the dedicated /a-propos page if present, otherwise the
+  // organization website. Stays stable across locales (canonical persona page).
+  const authorUrl = `https://habitat3ri.eu/${locale}/a-propos`;
+
   // Build rich Schema.org JSON-LD graph
   const schemaGraph: Record<string, unknown>[] = [
     {
@@ -203,20 +216,24 @@ export default function ArticlePage({ article, locale, dict, relatedArticles }: 
       datePublished: article.published_at,
       dateModified: article.updated_at,
       author: {
-        "@type": "Organization",
-        name: author.organization.name,
-        legalName: author.organization.legalForm,
-        url: author.website,
-        identifier: "BCE " + author.organization.bce,
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: author.organization.address,
-          addressCountry: author.organization.country,
-        },
-        founder: {
-          "@type": "Person",
-          name: author.name,
-          jobTitle: author.role.fr,
+        "@type": "Person",
+        "@id": "https://habitat3ri.eu/#samuel-thiret",
+        name: author.name,
+        url: authorUrl,
+        jobTitle: author.role[locale] || author.role.fr,
+        image: `https://habitat3ri.eu${author.image}`,
+        sameAs: [author.website].filter(Boolean),
+        worksFor: {
+          "@type": "Organization",
+          name: author.organization.name,
+          legalName: author.organization.legalForm,
+          url: author.website,
+          identifier: "BCE " + author.organization.bce,
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: author.organization.address,
+            addressCountry: author.organization.country,
+          },
         },
       },
       publisher: {
@@ -232,7 +249,7 @@ export default function ArticlePage({ article, locale, dict, relatedArticles }: 
       inLanguage,
       keywords: (article.seo_keywords || []).join(", "),
       articleSection: article.category,
-      wordCount: article.content.split(/\s+/).length,
+      wordCount,
     },
     {
       "@type": "BreadcrumbList",

@@ -46,12 +46,29 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Blog articles — fetched dynamically (Supabase + sample fallback)
   // Get all published articles across all locales (no locale filter = all)
   const allArticles = await listArticles(undefined, 500);
-  const articlePages = allArticles.map((article) => ({
-    url: `${BASE_URL}/${article.locale}/blog/${article.slug}`,
-    lastModified: new Date(article.updated_at || article.published_at || new Date()),
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-  }));
+
+  // Group by slug so an article translated in N locales emits N rows with
+  // hreflang alternates pointing at the sibling translations that actually exist.
+  const slugToLocales = new Map<string, Set<string>>();
+  for (const a of allArticles) {
+    if (!slugToLocales.has(a.slug)) slugToLocales.set(a.slug, new Set());
+    slugToLocales.get(a.slug)!.add(a.locale);
+  }
+
+  const articlePages = allArticles.map((article) => {
+    const siblingLocales = slugToLocales.get(article.slug) ?? new Set([article.locale]);
+    const languages: Record<string, string> = {};
+    for (const l of siblingLocales) {
+      languages[l] = `${BASE_URL}/${l}/blog/${article.slug}`;
+    }
+    return {
+      url: `${BASE_URL}/${article.locale}/blog/${article.slug}`,
+      lastModified: new Date(article.updated_at || article.published_at || new Date()),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+      alternates: { languages },
+    };
+  });
 
   return [...staticPages, ...legalPages, ...articlePages];
 }

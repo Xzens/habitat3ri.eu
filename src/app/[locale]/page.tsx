@@ -1,4 +1,5 @@
 import { hasLocale, type Locale } from "@/i18n/config";
+import { buildAlternates } from "@/i18n/hreflang";
 import { getDictionary } from "@/i18n/dictionaries";
 import { notFound } from "next/navigation";
 import Hero from "@/components/sections/Hero";
@@ -20,10 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: dict.meta.title,
     description: dict.meta.description,
     keywords: dict.meta.keywords,
-    alternates: {
-      canonical: `https://habitat3ri.eu/${locale}`,
-      languages: { fr: "/fr", nl: "/nl" },
-    },
+    alternates: buildAlternates("", locale as Locale),
     openGraph: {
       title: dict.meta.title,
       description: dict.meta.description,

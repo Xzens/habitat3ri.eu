@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { hasLocale, type Locale } from "@/i18n/config";
+import { buildAlternates } from "@/i18n/hreflang";
 import { getDictionary } from "@/i18n/dictionaries";
 import { listArticles } from "@/lib/articles";
 import BlogList from "@/components/blog/BlogList";
@@ -13,10 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: `${dict.blog.title} — ${locale === "fr" ? "Articles et guides" : "Artikelen en gidsen"}`,
     description: dict.blog.subtitle,
-    alternates: {
-      canonical: `https://habitat3ri.eu/${locale}/blog`,
-      languages: { fr: "/fr/blog", nl: "/nl/blog" },
-    },
+    alternates: buildAlternates("/blog", locale as Locale),
   };
 }
 

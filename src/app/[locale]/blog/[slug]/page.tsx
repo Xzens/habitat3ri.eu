@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { hasLocale, type Locale } from "@/i18n/config";
+import { buildAlternates } from "@/i18n/hreflang";
 import { getDictionary } from "@/i18n/dictionaries";
 import { getArticleBySlug, listArticles, listAllSlugs } from "@/lib/articles";
 import ArticlePage from "@/components/blog/ArticlePage";
@@ -25,9 +26,7 @@ export async function generateMetadata({
     title: article.title,
     description: article.excerpt,
     keywords: article.seo_keywords.join(", "),
-    alternates: {
-      canonical: `https://habitat3ri.eu/${locale}/blog/${slug}`,
-    },
+    alternates: buildAlternates(`/blog/${slug}`, locale as Locale),
     openGraph: {
       title: article.title,
       description: article.excerpt,
