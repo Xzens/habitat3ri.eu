@@ -441,7 +441,7 @@ export default function ArticlePage({ article, locale, dict, relatedArticles }: 
       {article.faq.length > 0 && (
         <div className="mb-8">
           <h2 className="mb-4 text-2xl font-bold">{dict.blog.faq}</h2>
-          <Accordion multiple defaultValue={[]} className="rounded-xl border border-border/50">
+          <Accordion multiple defaultValue={article.faq.map((_, i) => `faq-${i}`)} className="rounded-xl border border-border/50">
             {article.faq.map((item, i) => (
               <AccordionItem key={i} value={`faq-${i}`}>
                 <AccordionTrigger className="px-5 text-left text-sm font-semibold">
