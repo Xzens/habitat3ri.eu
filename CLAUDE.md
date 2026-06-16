@@ -7,7 +7,7 @@
 Portal site for the Constellation Satyvo SA — 33+ niche sites focused on sustainable renovation, renewable energy, and Jeremy Rifkin's Third Industrial Revolution (3RI) for BE/NL/LU/FR.
 
 **Stack**: Next.js 16 (App Router) + TypeScript + Tailwind CSS 4 + shadcn/ui (Base UI) + Framer Motion + Supabase (pgvector)
-**Deployment**: Vercel (prod: habitat3rieu.vercel.app, target domain: habitat3ri.eu)
+**Deployment**: Self-hosted on VPS srv988504 (Docker container `habitat3ri` behind Traefik). Auto-deploys on push to `master` via the `deploy.sh` cron (every minute, flock-guarded). Vercel + Supabase are retired.
 **Repo**: github.com/Xzens/habitat3ri.eu
 
 ## Key Architecture
@@ -98,7 +98,7 @@ Locales: fr (default), nl, en, de, lb (Luxembourgish)
 ```bash
 npm run dev          # Local dev server
 npm run build        # Production build (must pass before push)
-git push origin master  # Auto-deploys via Vercel Git integration
+git push origin master  # Auto-deploys: deploy.sh cron on the VPS pulls + rebuilds the Docker image (~1-2 min)
 ```
 
 ## Images
