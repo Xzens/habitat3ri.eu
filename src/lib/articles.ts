@@ -1,35 +1,31 @@
-import { createClient } from "@supabase/supabase-js";
+import "server-only";
+import { query } from "@/lib/db";
 import { sampleArticles } from "@/data/sample-articles";
 import type { Article } from "@/lib/supabase";
 
 /**
- * Loads articles from Supabase + sample fallback.
- * Used by blog listing, article page, homepage preview, sitemap.
+ * Loads articles from the self-hosted Postgres (`habitat3ri` schema) with a
+ * bundled sample fallback. Used by blog listing, article page, homepage
+ * preview, sitemap.
  *
- * If Supabase is not configured (env missing), returns only sampleArticles.
- * Otherwise merges (DB takes priority on slug+locale collision).
+ * If DATABASE_URL is unset (e.g. local dev without DB), `query()` returns []
+ * and these helpers fall back to sampleArticles. DB rows take priority over
+ * samples on a slug+locale collision.
+ *
+ * The data source was migrated Supabase -> self-hosted Postgres. The columns
+ * mirror the Article type 1:1 (jsonb -> objects, text[] -> arrays, timestamptz
+ * -> ISO strings via the type parsers in db.ts), so `SELECT *` maps directly.
+ * db.ts sets search_path=habitat3ri,public so unqualified `articles` resolves.
  */
-
-function getSupabase() {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if (!url || !key) return null;
-  return createClient(url, key);
-}
 
 /** Fetch a single article by slug + locale (DB first, then sample). */
 export async function getArticleBySlug(slug: string, locale: string): Promise<Article | null> {
-  const supabase = getSupabase();
-  if (supabase) {
-    const { data, error } = await supabase
-      .from("articles")
-      .select("*")
-      .eq("slug", slug)
-      .eq("locale", locale)
-      .eq("status", "published")
-      .maybeSingle();
-    if (!error && data) return data as Article;
-  }
+  const rows = await query<Article>(
+    `SELECT * FROM articles WHERE slug = $1 AND locale = $2 AND status = 'published' LIMIT 1`,
+    [slug, locale],
+  );
+  if (rows.length > 0) return rows[0];
+
   return (
     sampleArticles.find((a) => a.slug === slug && a.locale === locale && a.status === "published") ||
     null
@@ -38,31 +34,34 @@ export async function getArticleBySlug(slug: string, locale: string): Promise<Ar
 
 /** List all published articles for a locale (for listing + related). */
 export async function listArticles(locale?: string, limit = 100): Promise<Article[]> {
-  const supabase = getSupabase();
   const combined = new Map<string, Article>();
 
-  // Always include sample articles as fallback
+  // Always include sample articles as a fallback baseline.
   for (const a of sampleArticles) {
     if (a.status !== "published") continue;
     if (locale && a.locale !== locale) continue;
     combined.set(`${a.locale}:${a.slug}`, a);
   }
 
-  if (supabase) {
-    let query = supabase
-      .from("articles")
-      .select("*")
-      .eq("status", "published")
-      .order("published_at", { ascending: false })
-      .limit(limit);
-    if (locale) query = query.eq("locale", locale);
+  const rows = locale
+    ? await query<Article>(
+        `SELECT * FROM articles
+          WHERE status = 'published' AND locale = $1
+          ORDER BY published_at DESC NULLS LAST
+          LIMIT $2`,
+        [locale, limit],
+      )
+    : await query<Article>(
+        `SELECT * FROM articles
+          WHERE status = 'published'
+          ORDER BY published_at DESC NULLS LAST
+          LIMIT $1`,
+        [limit],
+      );
 
-    const { data } = await query;
-    if (data) {
-      for (const a of data as Article[]) {
-        combined.set(`${a.locale}:${a.slug}`, a);
-      }
-    }
+  // DB rows take priority over samples on a slug+locale collision.
+  for (const a of rows) {
+    combined.set(`${a.locale}:${a.slug}`, a);
   }
 
   return Array.from(combined.values())
@@ -70,9 +69,8 @@ export async function listArticles(locale?: string, limit = 100): Promise<Articl
     .slice(0, limit);
 }
 
-/** Return all (locale, slug) combinations for generateStaticParams — build-time only. */
+/** Return all (locale, slug) combinations for generateStaticParams — build-time. */
 export async function listAllSlugs(): Promise<{ locale: string; slug: string }[]> {
-  const supabase = getSupabase();
   const combined = new Map<string, { locale: string; slug: string }>();
 
   for (const a of sampleArticles) {
@@ -81,16 +79,11 @@ export async function listAllSlugs(): Promise<{ locale: string; slug: string }[]
     }
   }
 
-  if (supabase) {
-    const { data } = await supabase
-      .from("articles")
-      .select("slug, locale")
-      .eq("status", "published");
-    if (data) {
-      for (const { slug, locale } of data as { slug: string; locale: string }[]) {
-        combined.set(`${locale}:${slug}`, { slug, locale });
-      }
-    }
+  const rows = await query<{ slug: string; locale: string }>(
+    `SELECT slug, locale FROM articles WHERE status = 'published'`,
+  );
+  for (const { slug, locale } of rows) {
+    combined.set(`${locale}:${slug}`, { slug, locale });
   }
 
   return Array.from(combined.values());

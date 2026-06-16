@@ -1,0 +1,22 @@
+services:
+  habitat3ri:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: habitat3ri-web
+    container_name: habitat3ri
+    restart: unless-stopped
+    env_file:
+      - .env
+    networks:
+      - constellation
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.habitat3ri.rule=Host(`habitat3ri.eu`) || Host(`www.habitat3ri.eu`)"
+      - "traefik.http.routers.habitat3ri.entrypoints=websecure"
+      - "traefik.http.routers.habitat3ri.tls.certresolver=letsencrypt"
+      - "traefik.http.services.habitat3ri.loadbalancer.server.port=3000"
+networks:
+  constellation:
+    external: true
+    name: constellation_constellation
