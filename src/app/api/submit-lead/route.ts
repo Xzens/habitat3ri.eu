@@ -1,14 +1,14 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { bobexCategories, bobexConfig } from "@/data/bobex-categories";
+import { routeToHub } from "@/lib/leadhub";
 
 /**
  * POST /api/submit-lead
- * Submit a lead to Bobex API + Telegram notification.
- * Identical pattern to Constellation-20 sites submit-lead.php.
+ * Routes a lead to the LeadHub (POST /v1/intake, source `habitat3ri_eu`).
+ * On ANY Hub failure it falls back to a direct Bobex POST, so no lead is lost.
  *
- * BE/LU → bobex.be affiliate 110451
- * NL    → bobex.nl affiliate 110495
+ * BE/LU → bobex.be affiliate 110451 | NL → bobex.nl affiliate 110495 (fallback only)
  */
 
 const leadSchema = z.object({
@@ -25,6 +25,10 @@ const leadSchema = z.object({
   // Honeypot
   website: z.string().max(0).optional(),
 });
+
+type ParsedLead = Omit<z.infer<typeof leadSchema>, "consent" | "website">;
+type BobexCategory = (typeof bobexCategories)[number];
+type BobexCfg = (typeof bobexConfig)[keyof typeof bobexConfig];
 
 // Rate limiting
 const RATE_LIMIT_WINDOW = 3600_000; // 1 hour
@@ -56,10 +60,46 @@ async function notifyTelegram(msg: string) {
   }
 }
 
+/** Direct Bobex submission — used only when the Hub is unreachable/declines. */
+async function postToBobex(
+  lead: ParsedLead,
+  category: BobexCategory,
+  config: BobexCfg,
+): Promise<{ ok: boolean; status: number }> {
+  const params = new URLSearchParams({
+    "type.id": String(category.typeId),
+    aff: config.affiliateId,
+    language: lead.locale === "nl" ? "nl" : lead.locale === "de" ? "de" : "fr",
+    XML_country: config.country,
+    companyType: "label.companytype.consumer",
+    XML_firstname: lead.firstName,
+    XML_lastname: lead.lastName,
+    XML_postcode: lead.postalCode,
+    XML_telephone: lead.phone,
+    XML_email: lead.email,
+    XML_remarks: lead.remarks || `Lead via habitat3ri.eu — ${category.label.fr}`,
+    utm_source: "habitat3ri.eu",
+    utm_medium: "lead_form",
+    utm_campaign: "constellation",
+  });
+  if (lead.country === "NL") params.set("promoOptin", "true");
+
+  try {
+    const res = await fetch(config.apiUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: params.toString(),
+    });
+    return { ok: res.ok, status: res.status };
+  } catch (err) {
+    console.error("[Bobex] fallback POST failed:", err);
+    return { ok: false, status: 0 };
+  }
+}
+
 export async function POST(request: Request) {
   try {
     const ip = request.headers.get("x-forwarded-for") ?? "unknown";
-
     if (isRateLimited(ip)) {
       return NextResponse.json({ error: "Too many requests" }, { status: 429 });
     }
@@ -68,66 +108,64 @@ export async function POST(request: Request) {
 
     // Honeypot check
     if (body.website) {
-      return NextResponse.json({ success: true }); // Silent fail for bots
+      return NextResponse.json({ success: true }); // Silent success for bots
     }
 
     const parsed = leadSchema.safeParse(body);
     if (!parsed.success) {
       return NextResponse.json(
         { error: "Invalid data", details: parsed.error.flatten() },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
     const { consent: _c, website: _w, ...lead } = parsed.data;
 
-    // Find Bobex type.id
     const category = bobexCategories.find((c) => c.id === lead.categoryId);
     if (!category) {
       return NextResponse.json({ error: "Invalid category" }, { status: 400 });
     }
-
-    // Get country-specific Bobex config
     const config = bobexConfig[lead.country] || bobexConfig.BE;
 
-    // Submit to Bobex API
-    const bobexParams = new URLSearchParams({
-      "type.id": String(category.typeId),
-      aff: config.affiliateId,
-      language: lead.locale === "nl" ? "nl" : lead.locale === "de" ? "de" : "fr",
-      XML_country: config.country,
-      companyType: "label.companytype.consumer",
-      XML_firstname: lead.firstName,
-      XML_lastname: lead.lastName,
-      XML_postcode: lead.postalCode,
-      XML_telephone: lead.phone,
-      XML_email: lead.email,
-      XML_remarks: lead.remarks || `Lead via habitat3ri.eu — ${category.label.fr}`,
-      utm_source: "habitat3ri.eu",
-      utm_medium: "lead_form",
-      utm_campaign: "constellation",
-    });
+    // 1. Primary path: LeadHub intake (Alrootel-first routing; Bobex fallback lives inside the Hub)
+    const hub = await routeToHub(
+      {
+        first_name: lead.firstName,
+        last_name: lead.lastName,
+        email: lead.email,
+        phone: lead.phone,
+        postal_code: lead.postalCode,
+        country: lead.country,
+        bobex_type_id: category.typeId,
+        niche_slug: category.id,
+        service_needed: category.label.fr,
+        message: lead.remarks || `Lead via habitat3ri.eu — ${category.label.fr}`,
+        consent_gdpr: true,
+        source_page: "/lead-form",
+        landing_page: request.headers.get("referer") || undefined,
+        utm_source: "habitat3ri.eu",
+        utm_medium: "lead_form",
+        utm_campaign: "constellation",
+        client_ip: ip,
+        user_agent: request.headers.get("user-agent"),
+      },
+      "habitat3ri.eu",
+    );
 
-    // Add NL-specific params
-    if (lead.country === "NL") {
-      bobexParams.set("promoOptin", "true");
-    }
-
+    // 2. Fallback to direct Bobex only if the Hub did not accept the lead
     let bobexSuccess = false;
     let bobexStatus = 0;
-    try {
-      const bobexRes = await fetch(config.apiUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: bobexParams.toString(),
-      });
-      bobexSuccess = bobexRes.ok;
-      bobexStatus = bobexRes.status;
-    } catch (err) {
-      console.error("[Bobex] API call failed:", err);
+    if (hub.action !== "bypass_bobex") {
+      const r = await postToBobex(lead, category, config);
+      bobexSuccess = r.ok;
+      bobexStatus = r.status;
     }
 
-    // Telegram notification
+    const routed =
+      hub.action === "bypass_bobex"
+        ? `Hub (${hub.dispatch_status})`
+        : `Bobex fallback ${bobexSuccess ? "✅" : "❌"} (${bobexStatus}) — hub:${hub.reason}`;
+
     await notifyTelegram(
       `🏠 <b>Nouveau lead Habitat3RI</b>\n` +
         `Nom: ${lead.firstName} ${lead.lastName}\n` +
@@ -135,17 +173,18 @@ export async function POST(request: Request) {
         `Tél: ${lead.phone}\n` +
         `CP: ${lead.postalCode} (${lead.country})\n` +
         `Catégorie: ${category.label.fr} (${category.typeId})\n` +
-        `Bobex ${lead.country}: ${bobexSuccess ? "✅" : "❌"} (${bobexStatus})\n` +
-        `Affiliate: ${config.affiliateId}\n` +
-        (lead.remarks ? `Message: ${lead.remarks.substring(0, 200)}` : "")
+        `Routage: ${routed}\n` +
+        (lead.remarks ? `Message: ${lead.remarks.substring(0, 200)}` : ""),
     );
 
     console.log(
-      `[Lead] ${lead.firstName} ${lead.lastName} | ${lead.country} ${lead.postalCode} | ${category.id} (${category.typeId}) | Bobex: ${bobexSuccess}`
+      `[Lead] ${lead.firstName} ${lead.lastName} | ${lead.country} ${lead.postalCode} | ${category.id} (${category.typeId}) | ${routed}`,
     );
 
     return NextResponse.json({
       success: true,
+      routed: hub.action,
+      hub: hub.action === "bypass_bobex" ? hub.lead_uid : null,
       bobex: bobexSuccess,
     });
   } catch (error) {
