@@ -137,6 +137,28 @@ export default function Footer({ locale, dict }: FooterProps) {
           </div>
         </div>
 
+        {/* Language switcher — server-rendered <a> so Googlebot discovers all locales from any page */}
+        <nav aria-label="Langues" className="mt-12 border-t border-border pt-8">
+          <ul className="flex flex-wrap gap-x-5 gap-y-2">
+            {(["fr", "nl", "en", "de", "lb"] as const).map((loc) => (
+              <li key={loc}>
+                <Link
+                  href={`/${loc}`}
+                  hrefLang={loc}
+                  aria-current={loc === locale ? "true" : undefined}
+                  className={
+                    loc === locale
+                      ? "text-sm font-semibold text-foreground"
+                      : "text-sm text-muted-foreground hover:text-foreground"
+                  }
+                >
+                  {{ fr: "Français", nl: "Nederlands", en: "English", de: "Deutsch", lb: "Lëtzebuergesch" }[loc]}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
         {/* Bottom bar */}
         <div className="section-divider mt-12" />
         <div className="mt-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
