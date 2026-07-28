@@ -6,6 +6,7 @@ import { Calendar, Clock, Share2, ArrowLeft, ExternalLink, Quote } from "lucide-
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import ArticleCTA from "@/components/blog/ArticleCTA";
 import type { Article } from "@/lib/supabase";
 import type { Locale } from "@/i18n/config";
 import { getAuthorForCategory, getAuthorBySlug } from "@/data/authors";
@@ -455,6 +456,9 @@ export default function ArticlePage({ article, locale, dict, relatedArticles }: 
           </Accordion>
         </div>
       )}
+
+      {/* Lead capture — article pages are the organic entry points */}
+      <ArticleCTA locale={locale} category={article.category} />
 
       {/* Internal Links */}
       {article.internal_links.length > 0 && (
