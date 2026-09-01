@@ -26,7 +26,9 @@ export async function generateMetadata({
     title: article.title,
     description: article.excerpt,
     keywords: article.seo_keywords.join(", "),
-    alternates: buildAlternates(`/blog/${slug}`, locale as Locale),
+    // Slug traduit => aucun jumeau a la meme URL dans les autres locales :
+    // on ne declare que la locale courante (voir buildAlternates).
+    alternates: buildAlternates(`/blog/${slug}`, locale as Locale, [locale as Locale]),
     openGraph: {
       title: article.title,
       description: article.excerpt,

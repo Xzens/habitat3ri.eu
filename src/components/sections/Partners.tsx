@@ -3,8 +3,20 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Badge } from "@/components/ui/badge";
-import { Award, CheckCircle2 } from "lucide-react";
+import { CheckCircle2, Sun, BatteryCharging, Thermometer, Home, Cpu, Plug } from "lucide-react";
 import type { Locale } from "@/i18n/config";
+
+/**
+ * Section "Comment ça marche".
+ *
+ * Ne nomme aucune marque tierce et n'annonce aucun label de certification : afficher une marque
+ * comme partenaire sans accord, ou revendiquer un agrément public inexistant, relève des pratiques
+ * commerciales réputées déloyales en toutes circonstances (CDE art. VI.100, 2° et 4°).
+ * Les labels RGE et QualiPV sont par ailleurs des dispositifs français, sans équivalence en BE/NL/LU
+ * (l'équivalent belge est RESCert PV, dit Qualiwall en Wallonie et SER à Bruxelles).
+ *
+ * Ne laisser ici que des affirmations vérifiables sur ce que le site fait réellement.
+ */
 
 type PartnersProps = {
   dict: {
@@ -17,48 +29,55 @@ type PartnersProps = {
   locale: Locale;
 };
 
-const partnerLogos = [
-  { name: "Engie", sector: "energy" },
-  { name: "Luminus", sector: "energy" },
-  { name: "Daikin", sector: "heatpump" },
-  { name: "SunPower", sector: "solar" },
-  { name: "Tesla Energy", sector: "battery" },
-  { name: "Vaillant", sector: "heatpump" },
-  { name: "Recticel", sector: "insulation" },
-  { name: "Velux", sector: "renovation" },
+const domains: { icon: typeof Sun; label: Record<Locale, string> }[] = [
+  { icon: Sun, label: { fr: "Panneaux solaires", nl: "Zonnepanelen", en: "Solar panels", de: "Solaranlagen", lb: "Sonnepanneauen" } },
+  { icon: BatteryCharging, label: { fr: "Batterie domestique", nl: "Thuisbatterij", en: "Home battery", de: "Hausbatterie", lb: "Hausbatterie" } },
+  { icon: Thermometer, label: { fr: "Pompe à chaleur", nl: "Warmtepomp", en: "Heat pump", de: "Wärmepumpe", lb: "Wärmepompel" } },
+  { icon: Home, label: { fr: "Isolation", nl: "Isolatie", en: "Insulation", de: "Dämmung", lb: "Isolatioun" } },
+  { icon: Cpu, label: { fr: "Domotique & pilotage", nl: "Domotica & sturing", en: "Smart home & control", de: "Hausautomation", lb: "Hausautomatioun" } },
+  { icon: Plug, label: { fr: "Borne de recharge", nl: "Laadpaal", en: "EV charger", de: "Ladestation", lb: "Luetstatioun" } },
 ];
 
-const certifications: Record<string, string[]> = {
+/** Faits vérifiables uniquement : gratuité, absence d'engagement, consentement, éditeur identifié. */
+const commitments: Record<Locale, string[]> = {
   fr: [
-    "Installateurs certifiés RGE / QualiPV",
-    "Partenaires agréés Région Wallonne & Bruxelles",
-    "Réseau vérifié et noté par les clients",
-    "Garantie décennale sur tous les travaux",
+    "Demande de devis gratuite et sans engagement",
+    "Vos données ne sont transmises qu'après votre consentement explicite",
+    "Vous comparez librement et restez libre de refuser",
+    "Service édité par Satyvo SA (BCE 0791.828.816), Malmedy",
   ],
   nl: [
-    "RGE / QualiPV gecertificeerde installateurs",
-    "Erkende partners Vlaams Gewest & Nederland",
-    "Geverifieerd en beoordeeld netwerk",
-    "Tienjarige garantie op alle werkzaamheden",
+    "Offerteaanvraag gratis en vrijblijvend",
+    "Uw gegevens worden pas doorgegeven na uw uitdrukkelijke toestemming",
+    "U vergelijkt vrij en mag altijd weigeren",
+    "Dienst uitgegeven door Satyvo SA (KBO 0791.828.816), Malmedy",
   ],
   en: [
-    "RGE / QualiPV certified installers",
-    "Approved partners in Wallonia, Brussels & the Netherlands",
-    "Verified and customer-rated network",
-    "10-year guarantee on all works",
+    "Free quote request, no obligation",
+    "Your data is only shared after your explicit consent",
+    "You compare freely and remain free to decline",
+    "Service published by Satyvo SA (CBE 0791.828.816), Malmedy, Belgium",
   ],
   de: [
-    "RGE / QualiPV zertifizierte Installateure",
-    "Zugelassene Partner in der Wallonie, Brüssel & den Niederlanden",
-    "Verifiziertes und kundenbewertetes Netzwerk",
-    "10-Jahres-Garantie auf alle Arbeiten",
+    "Kostenlose und unverbindliche Angebotsanfrage",
+    "Ihre Daten werden erst nach Ihrer ausdrücklichen Einwilligung weitergegeben",
+    "Sie vergleichen frei und können jederzeit ablehnen",
+    "Herausgegeben von Satyvo SA (ZDU 0791.828.816), Malmedy, Belgien",
   ],
   lb: [
-    "RGE / QualiPV zertifizéiert Installateuren",
-    "Uerkannte Partneren an der Wallonie, Bréissel & Lëtzebuerg",
-    "Verifizéiert a vun de Clienten bewäert Netzwierk",
-    "10-Joer-Garantie op all Aarbechten",
+    "Gratis Offertufro, ouni Engagement",
+    "Är Donnéeë ginn eréischt no Ärer ausdrécklecher Zoustëmmung weiderginn",
+    "Dir vergläicht fräi a kënnt ëmmer ofleenen",
+    "Service erausginn vu Satyvo SA (BCE 0791.828.816), Malmedy, Belsch",
   ],
+};
+
+const headings: Record<Locale, string> = {
+  fr: "Notre engagement",
+  nl: "Ons engagement",
+  en: "Our commitment",
+  de: "Unser Versprechen",
+  lb: "Eist Engagement",
 };
 
 export default function Partners({ dict, locale }: PartnersProps) {
@@ -79,40 +98,40 @@ export default function Partners({ dict, locale }: PartnersProps) {
           <p className="mt-4 text-lg text-muted-foreground">{dict.partners.subtitle}</p>
         </div>
 
-        {/* Partner logos grid */}
+        {/* Domaines couverts par le formulaire de demande de devis */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ duration: 0.6 }}
-          className="mb-16 grid grid-cols-2 gap-6 sm:grid-cols-4"
+          className="mb-16 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6"
         >
-          {partnerLogos.map((partner, i) => (
-            <motion.div
-              key={partner.name}
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={isInView ? { opacity: 1, scale: 1 } : {}}
-              transition={{ delay: i * 0.08 }}
-              className="flex flex-col items-center justify-center rounded-xl border border-border/50 bg-card p-6 transition-all hover:border-eco-green/30 hover:shadow-md"
-            >
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-muted">
-                <Award className="h-6 w-6 text-muted-foreground" />
-              </div>
-              <span className="mt-3 text-sm font-semibold">{partner.name}</span>
-              <span className="text-xs text-muted-foreground">{partner.sector}</span>
-            </motion.div>
-          ))}
+          {domains.map((domain, i) => {
+            const Icon = domain.icon;
+            return (
+              <motion.div
+                key={domain.label.fr}
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                transition={{ delay: i * 0.08 }}
+                className="flex flex-col items-center justify-center rounded-xl border border-border/50 bg-card p-6 text-center transition-all hover:border-eco-green/30 hover:shadow-md"
+              >
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-eco-green/10">
+                  <Icon className="h-6 w-6 text-eco-green" aria-hidden="true" />
+                </div>
+                <span className="mt-3 text-sm font-semibold">{domain.label[locale]}</span>
+              </motion.div>
+            );
+          })}
         </motion.div>
 
-        {/* Certifications */}
+        {/* Engagements vérifiables */}
         <div className="mx-auto max-w-2xl rounded-2xl border border-eco-green/20 bg-eco-green/5 p-8">
-          <h3 className="mb-6 text-center text-lg font-bold">
-            {{ fr: "Nos garanties", nl: "Onze garanties", en: "Our guarantees", de: "Unsere Garantien", lb: "Eis Garantien" }[locale]}
-          </h3>
+          <h3 className="mb-6 text-center text-lg font-bold">{headings[locale]}</h3>
           <div className="grid gap-4 sm:grid-cols-2">
-            {certifications[locale].map((cert) => (
-              <div key={cert} className="flex items-start gap-3">
-                <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-eco-green" />
-                <span className="text-sm">{cert}</span>
+            {commitments[locale].map((item) => (
+              <div key={item} className="flex items-start gap-3">
+                <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-eco-green" aria-hidden="true" />
+                <span className="text-sm">{item}</span>
               </div>
             ))}
           </div>

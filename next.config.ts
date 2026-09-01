@@ -9,6 +9,17 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "**.supabase.co" },
     ],
   },
+  // www sert actuellement tout le site en 200 (Traefik route Host(habitat3ri.eu)
+  // ET Host(www.habitat3ri.eu) vers le meme conteneur), ce qui double la surface
+  // de crawl. Redirection permanente vers l'apex.
+  redirects: async () => [
+    {
+      source: "/:path*",
+      has: [{ type: "host" as const, value: "www.habitat3ri.eu" }],
+      destination: "https://habitat3ri.eu/:path*",
+      permanent: true,
+    },
+  ],
   headers: async () => [
     {
       source: "/(.*)",

@@ -1,7 +1,7 @@
 /**
  * Legal content for Habitat3RI.eu — matching Constellation Satyvo SA pattern.
  * Company: Satyvo SA, BCE 0791.828.816, Belgian SA
- * Hosting: Vercel Inc. (for this site) + Hostinger (for constellation)
+ * Hosting: Hostinger International Ltd (VPS srv988504, serveur en UE) - constellation idem
  */
 
 export const legalContent: Record<string, {
@@ -28,11 +28,11 @@ export const legalContent: Record<string, {
         {
           heading: "2. Hébergement",
           content: `<ul>
-<li><strong>Société :</strong> Vercel Inc.</li>
-<li><strong>Adresse :</strong> 340 S Lemon Ave #4133, Walnut, CA 91789, USA</li>
-<li><strong>Site web :</strong> <a href="https://vercel.com" target="_blank" rel="noopener">vercel.com</a></li>
+<li><strong>Société :</strong> Hostinger International Ltd</li>
+<li><strong>Adresse :</strong> 61 Lordou Vironos st., 6023 Larnaca, Chypre</li>
+<li><strong>Site web :</strong> <a href="https://www.hostinger.fr" target="_blank" rel="noopener">hostinger.fr</a></li>
 </ul>
-<p>Les données sont servies via le réseau CDN mondial de Vercel avec des points de présence au sein de l'Union européenne.</p>`,
+<p>Le site est hébergé sur un serveur privé virtuel (VPS) opéré par Hostinger, situé au sein de l'Union européenne.</p>`,
         },
         {
           heading: "3. Propriété intellectuelle",
@@ -150,7 +150,7 @@ export const legalContent: Record<string, {
       sections: [
         { heading: "1. Uitgever", content: `<strong>Habitat3RI.eu</strong> is een website beheerd door:
 <ul><li><strong>Bedrijfsnaam:</strong> Satyvo SA</li><li><strong>Rechtsvorm:</strong> Naamloze vennootschap naar Belgisch recht</li><li><strong>BCE-nummer:</strong> 0791.828.816</li><li><strong>BTW:</strong> BE0791828816</li><li><strong>Land:</strong> België</li><li><strong>E-mail:</strong> <a href="mailto:info@satyvo.be">info@satyvo.be</a></li><li><strong>Website:</strong> <a href="https://habitat3ri.eu">habitat3ri.eu</a></li></ul>` },
-        { heading: "2. Hosting", content: `<ul><li><strong>Bedrijf:</strong> Vercel Inc.</li><li><strong>Adres:</strong> 340 S Lemon Ave #4133, Walnut, CA 91789, USA</li><li><strong>Website:</strong> <a href="https://vercel.com" target="_blank" rel="noopener">vercel.com</a></li></ul><p>De gegevens worden verspreid via het wereldwijde CDN-netwerk van Vercel met aanwezigheidspunten binnen de Europese Unie.</p>` },
+        { heading: "2. Hosting", content: `<ul><li><strong>Bedrijf:</strong> Hostinger International Ltd</li><li><strong>Adres:</strong> 61 Lordou Vironos st., 6023 Larnaca, Chypre</li><li><strong>Website:</strong> <a href="https://www.hostinger.fr" target="_blank" rel="noopener">hostinger.fr</a></li></ul><p>De site wordt gehost op een virtuele privéserver (VPS) van Hostinger, gelegen binnen de Europese Unie.</p>` },
         { heading: "3. Intellectueel eigendom", content: `De volledige inhoud van deze website (teksten, afbeeldingen, logo's, structuur) is eigendom van Satyvo SA of wordt gebruikt met toestemming. Elke reproductie, geheel of gedeeltelijk, zonder voorafgaande schriftelijke toestemming is verboden.` },
         { heading: "4. Gegevensbescherming (AVG)", content: `Uw persoonsgegevens worden verwerkt in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG/GDPR).<ul><li><strong>Verzamelde gegevens:</strong> naam, e-mailadres, telefoonnummer, postcode (via het offerteformulier)</li><li><strong>Doel:</strong> doorverwijzing naar geverifieerde vakmensen voor het opstellen van offertes</li><li><strong>Bewaartermijn:</strong> maximaal 30 dagen, daarna automatisch verwijderd</li><li><strong>Derden:</strong> gegevens kunnen worden gedeeld met Bobex (offerte-matching) en Google Analytics (geanonimiseerd)</li></ul><p>U heeft het recht op inzage, rectificatie, verwijdering en overdraagbaarheid van uw gegevens. Neem contact op via <a href="mailto:info@satyvo.be">info@satyvo.be</a>.</p>` },
         { heading: "5. Cookies", content: `Deze website maakt gebruik van:<ul><li><strong>Technische sessiecookies:</strong> noodzakelijk voor de werking van het formulier (CSRF-bescherming). Geen toestemming vereist.</li><li><strong>Google Analytics (GA4):</strong> analytische cookies. IP-adressen worden geanonimiseerd. Alleen geladen na toestemming.</li></ul><p>U kunt cookies uitschakelen via de instellingen van uw browser of via onze toestemmingsbanner.</p>` },
@@ -176,7 +176,7 @@ export const legalContent: Record<string, {
       title: "Legal Notice",
       sections: [
         { heading: "1. Publisher", content: `<strong>Habitat3RI.eu</strong> is a website published by:<ul><li><strong>Company:</strong> Satyvo SA</li><li><strong>Legal form:</strong> Belgian limited company (SA)</li><li><strong>BCE number:</strong> 0791.828.816</li><li><strong>VAT:</strong> BE0791828816</li><li><strong>Country:</strong> Belgium</li><li><strong>Email:</strong> <a href="mailto:info@satyvo.be">info@satyvo.be</a></li></ul>` },
-        { heading: "2. Hosting", content: `<ul><li><strong>Company:</strong> Vercel Inc.</li><li><strong>Address:</strong> 340 S Lemon Ave #4133, Walnut, CA 91789, USA</li></ul><p>Data is served via Vercel's global CDN with points of presence within the European Union.</p>` },
+        { heading: "2. Hosting", content: `<ul><li><strong>Company:</strong> Hostinger International Ltd</li><li><strong>Address:</strong> 61 Lordou Vironos st., 6023 Larnaca, Chypre</li></ul><p>The site is hosted on a virtual private server (VPS) operated by Hostinger, located within the European Union.</p>` },
         { heading: "3. Intellectual Property", content: `All content on this website (texts, images, logos, structure) is the property of Satyvo SA or used with permission. Any reproduction without prior written consent is prohibited.` },
         { heading: "4. Data Protection (GDPR)", content: `Your personal data is processed in accordance with the GDPR.<ul><li><strong>Data collected:</strong> name, email, phone number, postal code (via quote form)</li><li><strong>Purpose:</strong> connecting you with verified professionals for quotes</li><li><strong>Retention:</strong> 30 days maximum, then automatically deleted</li><li><strong>Third parties:</strong> data may be shared with Bobex (matching) and Google Analytics (anonymized)</li></ul><p>You have the right to access, rectify, delete and port your data. Contact: <a href="mailto:info@satyvo.be">info@satyvo.be</a>.</p>` },
         { heading: "5. Cookies", content: `This site uses:<ul><li><strong>Technical session cookies:</strong> required for form operation (CSRF). No consent needed.</li><li><strong>Google Analytics (GA4):</strong> analytics cookies loaded only after consent. IPs anonymized.</li></ul>` },
@@ -202,7 +202,7 @@ export const legalContent: Record<string, {
       title: "Impressum",
       sections: [
         { heading: "1. Herausgeber", content: `<strong>Habitat3RI.eu</strong> wird betrieben von:<ul><li><strong>Firma:</strong> Satyvo SA</li><li><strong>Rechtsform:</strong> Belgische Aktiengesellschaft</li><li><strong>BCE-Nr.:</strong> 0791.828.816</li><li><strong>USt-IdNr.:</strong> BE0791828816</li><li><strong>Land:</strong> Belgien</li><li><strong>E-Mail:</strong> <a href="mailto:info@satyvo.be">info@satyvo.be</a></li></ul>` },
-        { heading: "2. Hosting", content: `<ul><li><strong>Firma:</strong> Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA</li></ul><p>Daten werden über das globale CDN von Vercel mit Präsenzpunkten innerhalb der EU bereitgestellt.</p>` },
+        { heading: "2. Hosting", content: `<ul><li><strong>Firma:</strong> Hostinger International Ltd, 61 Lordou Vironos st., 6023 Larnaca, Chypre</li></ul><p>Die Website wird auf einem virtuellen privaten Server (VPS) von Hostinger innerhalb der Europäischen Union gehostet.</p>` },
         { heading: "3. Geistiges Eigentum", content: `Alle Inhalte dieser Website sind Eigentum von Satyvo SA. Jede Vervielfältigung ohne vorherige schriftliche Genehmigung ist untersagt.` },
         { heading: "4. Datenschutz (DSGVO)", content: `Ihre Daten werden DSGVO-konform verarbeitet.<ul><li><strong>Erhobene Daten:</strong> Name, E-Mail, Telefon, Postleitzahl</li><li><strong>Zweck:</strong> Vermittlung an geprüfte Fachleute</li><li><strong>Speicherdauer:</strong> maximal 30 Tage</li><li><strong>Dritte:</strong> Bobex (Vermittlung), Google Analytics (anonymisiert)</li></ul><p>Kontakt: <a href="mailto:info@satyvo.be">info@satyvo.be</a></p>` },
         { heading: "5. Cookies", content: `Technische Cookies (CSRF) ohne Zustimmung. Google Analytics nur nach Zustimmung, IP anonymisiert.` },
@@ -228,7 +228,7 @@ export const legalContent: Record<string, {
       title: "Impressum",
       sections: [
         { heading: "1. Editeur", content: `<strong>Habitat3RI.eu</strong> gëtt verwalt vun:<ul><li><strong>Firma:</strong> Satyvo SA</li><li><strong>Rechtsform:</strong> Belsch Aktiounsgesellschaft</li><li><strong>BCE-Nr.:</strong> 0791.828.816</li><li><strong>TVA:</strong> BE0791828816</li><li><strong>Land:</strong> Belsch</li><li><strong>E-Mail:</strong> <a href="mailto:info@satyvo.be">info@satyvo.be</a></li></ul>` },
-        { heading: "2. Hosting", content: `Vercel Inc., 340 S Lemon Ave, Walnut, CA, USA. Daten ginn iwwer EU CDN-Punkten verdeelt.` },
+        { heading: "2. Hosting", content: `Hostinger International Ltd, 61 Lordou Vironos st., 6023 Larnaca, Chypre. De Site gëtt op engem virtuelle private Server (VPS) vun Hostinger an der Europäescher Unioun gehost.` },
         { heading: "3. Geeschtegt Eegentum", content: `All Inhalt vun dëser Website ass Eegentum vu Satyvo SA. Keng Reproduktioun ouni schrëftlech Erlaabnes.` },
         { heading: "4. Dateschutz (RGPD)", content: `Är Donnéeë ginn RGPD-konform veraarbecht. Kontakt: <a href="mailto:info@satyvo.be">info@satyvo.be</a>. Réclamatioun: CNPD Lëtzebuerg (<a href="https://cnpd.public.lu" target="_blank" rel="noopener">cnpd.public.lu</a>).` },
         { heading: "5. Cookies", content: `Technesch Cookies (CSRF) ouni Zoustëmmung. Google Analytics nëmmen no Zoustëmmung, IP anonymiséiert.` },
