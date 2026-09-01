@@ -202,7 +202,7 @@
   "solteo": {
     "sectionTag": "Solarrechner",
     "title": "Simulieren Sie Ihre Solaranlage in 2 Minuten",
-    "subtitle": "Schätzen Sie kostenlos die Produktion, Einsparungen und Amortisation Ihrer Solaranlagen mit unserem intelligenten Solteo-Rechner.",
+    "subtitle": "Schätzen Sie kostenlos die Produktion, Einsparungen und Amortisation Ihrer Solaranlagen mit unserem intelligenten Rechner.",
     "cta": "Solarrechner starten",
     "features": [
       "Ertragsschätzung basierend auf Ihrer Dachfläche und Ihrem Standort",
@@ -211,6 +211,6 @@
       "Simulation der Kombination Solar + Batterie + Wärmepumpe",
       "Kostenloses, individuelles Angebot von zertifizierten Installateuren"
     ],
-    "disclaimer": "Powered by Solteo — Unverbindliche Simulation. Die endgültigen Ergebnisse hängen von einer technischen Vor-Ort-Prüfung ab."
+    "disclaimer": "Unverbindliche Simulation. Die endgültigen Ergebnisse hängen von einer technischen Vor-Ort-Prüfung ab."
   }
 }

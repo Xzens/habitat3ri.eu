@@ -202,7 +202,7 @@
   "solteo": {
     "sectionTag": "Solar Calculator",
     "title": "Simulate Your Solar Installation in 2 Minutes",
-    "subtitle": "Estimate your solar panel production, savings and return on investment for free with our intelligent Solteo calculator.",
+    "subtitle": "Estimate your solar panel production, savings and return on investment for free with our intelligent calculator.",
     "cta": "Launch the solar calculator",
     "features": [
       "Production estimate based on your roof and location",
@@ -211,6 +211,6 @@
       "Simulation of solar + battery + heat pump coupling",
       "Free personalised quote from certified installers"
     ],
-    "disclaimer": "Powered by Solteo — Indicative simulation. Final results depend on an on-site technical survey."
+    "disclaimer": "Indicative simulation. Final results depend on an on-site technical survey."
   }
 }

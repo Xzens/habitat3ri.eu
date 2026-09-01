@@ -152,7 +152,7 @@ export default function Header({ locale, dict }: HeaderProps) {
 
           {/* CTA */}
           <a
-            href="#contact"
+            href={`/${locale}#contact`}
             className={cn(
               buttonVariants({ size: "sm" }),
               "hidden bg-gradient-to-r from-eco-green to-energy-blue text-white hover:opacity-90 sm:inline-flex"
@@ -212,7 +212,7 @@ export default function Header({ locale, dict }: HeaderProps) {
               </div>
 
               <a
-                href="#contact"
+                href={`/${locale}#contact`}
                 onClick={() => setMobileOpen(false)}
                 className={cn(
                   buttonVariants(),

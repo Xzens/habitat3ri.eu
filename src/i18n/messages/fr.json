@@ -202,7 +202,7 @@
   "solteo": {
     "sectionTag": "Calculateur Solaire",
     "title": "Simulez Votre Installation Solaire en 2 Minutes",
-    "subtitle": "Estimez gratuitement la production, les économies et le retour sur investissement de vos panneaux solaires grâce à notre calculateur intelligent Solteo.",
+    "subtitle": "Estimez gratuitement la production, les économies et le retour sur investissement de vos panneaux solaires grâce à notre calculateur intelligent.",
     "cta": "Lancer le calculateur solaire",
     "features": [
       "Estimation de production basée sur votre toiture et votre localisation",
@@ -211,6 +211,6 @@
       "Simulation du couplage solaire + batterie + pompe à chaleur",
       "Devis gratuit personnalisé par des installateurs certifiés"
     ],
-    "disclaimer": "Powered by Solteo — Simulation indicative. Les résultats définitifs dépendent d'une étude technique sur site."
+    "disclaimer": "Simulation indicative. Les résultats définitifs dépendent d'une étude technique sur site."
   }
 }

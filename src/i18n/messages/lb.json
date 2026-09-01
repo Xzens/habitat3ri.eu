@@ -202,7 +202,7 @@
   "solteo": {
     "sectionTag": "Solar-Rechner",
     "title": "Simuléiert Är Solarinstallatioun an 2 Minutten",
-    "subtitle": "Schätzt gratis d'Produktioun, d'Erspuernisser an de Retour op Investissement vun Ären Solarpanneauen mat eisem intelligente Solteo-Rechner.",
+    "subtitle": "Schätzt gratis d'Produktioun, d'Erspuernisser an de Retour op Investissement vun Ären Solarpanneauen mat eisem intelligente Rechner.",
     "cta": "De Solar-Rechner starten",
     "features": [
       "Produktiounsschätzung baséiert op Ärem Daach an Ärem Standuert",
@@ -211,6 +211,6 @@
       "Simulatioun vun der Kopplung Solar + Batterie + Wärmepompel",
       "Gratis personaliséierten Devis vu zertifiéierten Installateure"
     ],
-    "disclaimer": "Powered by Solteo — Indikativ Simulatioun. D'definitiv Resultater hänke vun enger technescher Etude virun Uert of."
+    "disclaimer": "Indikativ Simulatioun. D'definitiv Resultater hänke vun enger technescher Etude virun Uert of."
   }
 }

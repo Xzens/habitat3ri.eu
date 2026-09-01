@@ -117,11 +117,11 @@ export default function SolteoCalculator({ locale, dict }: SolteoCalculatorProps
                   {locale === "lb" && "Simuléiert Är Sonneninstallatioun"}
                 </h3>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  {locale === "fr" && (showWidget ? "Le calculateur est affiché ci-dessous ↓" : "Cliquez pour lancer le calculateur interactif Solteo")}
-                  {locale === "nl" && (showWidget ? "De calculator wordt hieronder weergegeven ↓" : "Klik om de interactieve Solteo-calculator te starten")}
-                  {locale === "en" && (showWidget ? "The calculator is displayed below ↓" : "Click to launch the interactive Solteo calculator")}
-                  {locale === "de" && (showWidget ? "Der Rechner wird unten angezeigt ↓" : "Klicken Sie, um den interaktiven Solteo-Rechner zu starten")}
-                  {locale === "lb" && (showWidget ? "De Rechner gëtt ënnendrënner ugewisen ↓" : "Klickt fir de Solteo-Rechner opzemaachen")}
+                  {locale === "fr" && (showWidget ? "Le calculateur est affiché ci-dessous ↓" : "Cliquez pour lancer le calculateur interactif")}
+                  {locale === "nl" && (showWidget ? "De calculator wordt hieronder weergegeven ↓" : "Klik om de interactieve calculator te starten")}
+                  {locale === "en" && (showWidget ? "The calculator is displayed below ↓" : "Click to launch the interactive calculator")}
+                  {locale === "de" && (showWidget ? "Der Rechner wird unten angezeigt ↓" : "Klicken Sie, um den interaktiven Rechner zu starten")}
+                  {locale === "lb" && (showWidget ? "De Rechner gëtt ënnendrënner ugewisen ↓" : "Klickt fir de Rechner opzemaachen")}
                 </p>
 
                 {/* Stats preview */}
@@ -161,7 +161,7 @@ export default function SolteoCalculator({ locale, dict }: SolteoCalculatorProps
                   {locale === "nl" && "Solteo Zonnecalculator"}
                   {locale === "en" && "Solteo Solar Calculator"}
                   {locale === "de" && "Solteo Solarrechner"}
-                  {locale === "lb" && "Solteo Sonnerechner"}
+                  {locale === "lb" && "Sonnerechner"}
                 </span>
               </div>
               <button

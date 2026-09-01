@@ -202,7 +202,7 @@
   "solteo": {
     "sectionTag": "Zonnerekenmachine",
     "title": "Simuleer Uw Zonne-Installatie in 2 Minuten",
-    "subtitle": "Bereken gratis de productie, besparingen en terugverdientijd van uw zonnepanelen met onze slimme Solteo-calculator.",
+    "subtitle": "Bereken gratis de productie, besparingen en terugverdientijd van uw zonnepanelen met onze slimme calculator.",
     "cta": "Start de zonnerekenmachine",
     "features": [
       "Productie-inschatting op basis van uw dak en locatie",
@@ -211,6 +211,6 @@
       "Simulatie van zonnepanelen + batterij + warmtepomp",
       "Gratis gepersonaliseerde offerte van gecertificeerde installateurs"
     ],
-    "disclaimer": "Powered by Solteo — Indicatieve simulatie. Definitieve resultaten afhankelijk van technische studie ter plaatse."
+    "disclaimer": "Indicatieve simulatie. Definitieve resultaten afhankelijk van technische studie ter plaatse."
   }
 }
